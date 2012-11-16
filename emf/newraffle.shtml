@@ -1,0 +1,252 @@
+<html>
+<head>
+<title>Elizabethan Madrigal Feast</title>
+    <!--#include virtual="/includes/emf_head.shtml" -->
+	<script src="/js/jquery-ui-1.9.1.custom.min.js"></script>
+    <link rel="stylesheet" href="/styles/ui-lightness/jquery-ui-1.9.1.custom.min.css" />
+    <script>
+    // increase the default animation speed to exaggerate the effect
+    $.fx.speeds._default = 1000;
+    $(function() {
+		//$( "#dialog1" ).hide();
+	
+        $( "#dialog1" ).dialog({
+            autoOpen: false,
+            show: "blind",
+            hide: "explode"
+        });
+ 
+        $( "#opener1" ).click(function() {
+            $( "#dialog" ).dialog( "open" );
+            return false;
+        });
+    });
+    </script>
+
+</head>
+<body>
+<!--#include virtual="/includes/emf_top.shtml" -->
+<!--#include virtual="/includes/emf_menu.shtml" -->
+<div id="content">
+	<a name="top"></a>
+	<h1>Elizabethan Madrigal Feast Raffle Items</h1>
+	<br/>
+			A king’s ransom worth of incredible treasures is available to lucky winners at the Madrigal Raffle. Visit the lobby of The Center to take a look. 
+		<br/><br/>
+			Items are separated into two categories: Gold and Silver. <br/>
+			Raffle tickets for Gold items are $20 each and $10 each for Silver items. 
+		<br/><br/>
+			Tickets can be purchased at The Center office 10 a.m. - 4 p.m. Monday - Friday. <br/>
+			Tickets will also be for sale prior to each performance, during intermission and, except for the last night, after each performance.<br/>
+			We accept Cash, Check, Master Card, Visa, and Discover
+		<br/><br/>
+			Raffle items are listed below, images coming soon<br/><br/>
+</div>
+<div id="contentright" align="center">
+		<a href="#gold">Golden Game of Chance</a> | <a href="#silver">Silver Game of Chance</a>
+		<br/><br/>
+		<img src="/images/emf/emf-red-dimonds.gif" align="center"/>
+		<br/><br/>
+			<a name="gold"></a><h1>Golden Game of Chance</h1>
+</div>
+<div id="contentright">
+<!--Test-->
+	<ul class="product">
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-1.gif" align="center" height="200" />
+			<p>1. Father Christmas</p>
+			<div id="dialog1" title="Basic dialog">
+				<p>1. Father Christmas – Large, standing, exquisitely detailed Father Christmas figure dressed in the luxurious fabrics of the Elizabethan Madrigal Feast. Created and donated by Michelle Treichler of Whimsies.</p>
+			</div>
+				<div id="opener1">Item Discription</div>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-2.gif" align="center" width="225"/>
+			<p>2. Crazy Quilt Needlework</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-3.gif" align="center" height="200" />
+			<p>3. Elegant Centerpiece</p>
+		</li>
+		<br/><br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-4.gif" align="center" height="200" width="190"/>
+			<p>4. Classical Music Basket</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-5.gif" align="center" width="225" />
+			<p>5. Traveling Accoutrements</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-6.gif" align="center" height="200" />
+			<p>6. Juggling Jester <br/>Doll Sculpture</p>
+		</li>
+		<br/><br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-7.gif" align="center" height="200" />
+			<p>7. Fit for a Queen</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-8.gif" align="center" width="225" />
+			<p>8. A Taste of The Center</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-9.gif" align="center" height="200" />
+			<p>9. Holiday Decor</p>
+		</li>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-10.gif" align="center" width="225" />
+			<p>10. Your Royal Family</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-11.gif" align="center" height="200" />
+			<p>11. Roses and the River Dinner</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-12.gif" align="center" width="225" />
+			<p>12. A Week in Aruba</p>
+		</li>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-13.gif" align="center" width="225" />
+			<p>13. Matagorda Bay Fishing Trip</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-14.gif" align="center" width="225" />
+			<p>14. Seated Dinner for Eight or Ten</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-15.gif" align="center" width="225" />
+			<p>15. Edquist, Notgrass and Ruthstrom Band Gift Certificate</p>
+		</li>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-16.gif" align="center" width="215" />
+			<p>16. French Basket Gourmet Class</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-17.gif" align="center" height="200" />
+			<p>17. Fiddler on the Roof</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-18.gif" align="center" width="225" />
+			<p>18. Weekend Retreat</p>
+		</li>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-19.gif" align="center" height="200" />
+			<p>19. Boot Camp</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-20.gif" align="center" width="225" />
+			<p>20. The Excitement of MSR, Houston's Karting Track</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-21.gif" align="center" width="225" />
+			<p>21. Mountain House in Colorado</p>
+		</li>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-G-22.gif" align="center" width="215" />
+			<p>22. Medical Spa Gift Certificate</p>
+		</li><li class="productlist">
+			<img src="/images/emf/raffle/12-G-23.gif" align="center" width="215" />
+			<p>23. Dividing the Estate</p>
+		</li><li class="productlist">
+			<img src="/images/emf/raffle/12-G-24.gif" align="center" width="200" />
+			<p>24. Dinner for Six</p>
+		</li>
+</ul>
+<br/><br/>
+<!--EndTest-->
+			1. Father Christmas – Large, standing, exquisitely detailed Father Christmas figure dressed in the luxurious fabrics of the Elizabethan Madrigal Feast. Created and donated by Michelle Treichler of Whimsies.
+		<br/><br/>
+			2. Crazy Quilt Needlework – Crafted from Madrigal Feast fabrics. Created and donated by Cheryl Fowler of Complements of Cheryl.
+		<br/><br/>
+			3. Elegant Centerpiece – Footed urn filled with hydrangea, red magnolias and a wealth of red berries. Lush ivy winds throughout the arrangement created for this Elizabethan Madrigal. Created and donated by Linda Bennett of Flowers Galore.
+		<br/><br/>
+			4. Classical Music Basket - Celebrating the Brazosport Symphony Orchestra’s 30th Season – Includes 6 “Flex” Tickets to 2012 – 2013 Season Brazosport Symphony
+			Orchestra concerts, 4 elegant champagne flutes for enjoying the two bottles of Moet Champagne. You’ll also find a collection of music-themed Christmas tree ornaments a classic collection of chocolate truffles, a trio of elegant photo frames and a beautiful Fresh-water pearl set. For your own personal celebration, we’ve included the appropriate music-themed paper goods and a gift certificate for a Beautifully Created Celebration Cake from “A Little Piece of Heaven,” in Clute, Texas. Donated by the Brazosport Symphony Orchestra.
+		<br/><br/>
+			5. Traveling Accoutrements – Vera Bradley duffle bag and $75 gift card. Donated by Elaine’s Dress Shop.
+		<br/><br/>
+			6. Juggling Jester Doll Sculpture – Original, one-of-a-kind, 17” dressed in period costume. Created in 2011 and donated by Joyce Patterson of FabricImages by Joyce.
+		<br/><br/>
+			7. Fit for a Queen – Stunning gold–tone necklace with rhinestone and pearl charms and a rhinestone cross. Uniquely designed and donated by Becky Gore La Roche of BGL Designs.
+		<br/><br/>
+			8. A Taste of The Center – A pre-theater wine and cheese reception for four at The Center. With a basket of four elegant EMF wine glasses & gift items from Center Member Groups. Hosted and donated by Sherry Tesch and Orren & Margaret Gaspard.
+		<br/><br/>
+			9. Holiday Décor – Decorative swag created by Marsha Albert and donated by Mary Beth Blankenship.
+		<br/><br/>
+			10. Your Royal Family – One outdoor individual, family or business photography session and one digitized 16X20 Fine Art Gallery Wall Portrait by “Sir John.” Created and donated by Michael Bayer of MichaelBayer.com Photography.
+		<br/><br/>
+			11. Roses and the River Dinner – Overnight accomodations & breakfast for two at Roses and the River, located amid luxuriant rose gardens on the banks of the peaceful San Bernard River. Donated by Dr. & Mrs. Richard Hosack.
+		<br/><br/>
+</div>
+<a href="#top">Back to Top</a>
+<br/>
+<div id="contentright" align="center">
+		<img src="/images/emf/emf-red-dimonds.gif" />
+		<br/><br/>
+			<a name="silver"></a><h1>Silver Game of Chance</h1>
+</div>
+<div id="contentright">
+			1. Grass Orchids – Original 16 X 20 Sumi painting, matted and framed. Created and donated by Art League Members Cherie & Glenn McBride of Yellowbird Studio.
+		<br/><br/>
+			2. Prayers Written by Vailima – Early 20th Centrury book of prayers by Robert Lewis Stevenson beatuifully illuminated by Alberto Sangorski. Donated by Jana and Kendric Marshall.
+		<br/><br/>
+			3. Christmas by the Sea – Unique Christmas tree made of shells from around the world. Created by Rosalee Prestigiacomo and donated by The Brazosport Museum of Natural Science.
+		<br/><br/>
+			4. Gulf Coast Seagulls – High resolution, 11 x 17 print of a Prismacolor drawing. Created and donated by Art League member Jared Paul Wilson of www.jaredpaulwilson.com
+		<br/><br/>
+			5. Heaven in a Bath – Basket of Michel Design Works bath products and a bird figurine. Donated by Tammie McQueen of Tammie’s Touch.
+		<br/><br/>
+			6. Warwick Castle – Beautiful framed pen & ink drawing print of Warwick Castle.
+			Donated by Beth Riley and Marcy Baker.
+		<br/><br/>
+			7. Nécessaire de Toilette – Collection of handmade bath salts based on recipes of the Elizabethan era. Created and donated by Melina Whitacre.
+		<br/><br/>
+			8. Scrapbooker & Card Maker’s Delight – Approximately $300 worth of products including: cardstock, stamps, ink pads, markers, an 8X8 album. Kits with instructions and supplies. Donated by Stampin’ Up! www.StampinUp.com.
+		<br/><br/>
+			9. Scottish Nectar – Beautiful wooden-handled French basket with 18 year old Laphroaig single malt Scotch – Islay, smart rating 99 – and two Glencairn whiskey nosing glasses, the official Wiskeyfest glass. Enjoy with Celtic Thunder’s music to drink by. Created and donated by Marcie and Howard Allen.
+		<br/><br/>
+			10. Pet Lover’s Gift Bag – Doggy Delights with a gift certificate for one week of pet lodging for up to two pets. Donated by Jason and Stacey Suazo.
+		<br/><br/>
+			11. The Queen of Hearts – Exquisite silver wrapped–wire pendant with blue heart stone. Donated by Art League member, Shey Cotten of GypsyWind Studio.
+		<br/><br/>
+			12. Royal Doulton Collector’s Plate – King Henry VIII plate. Donated by Mary Meyers and Thomas Henderson.
+		<br/><br/>
+			13. Discover the Stars – Philip’s Complete Guide to Stargazing by Rabin Sacgell and a 2013 Deep Space Mysteries Calender. Donated by Brazosport Planetarium.
+		<br/><br/>
+			14. Sadler Tea Service – Collectible china Sadler Elizabeth I teapot with Lefton china sugar and creamer on tray. Donated by Keith & Susan Plowman.
+		<br/><br/>
+			15. Annual Register 1792 – Antiquarian book published by Edmund Burk including a history of Queen Elizabeth. Donated by Larry and Donna Jablecki.
+		<br/><br/>
+			16. Original Works of Art – The Beet a prisma color drawing by Art League member Norma Robuck and Water Lilies an oil painting by Art League member Betty Klasal.
+		<br/><br/>
+			17. Sterling and Stone – Custom designed necklace and earring set of polished stone and sterling silver. Created and donated by Art League member, Sharon Graham.
+		<br/><br/>
+			18. Castle in the Sky – Handmade wooden castle birdhouse. Created and donated by Horace Driskill.
+		<br/><br/>
+			19. Victuals & Vintages – Basket of gourmet appetizers and wine pairings. Created and donated by Anne and Pat Quirk.
+		<br/><br/>
+			20. Cake for a Queen – Custom 12X18 cake, design of your choosing. Created and donated by Annette Cook.
+		<br/><br/>
+			21. Lunch for Two – Leisurely lunch at The Grape Taste. Donated by Debra
+			Wassberg.
+		<br/><br/>
+			22. Sparkling Smile – Teeth whitening. Donated by Dr. Brian Bell, DDS.
+		<br/><br/>
+			23. Princess at Your Party – Appearance by Belle at children’s party. Donated by
+			Jessica Dornan.
+		<br/><br/>
+			24. Local Flavor – Gift certificate for dinner for four at The Local. Donated by Richard and Gaye Linford.
+		<br/><br/>
+		<a href="#top">Back to Top</a>
+		<img src="/images/emf/curly.jpg" />
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

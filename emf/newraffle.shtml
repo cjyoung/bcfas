@@ -2,27 +2,7 @@
 <head>
 <title>Elizabethan Madrigal Feast</title>
     <!--#include virtual="/includes/emf_head.shtml" -->
-	<script src="/js/jquery-ui-1.9.1.custom.min.js"></script>
-    <link rel="stylesheet" href="/styles/ui-lightness/jquery-ui-1.9.1.custom.min.css" />
-    <script>
-    // increase the default animation speed to exaggerate the effect
-    $.fx.speeds._default = 1000;
-    $(function() {
-		//$( "#dialog1" ).hide();
 	
-        $( "#dialog1" ).dialog({
-            autoOpen: false,
-            show: "blind",
-            hide: "explode"
-        });
- 
-        $( "#opener1" ).click(function() {
-            $( "#dialog" ).dialog( "open" );
-            return false;
-        });
-    });
-    </script>
-
 </head>
 <body>
 <!--#include virtual="/includes/emf_top.shtml" -->
@@ -56,10 +36,6 @@
 		<li class="productlist">
 			<img src="/images/emf/raffle/12-G-1.gif" align="center" height="200" />
 			<p>1. Father Christmas</p>
-			<div id="dialog1" title="Basic dialog">
-				<p>1. Father Christmas – Large, standing, exquisitely detailed Father Christmas figure dressed in the luxurious fabrics of the Elizabethan Madrigal Feast. Created and donated by Michelle Treichler of Whimsies.</p>
-			</div>
-				<div id="opener1">Item Discription</div>
 		</li>
 		<li class="productlist">
 			<img src="/images/emf/raffle/12-G-2.gif" align="center" width="225"/>
@@ -159,8 +135,9 @@
 			<p>24. Dinner for Six</p>
 		</li>
 </ul>
-<br/><br/>
+<br/>
 <!--EndTest-->
+<!--GoldDiscriptions
 			1. Father Christmas – Large, standing, exquisitely detailed Father Christmas figure dressed in the luxurious fabrics of the Elizabethan Madrigal Feast. Created and donated by Michelle Treichler of Whimsies.
 		<br/><br/>
 			2. Crazy Quilt Needlework – Crafted from Madrigal Feast fabrics. Created and donated by Cheryl Fowler of Complements of Cheryl.
@@ -184,6 +161,7 @@
 		<br/><br/>
 			11. Roses and the River Dinner – Overnight accomodations & breakfast for two at Roses and the River, located amid luxuriant rose gardens on the banks of the peaceful San Bernard River. Donated by Dr. & Mrs. Richard Hosack.
 		<br/><br/>
+-->
 </div>
 <a href="#top">Back to Top</a>
 <br/>
@@ -193,6 +171,120 @@
 			<a name="silver"></a><h1>Silver Game of Chance</h1>
 </div>
 <div id="contentright">
+	<ul class="product">
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-1.gif" align="center" height="200" />
+			<p>1. Grass Orchids</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-2.gif" align="center" width="225" />
+			<p>2. Prayers Written by Vailima</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-3.gif" align="center" height="200" />
+			<p>3. Christmas by the Sea</p>
+		</li>
+		<br/>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-4.gif" align="center" height="200" />
+			<p>4. Gulf Coast Seaguls</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-5.gif" align="center" height="200" />
+			<p>5. Heaven in a Bath</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-6.gif" align="center" width="225" />
+			<p>6. Warwick Castle</p>
+		</li>
+		<br/>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-7.gif" align="center" height="200" />
+			<p>7. Necessaire de Toilette</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-8.gif" align="center" height="200" />
+			<p>8. Scrapbooker & Card Maker's Delight</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-9.gif" align="center" width="225" />
+			<p>9. Scottish Nectar</p>
+		</li>
+		<br/>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-10.gif" align="center" height="200" />
+			<p>10. Pet Lover's Gift Bag</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-11.gif" align="center" height="200" />
+			<p>11. The Queen of Hears</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-12.gif" align="center" height="200" />
+			<p>12. Royal Doulton Collector's Plate</p>
+		</li>
+		<br/>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-13.gif" align="center" height="200" />
+			<p>13. Discover the Stars</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-14.gif" align="center" width="225" />
+			<p>14. Sadler Tea Service</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-15.gif" align="center" height="200" />
+			<p>15. Annual Register 1792</p>
+		</li>
+		<br/>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-16.gif" align="center" width="225" />
+			<p>16. Original Works of Art</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-17.gif" align="center" height="200" />
+			<p>17. Sterling and Stone</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-18.gif" align="center" height="200" />
+			<p>18. Castle in the Sky</p>
+		</li>
+		<br/>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-19.gif" align="center" height="200" />
+			<p>19. Victuals & Vintages</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-20.gif" align="center" height="200" />
+			<p>20. Cake for a Queen</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-21.gif" align="center" width="225" />
+			<p>21. Lunch for Two</p>
+		</li>
+		<br/>
+		<br/>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-22.gif" align="center" width="225" />
+			<p>22. Sparkling Smile</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-23.gif" align="center" height="200" />
+			<p>23. Princess at Your Party</p>
+		</li>
+		<li class="productlist">
+			<img src="/images/emf/raffle/12-S-24.gif" align="center" width="225" />
+			<p>24. Local Flavor</p>
+		</li>
+		<br/>
+<!--SilverDiscriptions
 			1. Grass Orchids – Original 16 X 20 Sumi painting, matted and framed. Created and donated by Art League Members Cherie & Glenn McBride of Yellowbird Studio.
 		<br/><br/>
 			2. Prayers Written by Vailima – Early 20th Centrury book of prayers by Robert Lewis Stevenson beatuifully illuminated by Alberto Sangorski. Donated by Jana and Kendric Marshall.
@@ -246,6 +338,7 @@
 		<br/><br/>
 		<a href="#top">Back to Top</a>
 		<img src="/images/emf/curly.jpg" />
+-->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

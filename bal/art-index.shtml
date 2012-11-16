@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Brazosport Art League</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" -->
+<!--#include virtual="/includes/bal_menu.shtml" -->
+<div id="content">
+	<img src="/images/balcircle.gif" style="float: left; pading:10;"></img>
+	<br/>
+	<h1>Brazosport Art League</h1>
+	<br/><br/>
+	<h2>Art League -- A Brazosport Tradition for 53 years ... Established 1959</h2><br />
+		<h4>Current Show -</h4> 
+		<blockquote><b>GIFT OF ART & SILENT AUCTION</b> • The Brazosport Woodworkers Guild & The Brazosport Art League</blockquote>
+		<h4>Reception:</h4>
+		<blockquote>Saturday November 3, 7 PM Meet the Artists</blockquote>
+		<h4>Sponsor:</h4>
+		<blockquote>The Source Weekly</blockquote>
+	<br />
+	<hr />
+	<br />
+		<a name="November"><h2>November 2012</h2></a>
+	<br/>
+		3 Reception... Saturday 7 PM<br/>
+			<blockquote><i>Sponsor:  The Source / Lisa Baker</i></blockquote>
+	<br/>
+		22-23   Center closed for Thanksgiving Holiday<br/>
+	<br/>
+		<a name="December"><h2>December 2012</h2></a>
+	<br/>
+		8 Silent Auction closes Saturday after Madrigal intermission<br/>
+	<br/>
+		10 BAL Members mini-show.... Replace Silent Auction Display with favoriate art members want to show...none for sale.<br/>
+	<br/>
+		24-25 Center Closed for Christmas<br/>
+	<hr />
+	<p>
+	For more infromation, please call The Center's main office at 979-265-7661 (toll-free 877-265-7661)
+	<br/>We are located at 400 College Blvd., Clute, TX 77531
+	</p>
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

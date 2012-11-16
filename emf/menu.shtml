@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Elizabethan Madrigal Feast</title>
+<!--#include virtual="/includes/emf_head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/emf_top.shtml" -->
+<!--#include virtual="/includes/emf_menu.shtml" -->
+<div id="content" align="center">
+		In honor of Her Most Gracious Majesty the Queen, a remarkable Feast has been prepared.
+	<br/><br/>
+		<h1>For Your Pleasure<br/>
+				We Present Our Menu
+			</h1>
+			<br/>
+				Hot Wassail
+			<br/>
+			<img src="/images/emf/goldspacer.gif" width="25"/>
+			<br/>
+				Butternut squash potage<br/>
+				with green apple yogurt garnish<br/>
+			<img src="/images/emf/goldspacer.gif" width="25"/>
+			<br/>
+				Mixed greens with lemon vinaigrette
+			<br/>
+			<img src="/images/emf/goldspacer.gif" width="25"/>
+			<br/>
+				English ale steak pie
+			<br/>
+			<img src="/images/emf/goldspacer.gif" width="25"/>
+			<br/>
+				Crusty Madrigal Rolls
+			<br/>
+			<img src="/images/emf/goldspacer.gif" width="25"/>
+			<br/>
+				Rustic baked apple over creme anglaise
+			<br/>
+			<img src="/images/emf/goldspacer.gif" width="25"/>
+			<br/>
+				Coffee
+	<br/><br/>
+		A full dinner will be served to all guests during evening and matinee performances. 
+	<br/><br/>
+		Special dietary considerations can be accommodated.<br/>
+		Please contact us at 979-265-7661 for more information. 
+	<br/><br/>
+	<img src="/images/emf/curly.jpg" align="center" />
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

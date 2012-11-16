@@ -1,0 +1,317 @@
+* {
+	margin: 0;
+	border: 0;
+	font-family: Trebuchet MS, Arial, Helvetica, Swiss, SunSans-Regular; 
+	color: #fff
+}
+hr {
+	height: 1px;
+	margin-top:2px;
+	margin-bottom:2px;
+	background-color:#000;
+}
+body {
+	background-color: #3f1a00;
+}
+#main {
+	width: 960px;
+	background-color: #3f1a00;
+	margin: 0px auto;
+}
+#center_content {
+}
+#content {
+	padding: 10px;
+	float: left;
+	display: inline;
+	vertical-align:top;
+	width: 760px;
+}
+#contentright {
+	padding: 10px;
+	float: right;
+	display: inline;
+	vertical-align:top;
+	width: 760px;
+}
+#fbframe {
+	margin-left: 0px;
+}
+.menu_bottom {
+
+}
+#contentleft {
+	width: 160px;
+	float: left;
+	padding-bottom: 5px;
+	display: inline;
+	font-size: 15px;
+	background: #3f1a00;
+	color: #F2CB63;
+	text-align: center;
+	font-family: Trebuchet MS, Arial, Helvetica, Swiss, SunSans-Regular;
+}
+#contentleft ul {
+	padding: 0px;
+	margin: 0px;
+	border-bottom: solid 1px #3f1a00; /*should match the color of main's background */
+	font-family: Trebuchet MS, Arial, Helvetica, Swiss, SunSans-Regular;
+	color: #F2CB63
+}
+#contentleft li {
+	display: inline-block;
+	/*margin-top: 1px;*/
+	width: 160px;
+	height: 40px;
+	border-top: solid 1px #3f1a00; /*should match the color of main's background */
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Trebuchet MS, Arial, Helvetica, Swiss, SunSans-Regular;
+	color: #F2CB63
+}
+#contentleft li :hover{
+	background: #555;
+}
+
+#nav_header {
+display: block;
+height: 51px;
+width: 960px;
+	background-image: url(http://www.bcfas.org/images/emf/emfnavbannerbackground.png);
+}
+#emf-cap-left {
+display: inline-block;
+float: left;
+height: 51px;
+width: 39px;
+	background-image: url(http://www.bcfas.org/images/emf/emgnavbannerleft.png);
+}
+#emf-cap-right {
+display: inline-block;
+float: left;
+height: 51px;
+width: 39px;
+	background-image: url(http://www.bcfas.org/images/emf/emfnavbannerright.png);
+}
+
+/* this is for the drop-down menus */
+.dropdownlist {
+	display: none;
+	position: absolute;
+	width: 100px;
+	padding: 0px;
+	margin-top: 7px;
+	/*border-left: solid 1px #3f1a00;
+	border-right: solid 1px #3f1a00;*/
+}
+.menu_table_td ul {
+}
+.menu_table_td li {
+	display: inline-block;
+	width: 98px;
+	height: 51px;
+	border-top: none;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 75%;
+}
+.menu_table_td li a:hover {
+	/*text-decoration: underline; */
+	color: #eee;
+}
+.menu_table_td li a {
+	text-decoration: none;
+	color: #eee;
+	display:table-cell;
+	vertical-align: middle;
+	width: 98px;
+	height: 51px;
+}
+.menu_table_td li :hover{
+	/*background: #555;*/
+	/* rgba: red, green, blue, alpha (for transparency) */
+	background-color: rgba(255,255,255,0.2);
+}
+.bg_black li {
+	background: #000;
+}
+.bg_purple li { 
+	background: #6A096E; 
+}
+.bg_blue   li { 
+	background: #066AA6; 
+}
+.bg_green  li { 
+	background: #7E8B27; 
+}
+.bg_yellow li { 
+	background: #FF9E0B; 
+}
+.bg_orange li { 
+	background: #FF5200; 
+}
+.bg_red   li { 
+	background: #FB0024; 
+}
+.bg_emf li{
+	background: #3f1a00;
+}
+
+
+#contentleft a {
+	color: #eee;
+	text-decoration: none;
+}
+#contentleft li a:hover {
+	/*text-decoration: underline; */
+	color: #eee;
+}
+#contentleft li a {
+	display:table-cell;
+	vertical-align: middle;
+	width: 160px;
+	padding-left: 2px;
+	height: 40px;
+}
+#page {
+	width: 100%;
+	align: center;
+	background-color: #3f1a00;
+	min-height: 100%;
+	padding-bottom: 20px;
+}
+.clearing {
+	clear:both;
+}
+a {
+	color: #000;
+	/*text-decoration: none;*/
+}
+a:hover {
+	text-decoration: underline; 
+	color: #900;
+}
+
+.bg_black {
+	background: #000;
+}
+.bg_purple { 
+	background: #6A096E; 
+}
+.bg_blue   { 
+	background: #066AA6; 
+}
+.bg_green  { 
+	background: #7E8B27; 
+}
+.bg_yellow{ 
+	background: #FF9E0B; 
+}
+.bg_orange { 
+	background: #FF5200; 
+}
+.bg_red    { 
+	background: #FB0024; 
+}
+.bg_emf{
+	background: #3f1a00
+}
+
+.menu_table {
+	/*border: 2px #000 solid;*/
+	width: 960px;
+}
+.menu_table_td {
+	display: inline-block;
+	float: left;
+	/* using padding in lieu of borders for cross-browser compat */ 
+}
+.menu_table_td_inner {
+	display: table-cell;
+	width: 98px; /*160 minus the 1px padding on each side*/
+	height: 51px; /*160 minus the 1px padding on each side*/
+	vertical-align: middle;
+	font-size: 1em; 
+	color: #fff; 
+	font-weight: bold; 
+	text-align: center; 
+	text-decoration: none;
+	/*padding:2px;*/
+}
+.toplinks { 
+	font-size: .8em; 
+} 
+.toplinks { 
+	text-decoration: none; 
+	cursor: pointer; 
+	color: #F2CB63;
+}
+.toplinks:hover { 
+	text-decoration: underline; 
+	color:#F2CB63;
+}
+.toplinks:visited { 
+	color:#F2CB63;
+}
+
+h1 {
+	font-size: 2.6em;
+    font-family: 'Tangerine', Arial, Helvetica, Swiss, SunSans-Regular; 
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+.colorbox {
+	margin-top: 2px;
+	width: 160px;
+	height: 35px;
+	display: block;
+}
+#footer {
+	font-size: .5em;
+	text-align:center;
+}
+.top_message
+{
+	padding: 5px;
+	font-size: 20px;
+	color: #fff;
+	background: #3f1a00;
+	text-align: center;
+}
+blockquote {
+	padding-left: 20px;
+}
+
+a {
+	color:white; 
+	text-weight:bold;
+}
+a:hover {
+	color:#005EAD;
+}
+a:visited {
+	color:white; 
+	text-weight:bold;
+}
+
+.navcolorbox {
+	width:130px;
+	height:60px;
+	margin-bottom:20px;
+	margin-left:20px;
+}
+
+font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Tangerine Bold'), local('Tangerine-Bold'), url(http://themes.googleusercontent.com/static/fonts/tangerine/v3/UkFsr-RwJB_d2l9fIWsx3nhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}

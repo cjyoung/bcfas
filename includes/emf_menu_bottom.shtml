@@ -1,0 +1,23 @@
+<div class="menu_bottom">
+	<!-- facebook pieces -->
+	<br />
+	Find us on "<a href="https://www.facebook.com/elizabethan.feast" tragert="_blank">Facebook</a>!"
+	
+	<br />
+	<br />
+	
+	<!-- mailing list pieces -->
+	<a href="javascript:newWin=window.open('http://www.patronmail.com/pmailweb/PatronSetup?oid=1344','patron_signup','height=500,width=640,scrollBars=1,resizable=0');newWin.focus();">Join Our Mailing List!
+		<br />
+		<img src="/images/patronmail.jpg" alt="Patron Mail" width="150" height="28">
+	</a>
+	<br />
+	<br />
+	
+	<script language="javascript" type="text/javascript">
+	$(function() {
+		var TotalContentPaddingAmount = 20; //this is because the height doesn't count the padding
+		if ( $("#content").height() > $("#contentleft").height() ) $("#contentleft").height( eval($("#content").height() + TotalContentPaddingAmount) );
+	});
+	</script>
+</div>

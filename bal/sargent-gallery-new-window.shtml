@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>Brazosport Art League</title>
+		<!--#include virtual="/includes/head.shtml" -->
+	</head>
+	<body>
+		<!--#include virtual="/includes/top.shtml" -->
+		<!--#include virtual="/includes/bal_menu.shtml" -->
+		<div id="content">
+			<img src="/images/balcircle.gif" style="float: left; padding:10;"></img>
+		<br/><br/>
+		<div align="center">
+			<h1>Harry Sargent Portfolio</h1>
+		</div>
+			<table>
+				<tr>
+					<td>
+						<img src="/images/bal/RR-Bridge-San-Marcos.jpg" alt="RR Bridge, San Marcos by Harry Sargent" width="300" />
+					</td>
+					<td>
+						<img src="/images/bal/Fisgard-Lighthouse-BC.jpg" alt="Fisgard Lighthouse by Harry Sargentss" width="300" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						San Marcos Rail Road Bridge<br/>
+						11 X 14<br/>
+						Framed Oil<br/>
+						$150
+					</td>
+					<td>
+						Fisgard Light House - British Columbia<br/>
+						21 X 16<br/>
+						Framed Oil<br/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="/images/bal/Lewis-Falls-Yellowstone.jpg" alt="Lewis Falls Yellowstone" align="center" width="300"/>
+					</td>
+					<td>
+						<img src="/images/bal/Hooks-Point-Ireland.jpg" alt="Hooks Point Ireland" align="center" width="300" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Lewis Falls-Yellowstone<br/>
+						16 X 20<br/>
+						Unframed Oil</br>
+						$350
+					</td>
+					<td>
+						Hooks Point - Ireland<br/>
+						16 X 20<br/>
+						Unframed Oil<br/>
+						$350
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="/images/bal/Contemplation.jpg" alt="Contemplation" align="center" width="300" />
+					</td>
+					<td>
+						<img src="/images/bal/Pedernales-Falls.jpg" alt="Pedernales Falls" align="center" width="300" />
+					<td/>
+				</tr>
+					<td>
+						Contemplation<br/>
+						16 X 20<br/>
+						Framed Oil<br/>
+						$150
+					</td>
+					<td>
+						Pedernales Falls<br/>
+						24 X 18<br/>
+						Unframed Oil<br/>
+						$350<br/>
+					</td>
+			</table>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Brazosport Art League</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" -->
+<!--#include virtual="/includes/bal_menu.shtml" -->
+<div id="content">
+	<img src="/images/balcircle.gif" style="float: left; padding:10;"></img>
+	<br/>
+	<h1>	Art League Links of Interest</h1>
+	<br/><br/><br/>
+	<ul>
+		<li><a href="http://www.nws-online.org/" target="_blank">National Watercolor </a><a href="http://www.nws-online.org/">Society</a></li>
+		<li><a href="http://www.nga.gov/" target="_blank">National Gallery of Arts</a></li>
+		<li><a href="http://www.mfah.org/" target="_blank">Houston Museum of Fine Arts</a></li>
+		<li><a href="http://www.artinview.com/" target="_blank">Worthington Art League</a></li>
+		<li><a href="http://www.wetcanvas.com/" target="_blank">Wet Canvas Web Page Forum</a><!-- Start theGuestbook.com Code --></li>
+		<li><a href="http://www.louvre.fr/llv/commun/home.jsp?bmLocale=en" target="_blank">The Louvre</a></li>
+		<li><a href="http://www.jssgallery.org/" target="_blank">John Singer Sargent Gallery</a></li>
+		<li><a href="http://www.judycourtwright.com/" target="_blank">Judy Courtwright Website</a></li>
+		<li><a href="http://www.cheapjoes.com/" target="_blank">Cheap Joe&#39;s Art Supplies</a></li>
+		<li><a href="http://www.yellowbirdstudio.com/" target="_blank">Yellow Bird Studio</a></li>
+	</ul>
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Elizabethan Madrigal Feast</title>
+<!--#include virtual="/includes/emf_head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/emf_top.shtml" -->
+<!--#include virtual="/includes/emf_menu.shtml" -->
+<div id="content">
+		<h1>Tickets</h1>
+		<h1>Purchase your tickets online today!</h1>
+		<br/>
+		<a href="https://app.ticketturtle.com/index.php?ticketing=bcfas" target="_blank">Online tickets are sold here</a>
+		<br/><br/>
+		Purchase tickets at The Center for the Arts and Sciences Administrative Office, 400 College Blvd, Clute, Texas 77531, 10am-5pm Monday through Friday or by phone at 979-265-7661 or toll-free 877-265-7661.
+		<br/><br/>
+			Mastercard, Visa and Discover Card are accepted.
+		<br/><br/>
+			No refunds or exchanges after 5 pm on November 9, 2012
+		<br/><br/>
+		<div align="center">
+				<img src="/images/emf/emf-red-dimonds.gif" />
+		</div>
+		<br/>
+			The biennial Elizabethan Madrigal Feast is the major fundraiser supporting the $560,000 annual operating costs of The Center for the Arts and Sciences. 
+		<br/><br/>
+			Tickets for the Elizabethan Madrigal Feast are $65/person for evening performances and $55/person for Sunday matinee performances. All tickets include a full dinner and performance.
+		<br/><br/>
+			Underwriters and Sponsors of the Elizabethan Madrigal Feast are given the earliest opportunity to purchase tickets. Most performances usually sell out, so select your seating as early as possible.
+		<br/><br/>
+		<!--<table>
+			<tr>
+				<td>NOW</td> 
+				<td>Tickets available <a href="https://www.ticketturtle.com/index.php?ticketing=bcfas">Online</a>, over the phone at 979-265-7662, or in person for Madrigal Feast Underwriters and Sponsors</td>
+			</tr> 
+			<tr>
+				<td>NOW</td>
+				<td>Tickets available Tickets available <a href="https://www.ticketturtle.com/index.php?ticketing=bcfas">Online</a>, over the phone at 979-265-7662, or in person to qualifying Center Operating & Maintenance Fund Donors of $50 or more prior to October 1, Madrigal Feast cast, crew and committe
+			<tr>
+				<td>Oct. 29</td>	
+				<td>Tickets available <a href="https://www.ticketturtle.com/index.php?ticketing=bcfas">Online</a>, over the phone at 979-265-7662, or in person to the general public</td>
+			</tr>
+		</table>-->
+		<br/>
+			<img src="/images/emf/curly.jpg" />
+		
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

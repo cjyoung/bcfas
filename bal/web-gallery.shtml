@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Brazosport Art League</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" -->
+<!--#include virtual="/includes/bal_menu.shtml" -->
+<div id="content">
+		<img src="/images/balcircle.gif" style="float: left; padding:10;"></img>
+	<br/>
+		<h1>Web Gallery</h1>
+	<br/><br/><br/>
+	<div align="center">
+		<img src="/images/bal/RR-Bridge-San-Marcos.jpg" width="200" alt="RR Bridge in San Marcos by Harry Sargent" /><br/>
+		<a href="/bal/sargent-gallery.shtml">Harry Sargent Portfolio</a>
+		
+	<br/>
+	</div>
+
+
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

@@ -1,0 +1,40 @@
+<div class="menu_bottom">
+	<!-- facebook pieces -->
+	<br />
+	Find us on "<a href="https://www.facebook.com/pages/Brazosport-Center-for-the-Arts-Sciences/152472561459448?sk=wall">Facebook</a>!"
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<div class="fb-like" data-href="https://www.facebook.com/pages/Brazosport-Center-for-the-Arts-Sciences/152472561459448?sk=wall" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false" data-colorscheme="dark" data-font="arial"></div>
+	<br />
+	<br />
+	
+	<!-- mailing list pieces -->
+	<a href="javascript:newWin=window.open('http://www.patronmail.com/pmailweb/PatronSetup?oid=1344','patron_signup','height=500,width=640,scrollBars=1,resizable=0');newWin.focus();">Join Our Mailing List!
+		<br />
+		<img src="/images/patronmail.jpg" alt="Patron Mail" width="150" height="28">
+	</a>
+	<br />
+	<br />
+	
+	<!-- escape down 288 pieces -->
+	<a href="http://www.escapedown288.com/" target="_blank">
+		<img src="/images/Just_escape.jpg" alt="Escape Down 288" width="150" height="82">
+	</a>
+	
+	<!-- color bars -->
+	<div class="colorbox bg_purple">&nbsp;</div>
+	<div class="colorbox bg_blue">&nbsp;</div>
+	<div class="colorbox bg_green">&nbsp;</div>
+	<div class="colorbox bg_yellow">&nbsp;</div>
+	<div class="colorbox bg_orange">&nbsp;</div>
+	<div class="colorbox bg_red">&nbsp;</div>
+
+
+</div>

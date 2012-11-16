@@ -1,0 +1,35 @@
+<div id="contentleft">
+<ul>
+				<li>
+					<a href="/bal/gallery.shtml">Art Gallery</a>
+				</li>
+				<li>
+					<a href="/bal/studio.shtml">Art Studio</a>
+				</li>
+				<li>
+					<a href="/bal/classes.shtml">Classes/Workshops</a>
+				</li>
+				<li>
+					<a href="/bal/specials.shtml">Art Specials</a>
+				</li>
+				<li>
+					<a href="/bal/art-calendar.shtml">Calendar of Events</a>
+				</li>
+				<li>
+					<a href="/bal/interesting-links.shtml">Interesting Art Links</a>
+				</li>
+				<li>
+					<a href="/bal/web-gallery.shtml">Web Gallery</a>
+				</li>
+				<li>
+					<a href="/bal/memberships.shtml">Memberships</a>
+				</li>
+				<li>
+					<a href="/bal/kids.shtml">Kid's Stuff</a>
+				</li>
+				<li>
+					<a href="/bal/scrapbook.shtml">Scrapbook</a>
+				</li>
+			</ul>
+<!--#include virtual="/includes/menu_bottom.shtml" -->
+</div>

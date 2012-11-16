@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Brazosport Planetarium</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" -->
+<!--#include virtual="/includes/bp_menu.shtml" -->
+<div id="content">
+	<img src="/images/bp-circle-no-black.gif" style="float: left;"></img>
+	<br/>
+	<h1>School Visits</h1>
+	<br/>
+		<p>
+			The Planetarium 30 foot dome theater seats 72 visitors.  Student groups visit the Planetarium and either the Museum of Natural Science or the Art Gallery rotating between the two venues. Visits are scheduled in the morning on Tuesday - Friday. One and one half hour is needed plus travel time. Tours can be scheduled as space is available by calling 979-265-3376.
+		</p>
+	<br/>
+	<p align="center"><img src="/images/img_1467.jpg"></img></p>
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

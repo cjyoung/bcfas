@@ -1,0 +1,29 @@
+<div id="contentleft">
+<ul>
+				<!--<li>
+					<a href="/bp/planetarium-index.shtml">Planetarium Home</a>
+				</li>-->
+				<li>
+					<a href="/bp/location.shtml">Location</a>
+				</li>
+				<li>
+					<a href="/bp/about-us.shtml">About Us</a>
+				</li>
+				<li>
+					<a href="/bp/astronomy.shtml">Astronomy Club</a>
+				</li>
+				<li>
+					<a href="/bp/classes.shtml">High School Class</a>
+				</li>
+				<li>
+					<a href="/bp/school.shtml">School Visits</a>
+				</li>
+				<li>
+					<a href="/bp/support.shtml">Support</a>
+				</li>
+				<li>
+					<a href="/bp/scholastic-bowl.shtml">Scholastic Bowl</a>
+				</li>
+				</ul>
+<!--#include virtual="/includes/menu_bottom.shtml" -->
+</div>

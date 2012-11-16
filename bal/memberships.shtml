@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Brazosport Art League</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" --><!--#include virtual="/includes/bal_menu.shtml" -->
+<div id="content">
+	<img src="/images/balcircle.gif" style="float: left; padding:10;"></img>
+	<br/>
+	<h1>Brazosport Art League Membership<h1>
+	<br/><br/>
+	<h2>Membership Categories</h2>
+		<br/>	
+	<b>College Student</b> • $5
+		<br/>	
+		<blockquote>For students currently enrolled in any college or university.</blockquote>	
+		<br/>
+	<b>Single Artist</b> (Single Membership)<br/>	
+		<blockquote>Before Aug 31 $35<br/>	After Aug 31. $40</blockquote>	
+		<br/>	
+	<b>Artist & Family</b><br/> 
+		 <blockquote>Before Aug 31 $40<br/>	After Aug  31 $45</blockquote>
+		<br/>
+	<b>Friend of the Arts</b> • $40
+		<br/>
+		<br/>
+	<b>Exhibit Sponsor</b> • $375
+		<br/>
+		<br/>
+	<b>Life Membership</b> • $1,000<br/> 
+		<br/>
+	<b>New Members</b> • after March 1 $20<br/>
+		 <br/>
+	<h2>Online Memberships available <a href="http://www.bcfasstore.org/category/ArtLeague.html">here</a>.</h2>
+	<br/>
+	 <hr/>	
+	 <h2>BRAZOSPORT ART LEAGUE</h2>	
+	 <h3>2012-2013 BOARD OF DIRECTORS</h3>
+	 <br/>	
+	 <h4>Officers</h4>
+	 <br/>	
+		President -- Linda Matheson<br/>	
+		VP/Membership -- Sally Webster<br/>	
+		VP/Publicity -- Marjorie Suggs<br/>	
+		Secretary -- Norma Robuck<br/>	
+		Treasurer -- Theresa Crawford<br/>	
+		Past-President -- Carol Farmer<br/>
+	<br/>	
+	 <h4>Directors</h4><br/>	
+		Public Relations -- Amy Chen<br/>          	
+		Exhibitions/Organization -- Sally Webster<br/>	
+		Gallery Installations -- Joan Risner<br/>	
+		Gallery Manager -- Jeannette Booth<br/>	
+		Art Shop -- Ginny Weyland<br/>	
+		Mail Outs -- Jean Howell<br/>	
+		Hospitality -- Alice Ramby<br/>	
+		Education -- Duane Alcorn<br/>	
+		Members Gallery -- Carol Farmer<br/>	
+		Satellite Galleries/Community Exhibits  -- Marjorie Suggs<br/>
+		 
+	 <br/>
+	 <h4>Committee Chairs</h4><br/>		
+		Art Odyssey -- Duane Alcorn<br/>
+		Studio Paint-In Coordinator -- Linda Roberts<br/>
+		Any Kid Kan -- Penny Knox<br/>
+		HS Scholarship - Harry Sargent<br/>
+		Webmaster - Harry Sargent<br/>
+		Historian/Librarian - Linda Roberts<br/>
+		Newsletter - Tina Bjune<br/>
+		Telephone Committee - Jean Howell
+
+ </div>
+ <!--#include virtual="/includes/bottom.shtml" -->
+ </body>
+ </html>

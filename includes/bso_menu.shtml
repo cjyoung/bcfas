@@ -1,0 +1,20 @@
+<div id="contentleft">
+<ul>
+				<!--<li>
+					<a href="/bso/symphony-index.shtml">BSO Home</a>
+				</li>-->
+				<li>
+					<a href="/bso/history.shtml">BSO History</a>
+				</li>
+				<li>
+					<a href="/bso/membership.shtml">Membership & Ticket Information</a>
+				</li>
+				<li>
+					<a href="/bso/rehearsals.shtml">Rehearsals</a>
+				</li>
+				<li>
+					<a href="/bso/league.shtml">Brazosport Symphony League</a>
+				</li>
+			</ul>
+<!--#include virtual="/includes/menu_bottom.shtml" -->
+</div>

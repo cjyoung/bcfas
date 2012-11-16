@@ -1,0 +1,14 @@
+<div class="clearing"></div></div></div></div>
+	<div id="footer">
+		© Copyright 2012 to Present<br/>
+		Brazosport Center for the Arts & Sciences • 400 College Blvd • Clute, TX 77531 • 979-265-7661<br/>
+		Website Design by Jessica Dornan & Chris Young<br/>
+		Webmaster Jessica Dornan<br/>
+	</div>
+	<br/>
+	<script language="javascript" type="text/javascript">
+	$(function() {
+		var TotalContentPaddingAmount = 20; //this is because the height doesn't count the padding
+		if ( $("#content").height() > $("#contentleft").height() ) $("#contentleft").height( eval($("#content").height() + TotalContentPaddingAmount) );
+	});
+	</script>

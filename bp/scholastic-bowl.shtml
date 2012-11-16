@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Brazosport Planearium</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" -->
+<!--#include virtual="/includes/bp_menu.shtml" -->
+<div id="content">
+	<img src="/images/bp-circle-no-black.gif" style="float: left;"></img>
+	<br/>
+	<h1>Scholastic Bowl</h1>
+	<br/>
+	<p>
+		Offers a friendly competition between teams of four adult and/or high school. Teams answer quests on subjects such as science, the arts, history, geography, current events and local activities. Fundraiser benefits science education for the Brazosport Planetarium and The Center or the Arts & Sciences. 
+	</p>
+	<br/>
+	<h1 align="center">2013 SCHOLASTIC BOWL</h2>
+	<p align="center">
+	Will be held Feburary 9
+	Please contact us at 979-265-3376 for more information.
+	</p>
+	<br/>
+	<br/>
+	<p align="center">
+	<img src="/images/Team-Dragon-Bear-Fool.jpg" alt="2011 Scholastic Bowl Winners"></img>
+	</p>
+	<h3 align="center">2011 Scholastic Bowl Winners</h3>
+
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

@@ -1,0 +1,35 @@
+<div id="contentleft">
+			<ul>
+				<li>
+					<a href="/bfac/about-us.shtml">About the Center</a>
+				</li>
+				<li>
+					<a href="/bfac/calendar-events.shtml">Calendar of Events</a>
+				</li>
+				<li>
+					<a href="/bfac/membership.shtml">Online Memberships & Donations</a>
+				</li>
+				<li>
+					<a href="/emf/emf-index.shtml">Elizabethan Madrigal Feast</a>
+				</li>
+				<!--<li>
+					<a href="http://www.bcfasstore.org/category/emf-sponsor-2012.html" target="_blank">EMF Sponsors & Underwriters</a>
+				</li>-->
+				<li>
+					<a href="/bfac/accommodations.shtml">Accommodations & Area Links</a>
+				</li>
+				<li>
+					<a href="/bfac/rentals.shtml">Rental Information</a>
+				</li>
+				<li>
+					<a href="/bfac/volunteer.shtml">Volunteer Opportunities</a>
+				</li>
+				<li>
+					<a href="/bfac/summer.shtml">Summer at The Center</a>
+				</li>
+				<li>
+					<a href="https://www.bcfasstore.org/category/centermerchandise.html" target="_blank">Center Merchandise</a>
+				</li>
+			</ul>
+<!--#include virtual="/includes/menu_bottom.shtml" -->
+</div>

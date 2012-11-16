@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Brazosport Art League</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" -->
+<!--#include virtual="/includes/bal_menu.shtml" -->
+<div id="content">
+	<img src="/images/balcircle.gif" style="float: left; padding:10;"></img>
+	<br/>
+	<h1>Art League Kid's Stuff</h1>
+	<br/>
+		The Brazosport Art League provides multiple and varied programs for children.
+	<br/>
+		School classes may schedule tours of the Gallery.  Artist comment on art, it's creation and forms.  The students may make pencil sketches of the examples from the current show with supplies provided by the League.  Contact the Center for scheduling.
+	<br/><br/>
+	<hr/>
+	<br/>
+	<h2>Art Workshops for Children</h2><br/>
+	<h3>Animal, Insect, and Other Things That Bite!</h3><br/>
+	This class will focus on drawing and painting animals, insects, and plants. We will use a variety of materials including soft pastels, watercolor, graphite, and ink. Make sure to wear old clothes or an apron as some projects will be rather messy!<br/><br/>
+	<b>Teacher:</b> Christa Moore<br/>
+	<b>Age:</b> 7-10<br/><br/>
+	<b>Dates:</b> 10/23, 10/30, 11/6, 11/13, 11/27, 12/04<br/>
+	<b>Time:</b> 5:00 - 6:00 p.m.<br/>
+	<b>Location:</b> The Art Studio at The Center for the Arts & Sciences<br/><br/>
+	<b>Cost:</b> $95.00<br/>
+	All materials are included<br/><br/>
+	Registration will be the first day of class at 4:45pm<br/><br/>
+	Be sure to wear old clothes or bring an apron.<br/><br/>
+	If you have questions please call Christa Moore at 979-215-9465 or by email at christamooreartworkshops@gmail.com
+	<br/><br/>
+	<hr/>
+	<h2>Summer Art Odyssey</h2>
+	<br/>
+		Learn techniques and crafts from a variety of experienced teachers.  Cost includes supplies and a Sumer at the Center gift.  Class limited to 20 children per class.
+	<br/><br/>
+		Fees: Non-members $45 Members of Art League . Payable to BAL
+	<br/><br/>
+		<b>2013 Dates Coming Soon!</b>
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

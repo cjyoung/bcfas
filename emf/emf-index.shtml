@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Elizabethan Madrigal Feast</title>
+<!--#include virtual="/includes/emf_head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/emf_top.shtml" -->
+<!--#include virtual="/includes/emf_menu.shtml" -->
+<div id="content" align="center">
+	<h1>
+		Step into the Past …
+			<br/>
+		Provide for the Future…
+	</h1>
+	<br/><br/>
+		<table cellspacing="0" cellpadding="0" border="0" bgcolor="#3f1a00">
+				<tr>
+					<td>
+						<a href="http://smilebox.com/play/4d7a4d774e5441344f54593d0d0a&blogview=true&campaign=blog_playback_link" target="_blank">
+						<img width="420" height="330" alt="Click to play this Smilebox slideshow" src="http://smilebox.com/snap/4d7a4d774e5441344f54593d0d0a.jpg" style="border: medium none ;"/></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="http://www.smilebox.com/?partner=googlead&campaign=blog_snapshot" target="_blank"><img width="420" height="46" alt="Create your own slideshow - Powered by Smilebox" src="http://www.smilebox.com/globalImages/blogInstructions/blogLogoSmilebox.gif" style="border: medium none ;"/></a>
+					</td>
+				</tr>
+			</table>
+		<br/>
+			<h1>A Feast for the Senses!</h1>
+		<br/>
+			Flood all your senses with the majesty and pageantry befitting the court of Queen Elizabeth I at a spectacular holiday feast. Join the Earl of Warwick and his royal guests in the main hall of his castle for an exquisite meal and entertainment provided by the court's troupe of players, dancers and singers.
+		<br/><br/>
+			<h1>Performances:</h1>
+			November 23 ~ 24 ~ 25 ~ 30<br/>
+			December 1 ~ 2 and 7 ~ 8
+		<br/><br/>
+			<img src="/images/emf/emf-red-dimonds.gif" />
+		<br/><br/>
+			<h1>Purchase your tickets online today!!</h1>
+			<a href="https://app.ticketturtle.com/index.php?ticketing=bcfas">Please click here for online orders.</a>
+			<br/><br/>
+			Tickets are available at The Center Monday - Friday from 10 a.m. - 4 p.m. in person and over the phone at 979-265-7661.
+			<br/><br/>
+				<i>No refunds or exchanges after November 9</i>
+			<!--
+			<h1>Tickets go on sale on the following dates:</h1><br/>
+				<b>Now Available</b> ~ Madrigal Feast Underwriters & Sponsors<br/>
+				<b>Now Available</b> ~ 2012-2013 Center Operating & Maintenance Fund Donors of $50 or more<br/>and EMF Cast & Crew <br/>
+				<b>Oct. 29</b> ~ General Public ticket sales begin<br/>
+				<b>Nov. 9</b> ~ No refunds or exchanges after this date
+		-->
+		<br/><br/>
+			<img src="/images/emf/emf-red-dimonds.gif" />
+		<br/><br/>
+			The Elizabethan Madrigal Feast benefits<br/>
+			The Center for Arts & Sciences<br/>
+		<br/>
+				<img src="/images/emf/curly.jpg" />
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

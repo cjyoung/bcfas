@@ -1,0 +1,141 @@
+<!--[if lt IE 8]> 
+<style type="text/css">
+/* this is to fix IE6 rendering issues */
+.dropdownlist {
+	clear: left;
+	position: absolute;
+	display: block;
+    margin-left: -79px;
+}
+</style>
+<![endif]--> 
+<script language="javascript" type="text/javascript">
+var hideDropDownForCurrentPage = false;
+$(function() {
+	$(".dropdownlist").hide();
+	$(".dropdownlist").each(function (i) {
+		//this = current item
+		//i = iteration counter
+		
+		//removed this dropdown from the center menu item for now
+		// as it doesn't quite look right
+		//<br/>
+		//<div class="dropdownlist">
+		//!--#include virtual="/includes/bfac_menu.shtml" --
+		//</div>
+		
+		//this part is to remove the drop down if it's for the current page
+		var location = window.location;
+		var port = (location.port.length == 0) ? '' : ':' + location.port;
+		var hostpart = location.protocol + "//" + location.host + port;
+		var thislink = $(this).parent().find("a").attr("href");
+		
+		if (thislink == "/") thislink = "/index.shtml";
+		if (location == (hostpart + "/")) location = location + "index.shtml";
+		
+		if ((thislink == location) ||
+			((hostpart + thislink) == location))
+		{
+			if (hideDropDownForCurrentPage) $(this).remove();
+		}
+		
+		//grab just the list of menu items
+		// - this strips the color bars, etc. off the bottom
+		$(this).find(".menu_bottom").remove();
+		
+		//by removing the id from the content left div, 
+		//we don't have to worry about styles from it conflicting
+		$(this).find("#contentleft").attr("id","");
+	});
+	$(".menu_table_td").each(function (i) {
+		//this = current item
+		//i = iteration counter
+		$(this).hover(
+			//mouseover
+			function () {
+				$(this).find(".dropdownlist").show();
+			},
+			//mouseout
+			function () {
+				$(this).find(".dropdownlist").hide();
+			}
+		);
+	});
+});
+</script>
+<div id="page">
+	<div id="main">
+		<a href="/emf/emf-index.shtml"><img src="/images/emf/emf-banner.gif" /></a>
+
+		<!--<div class="top_message">YOUR MESSAGE HERE</div>-->
+	<div id="nav_header">		
+	<div id="emf-cap-left"></div>
+		<div class="menu_table_td">
+				<div class="menu_table_td_inner">
+					<a href="/emf/emf-index.shtml"
+					class="toplinks">EMF Home</a>
+				</div>
+		</div>
+			
+			<div class="menu_table_td">
+				<div class="menu_table_td_inner">
+					<a href="/emf/performance.shtml" class="toplinks" 
+					>Performances</a>
+				</div>
+			</div>
+
+			<div class="menu_table_td">
+				<div class="menu_table_td_inner">
+					<!--<a href="/emf/ticket.shtml" class="toplinks">-->
+					<a href="https://app.ticketturtle.com/index.php?ticketing=bcfas" class="toplinks" target="_blank">
+					Tickets</a>
+					<br/>
+				</div>
+			</div>
+
+			<div class="menu_table_td">
+				<div class="menu_table_td_inner">
+					<a href="/emf/menu.shtml"
+					class="toplinks" >Menu</a>
+				</div>
+			</div>
+
+			<div class="menu_table_td">
+				<div class="menu_table_td_inner">
+					<a href="/emf/raffle.shtml"
+					class="toplinks" >Raffle</a>
+				</div>
+			</div>
+			
+			<div class="menu_table_td">
+				<div class="menu_table_td_inner">
+					<a href="/emf/history.shtml" class="toplinks">
+					About our Feast</a>
+				</div>
+			</div>
+
+			<div class="menu_table_td">
+				<div class="menu_table_td_inner">
+					<a href="/emf/support.shtml"
+					class="toplinks">Sponsorships</a>
+				</div>
+			</div>
+			
+			<div class="menu_table_td">
+				<div class="menu_table_td_inner">
+					<a href="/emf/faq.shtml"
+					class="toplinks">FAQ's</a>
+				</div>
+			</div>
+			
+		<div class="menu_table">
+			<div class="menu_table_td">
+				<div class="menu_table_td_inner">
+					<a href="/" class="toplinks">
+					The	Center</a>
+				</div>
+			</div>			
+		</div>
+	<div id="emf-cap-right"></div>
+		</div>
+		<div id="center_content">

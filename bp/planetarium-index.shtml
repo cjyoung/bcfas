@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Brazosport Planetarium</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" -->
+<!--#include virtual="/includes/bp_menu.shtml" -->
+<div id="content">
+		<img src="/images/bp-circle-no-black.gif" style="float: left;"></img>
+		<br/>
+		<h2>Brazosport Planetarium Presents</h2>
+		<br/><br/>
+	<div align="center">
+		<img src="/images/bp/WildWeathercrop.jpg" width="372" align="right" />
+		<br/>
+	</div>
+	<div align="center" style="font-family:Century Gothic; font-size:20" >
+			A new, full-dome show from
+		<br/>
+		<b>National Geographic</b>
+		<br/><br/>
+	</div>
+	<div align="center">
+		<h1>
+			WILDEST WEATHER
+		<br/>
+			in the SOLAR SYSTEM
+		</h1>
+		<br/>
+		<br/>
+		<h2>Tuesdays at 7pm</h2>
+			November 6, 13, 20, 27
+		<br/>
+		<h2>
+			Special Friday Show
+		<br/>
+			November 16 at 7pm
+		</h2>
+		<br/>
+		<br/>
+		<b>
+			Tickets: Adults/$5, Children/$3
+		</b>
+		<br/>
+		<br/>
+		<br/>
+		<hr/>
+		<br/><br/>
+			<h1>Season of Light</h1>
+		<br/>
+			Herald the holiday season with this well-loved program that has been reformatted for the Full Dome. Share some of the warmest and brightest celbrations of the year and look into some theories about the Christmas star. Created by: Loch Ness Productions
+		<br/>
+		<br/>
+			<h2>
+			7:00 pm Showings<br/>
+			Tuesday: December 4, 11, & 18<br/>
+			at 7pm<br/>
+		</h2>
+			No show December 25<br/>
+		<br/>
+			<b>Lobby & box office open at 6:30pm before each show<br/>
+			$5/adults and $3/students and children</b><br/>
+		<br/><br/>
+			Also, Tonight’s Sky • What’s over your house tonight?
+		<br/><br/>
+			Shows begin at 7 p.m. and last about 40 minutes <br />
+		<br/><br/>
+	</div>
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

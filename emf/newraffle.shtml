@@ -2,23 +2,29 @@
 <head>
 <title>Elizabethan Madrigal Feast</title>
     <!--#include virtual="/includes/emf_head.shtml" -->
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
-    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+    <script src="/js/jquery-1.8.2.js"></script>
+    <script src="/js/jquery-ui-1.9.1.custom.min.js"></script>
+    <link rel="stylesheet" href="/styles/custom-emf-theme/jquery-ui-1.9.1.custom.min.css" />
     <script>
     // increase the default animation speed to exaggerate the effect
     $.fx.speeds._default = 1000;
     $(function() {
-        $( "#dialog" ).dialog({
+        $( ".dialog" ).dialog({
             autoOpen: false,
             show: "blind",
-            hide: "explode"
+            hide: "fade",
+			modal: true,
         });
  
-        $( "#opener" ).click(function() {
-            $( "#dialog" ).dialog( "open" );
+		for (var i = 1; i <= 48; i++)
+		{
+        $( "#opener" + i ).click(function() {
+            $( "#dialog" + i ).dialog( "open" );
             return false;
         });
+		}
+		
+	
     });
     </script>
 </head>
@@ -45,150 +51,288 @@
 <div id="contentright" align="center">
 		<a href="#gold">Golden Game of Chance</a> | <a href="#silver">Silver Game of Chance</a>
 		<br/><br/>
+		Please click on the image of each raffle item for a complete discription.
+		<br/><br/>
 		<img src="/images/emf/emf-red-dimonds.gif" align="center"/>
 		<br/><br/>
 			<a name="gold"></a><h1>Golden Game of Chance</h1>
 </div>
 <div id="contentright">
-<!--Test-->
 	<ul class="product">
 		<br/>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-1.gif" align="center" height="200" />
-			<p>1. Father Christmas</p>
-			<div id="dialog" title="Gold1 dialog">
-					<p>
-						A large, standing, exquisitely detailed Father Christmas figure dressed in the luxurious fabrics of the Elizabethan Madrigal Feast. Created and donated by Michelle Treichler of Whimsies.
-					</p>
-				</a>
+			<div id="opener1">
+				<img src="/images/emf/raffle/12-G-1.gif" align="center" height="200" />
+				<p>1. Father Christmas</p>
+				<div id="dialog1" class="dialog" title="1. Father Christmas">
+						<p>
+							A large, standing, exquisitely detailed Father Christmas figure dressed in the luxurious fabrics of the Elizabethan Madrigal Feast. Created and donated by Michelle Treichler of Whimsies.
+						</p>
+				</div>
 			</div>
-			<button id="opener">Open Dialog</button>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-2.gif" align="center" width="225"/>
-			<p>2. Crazy Quilt Needlework</p>
+			<div id="opener2">
+				<img src="/images/emf/raffle/12-G-2.gif" align="center" width="225" />
+				<p>2. Crazy Quilt Needlework</p>
+				<div id="dialog2" class="dialog" title="2. Crazy Quilt Needlework">
+						<p>
+							Crafted from Madrigal Feast fabrics. Created and donated by Cheryl Fowler of Complements of Cheryl.
+						</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-3.gif" align="center" height="200" />
-			<p>3. Elegant Centerpiece</p>
+			<div id="opener3">
+				<img src="/images/emf/raffle/12-G-3.gif" align="center" height="200" />
+				<p>3. Elegant Centerpiece</p>
+				<div id="dialog3" class="dialog" title="3. Elegant Centerpiece">
+						<p>
+							Footed urn filled with hydrangea, red magnolias and a wealth of red berries. Lush ivy winds throughout the arrangement created for this Elizabethan Madrigal. Created and donated by Linda Bennett of Flowers Galore.
+						</p>
+				</div>
+			</div>
 		</li>
 		<br/><br/>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-4.gif" align="center" height="200" width="190"/>
-			<p>4. Classical Music Basket</p>
+			<div id="opener4">
+				<img src="/images/emf/raffle/12-G-4.gif" align="center" height="200" width="190"/>
+				<p>4. Classical Music Basket</p>
+				<div id="dialog4" class="dialog" title="4. Classical Music Basket">
+						<p>
+							Celebrating the Brazosport Symphony Orchestra’s 30th Season – Includes 6 “Flex” Tickets to 2012 – 2013 Season Brazosport Symphony Orchestra concerts, 4 elegant champagne flutes for enjoying the two bottles of Moet Champagne. You’ll also find a collection of music-themed Christmas tree ornaments a classic collection of chocolate truffles, a trio of elegant photo frames and a beautiful Fresh-water pearl set. For your own personal celebration, we’ve included the appropriate music-themed paper goods and a gift certificate for a Beautifully Created Celebration Cake from “A Little Piece of Heaven,” in Clute, Texas. Donated by the Brazosport Symphony Orchestra.
+						</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-5.gif" align="center" width="225" />
-			<p>5. Traveling Accoutrements</p>
+			<div id="opener5">
+				<img src="/images/emf/raffle/12-G-5.gif" align="center" width="225" />
+				<p>5. Traveling Accoutrements</p>
+				<div id="dialog5" class="dialog" title="5. Traveling Accoutrements">
+						<p>
+							Vera Bradley duffle bag and $75 gift card. Donated by Elaine’s Dress Shop.
+						</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-6.gif" align="center" height="200" />
-			<p>6. Juggling Jester <br/>Doll Sculpture</p>
+			<div id="opener6">
+				<img src="/images/emf/raffle/12-G-6.gif" align="center" height="200" />
+				<p>6. Juggling Jester <br/>Doll Sculpture</p>
+				<div id="dialog6" class="dialog" title="6. Juggling Jester Doll Sculpture">
+						<p>
+							Original, one-of-a-kind, 17” dressed in period costume. Created in 2011 and donated by Joyce Patterson of FabricImages by Joyce.
+						</p>
+				</div>
+			</div>
 		</li>
 		<br/><br/>
 		<li class="productlist">
+		<div id="opener7">
 			<img src="/images/emf/raffle/12-G-7.gif" align="center" height="200" />
 			<p>7. Fit for a Queen</p>
+			<div id="dialog7" class="dialog" title="7. Fit for a Queen">
+						<p>
+							Stunning gold–tone necklace with rhinestone and pearl charms and a rhinestone cross. Uniquely designed and donated by Becky Gore La Roche of BGL Designs.
+						</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-8.gif" align="center" width="225" />
-			<p>8. A Taste of The Center</p>
+			<div id="opener8">
+				<img src="/images/emf/raffle/12-G-8.gif" align="center" width="225" />
+				<p>8. A Taste of The Center</p>
+				<div id="dialog8" class="dialog" title="8. A Taste of The Center">
+						<p>
+							A pre-theater wine and cheese reception for four at The Center. With a basket of four elegant EMF wine glasses & gift items from Center Member Groups. Hosted and donated by Sherry Tesch and Orren & Margaret Gaspard.
+						</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-9.gif" align="center" height="200" />
-			<p>9. Holiday Decor</p>
+			<div id="opener9">
+				<img src="/images/emf/raffle/12-G-9.gif" align="center" height="200" />
+				<p>9. Holiday Decor</p>
+				<div id="dialog9" class="dialog" title="9. Holiday Decor">
+						<p>
+							Decorative swag created by Marsha Albert and donated by Mary Beth Blankenship.
+						</p>
+				</div>
+			</div>
 		</li>
 		<br/>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-10.gif" align="center" width="225" />
-			<p>10. Your Royal Family</p>
+			<div id="opener10">
+				<img src="/images/emf/raffle/12-G-10.gif" align="center" width="225" />
+				<p>10. Your Royal Family</p>
+				<div id="dialog10" class="dialog" title="10. Your Royal Family">
+						<p>
+							One outdoor individual, family or business photography session and one digitized 16X20 Fine Art Gallery Wall Portrait by “Sir John.” Created and donated by Michael Bayer of MichaelBayer.com Photography.
+						</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-11.gif" align="center" height="200" />
-			<p>11. Roses and the River Dinner</p>
+			<div id="opener11">
+				<img src="/images/emf/raffle/12-G-11.gif" align="center" height="200" />
+				<p>11. Roses and the River Dinner</p>
+				<div id="dialog11" class="dialog" title="11. Roses and the River Dinner">
+						<p>
+							Overnight accomodations & breakfast for two at Roses and the River, located amid luxuriant rose gardens on the banks of the peaceful San Bernard River. Donated by Dr. & Mrs. Richard Hosack.
+						</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-12.gif" align="center" width="225" />
-			<p>12. A Week in Aruba</p>
+			<div id="opener12">
+				<img src="/images/emf/raffle/12-G-12.gif" align="center" width="225" />
+				<p>12. A Week in Aruba</p>
+				<div id="dialog12" class="dialog" title="12. A Week in Aruba">
+						<p>
+							Luxury accommodations at the La Quinta Resort Condominiums in Aruba for one week. Must be used by August 2013. Donated by Jocelyn Grigson.
+						</p>
+				</div>
+			</div>
 		</li>
 		<br/>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-13.gif" align="center" width="225" />
-			<p>13. Matagorda Bay Fishing Trip</p>
+			<div id="opener13">
+				<img src="/images/emf/raffle/12-G-13.gif" align="center" width="225" />
+				<p>13. Matagorda Bay Fishing Trip</p>
+				<div id="dialog13" class="dialog" title="13. Matagorda Bay Fishing Trip">
+						<p>
+							Explore the Matagorda Bay System, fishing for speckled trout and red drum. Two fishermen. Boat, lunch and tackle provided. Donated by James and Sarah Heller.
+						</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-14.gif" align="center" width="225" />
-			<p>14. Seated Dinner for Eight or Ten</p>
+			<div id="opener14">
+				<img src="/images/emf/raffle/12-G-14.gif" align="center" width="225" />
+				<p>14. Seated Dinner for Eight or Ten</p>
+				<div id="dialog14" class="dialog" title="14. Seated Dinner for Eight or Ten">
+						<p>
+							Dinner prepared & served with selected wines at Holly Farms in Wild Peach Village. Must be redeemed by March 2013. Donated by Mary Ruth Rhodenbaugh.
+						</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-15.gif" align="center" width="225" />
-			<p>15. Edquist, Notgrass and Ruthstrom Band Gift Certificate</p>
+			<div id="opener15">
+				<img src="/images/emf/raffle/12-G-15.gif" align="center" width="225" />
+				<p>15. Edquist, Notgrass and Ruthstrom Band Gift Certificate</p>
+				<div id="dialog15" class="dialog" title="15. Edquist, Notgrass and Ruthstrom Band Gift Certificate">
+					<p>
+						Unique, country/hippy band for your private party anywhere within Brazoria County. Band requires a little sustenance in the form of beer and food. Any tips will go to Brazosport Center for the Arts and Sciences donated by Matt Edquist and his Band.
+					</p>
+				</div>
+			</div>
 		</li>
 		<br/>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-16.gif" align="center" width="215" />
-			<p>16. French Basket Gourmet Class</p>
+			<div id="opener16">
+				<img src="/images/emf/raffle/12-G-16.gif" align="center" width="215" />
+				<p>16. French Basket Gourmet Class</p>
+				<div id="dialog16" class="dialog" title="16. French Basket Gourmet Class">
+					<p>
+						Cooking class for 6 including preparation and consumption of a three–course meal with appropriate wine parings for each course. Taught and donated by Arlette Hardoin.
+					</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-17.gif" align="center" height="200" />
-			<p>17. Fiddler on the Roof</p>
+			<div id="opener17">
+				<img src="/images/emf/raffle/12-G-17.gif" align="center" height="200" />
+				<p>17. Fiddler on the Roof</p>
+				<div id="dialog17" class="dialog" title="17. Fiddler on the Roof">
+					<p>
+						Six tickets for a selected performance of the 2013 BCS summer production. Includes a pre–theater party with food and a backstage tour. Hosted and donated by Brazosport Center Stages.
+					</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-18.gif" align="center" width="225" />
-			<p>18. Weekend Retreat</p>
+			<div id="opener18">
+				<img src="/images/emf/raffle/12-G-18.gif" align="center" width="225" />
+				<p>18. Weekend Retreat</p>
+				<div id="dialog18" class="dialog" title="18. Weekend Retreat">
+					<p>
+						Weekend for two at Houston’s Omni Hotel with breakfast and massages. Donated by Lisa Baker of The Source Weekly.
+					</p>
+				</div>
+			</div>
 		</li>
 		<br/>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-19.gif" align="center" height="200" />
-			<p>19. Boot Camp</p>
+			<div id="opener19">
+				<img src="/images/emf/raffle/12-G-19.gif" align="center" height="200" />
+				<p>19. Boot Camp</p>
+				<div id="dialog19" class="dialog" title="19. Boot Camp">
+					<p>
+						Two ten–week Total Body Performance boot camp sessions. Donated by Kenny York & Tracy Page.
+					</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-20.gif" align="center" width="225" />
-			<p>20. The Excitement of MSR, Houston's Karting Track</p>
+			<div id="opener20">
+				<img src="/images/emf/raffle/12-G-20.gif" align="center" width="225" />
+				<p>20. The Excitement of MSR, Houston's Karting Track</p>
+				<div id="dialog20" class="dialog" title="20. The Excitement of MSR, Houston's Karting Track">
+					<p>
+						Two 15–minute karting sessions each for 6 people. Must be 9 years or older. Donated by MSR Houston.
+					</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-21.gif" align="center" width="225" />
-			<p>21. Mountain House in Colorado</p>
+			<div id="opener21">
+				<img src="/images/emf/raffle/12-G-21.gif" align="center" width="225" />
+				<p>21. Mountain House in Colorado</p>
+				<div id="dialog21" class="dialog" title="21. Mountain House in Colorado">
+					<p>
+						One week surrounded by mountains nestled in the Pinos Creek Valley, outside of Del Norte, CO. Donated by Susan and Mike Moss.
+					</p>
+				</div>
+			</div>
 		</li>
 		<br/>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-G-22.gif" align="center" width="215" />
-			<p>22. Medical Spa Gift Certificate</p>
-		</li><li class="productlist">
-			<img src="/images/emf/raffle/12-G-23.gif" align="center" width="215" />
-			<p>23. Dividing the Estate</p>
-		</li><li class="productlist">
-			<img src="/images/emf/raffle/12-G-24.gif" align="center" width="200" />
-			<p>24. Dinner for Six</p>
+			<div id="opener22">
+				<img src="/images/emf/raffle/12-G-22.gif" align="center" width="215" />
+				<p>22. Medical Spa Gift Certificate</p>
+				<div id="dialog22" class="dialog" title="22. Medical Spa Gift Certificate">
+					<p>
+						4 treatments of CoolSculping and Skin Care Treatment Package including Microdermabrasion and either Juvederm or Botox. Donated by Tracy Page, Esthetician and Dr. Scott Yarish, Gulf Coast Plastic Surgery in Lake Jackson.
+					</p>
+				</div>
+			</div>
 		</li>
-</ul>
-<br/>
-<!--EndTest-->
-<!--GoldDiscriptions
-			1. Father Christmas – Large, standing, exquisitely detailed Father Christmas figure dressed in the luxurious fabrics of the Elizabethan Madrigal Feast. Created and donated by Michelle Treichler of Whimsies.
-		<br/><br/>
-			2. Crazy Quilt Needlework – Crafted from Madrigal Feast fabrics. Created and donated by Cheryl Fowler of Complements of Cheryl.
-		<br/><br/>
-			3. Elegant Centerpiece – Footed urn filled with hydrangea, red magnolias and a wealth of red berries. Lush ivy winds throughout the arrangement created for this Elizabethan Madrigal. Created and donated by Linda Bennett of Flowers Galore.
-		<br/><br/>
-			4. Classical Music Basket - Celebrating the Brazosport Symphony Orchestra’s 30th Season – Includes 6 “Flex” Tickets to 2012 – 2013 Season Brazosport Symphony
-			Orchestra concerts, 4 elegant champagne flutes for enjoying the two bottles of Moet Champagne. You’ll also find a collection of music-themed Christmas tree ornaments a classic collection of chocolate truffles, a trio of elegant photo frames and a beautiful Fresh-water pearl set. For your own personal celebration, we’ve included the appropriate music-themed paper goods and a gift certificate for a Beautifully Created Celebration Cake from “A Little Piece of Heaven,” in Clute, Texas. Donated by the Brazosport Symphony Orchestra.
-		<br/><br/>
-			5. Traveling Accoutrements – Vera Bradley duffle bag and $75 gift card. Donated by Elaine’s Dress Shop.
-		<br/><br/>
-			6. Juggling Jester Doll Sculpture – Original, one-of-a-kind, 17” dressed in period costume. Created in 2011 and donated by Joyce Patterson of FabricImages by Joyce.
-		<br/><br/>
-			7. Fit for a Queen – Stunning gold–tone necklace with rhinestone and pearl charms and a rhinestone cross. Uniquely designed and donated by Becky Gore La Roche of BGL Designs.
-		<br/><br/>
-			8. A Taste of The Center – A pre-theater wine and cheese reception for four at The Center. With a basket of four elegant EMF wine glasses & gift items from Center Member Groups. Hosted and donated by Sherry Tesch and Orren & Margaret Gaspard.
-		<br/><br/>
-			9. Holiday Décor – Decorative swag created by Marsha Albert and donated by Mary Beth Blankenship.
-		<br/><br/>
-			10. Your Royal Family – One outdoor individual, family or business photography session and one digitized 16X20 Fine Art Gallery Wall Portrait by “Sir John.” Created and donated by Michael Bayer of MichaelBayer.com Photography.
-		<br/><br/>
-			11. Roses and the River Dinner – Overnight accomodations & breakfast for two at Roses and the River, located amid luxuriant rose gardens on the banks of the peaceful San Bernard River. Donated by Dr. & Mrs. Richard Hosack.
-		<br/><br/>
--->
+		<li class="productlist">
+			<div id="opener23">
+				<img src="/images/emf/raffle/12-G-23.gif" align="center" width="215" />
+				<p>23. Dividing the Estate</p>
+				<div id="dialog23" class="dialog" title="23. Dividing the Estate">
+					<p>
+						Two wills and testaments. Donated by Mauro Law Office.
+					</p>
+				</div>
+			</div>
+		</li>
+		<li class="productlist">
+			<div id="opener24">
+				<img src="/images/emf/raffle/12-G-24.gif" align="center" width="200" />
+				<p>24. Dinner for Six</p>
+				<div id="dialog24" class="dialog" title="24. Dinner for Six">
+					<p>
+						Gift certificate for dinner for six at Lake Jackson’s elegant, new restaurant, Table 24. Donated by Leonard & Janel Botello, by Royal Appointment, caterers of the 2012 Madrigal Feast.
+					</p>
+				</div>
+			</div>
+		</li>
+	</ul>
+	<br/>
 </div>
 <a href="#top">Back to Top</a>
 <br/>
@@ -201,42 +345,99 @@
 	<ul class="product">
 		<br/>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-S-1.gif" align="center" height="200" />
-			<p>1. Grass Orchids</p>
+			<div id="opener25">
+				<img src="/images/emf/raffle/12-S-1.gif" align="center" height="200" />
+				<p>1. Grass Orchids</p>
+				<div id="dialog25" class="dialog" title="1. Grass Orchids">
+					<p>
+						Gift certificate for dinner for six at Lake Jackson’s elegant, new restaurant, Table 24. Donated by Leonard & Janel Botello, by Royal Appointment, caterers of the 2012 Madrigal Feast.
+					</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-S-2.gif" align="center" width="225" />
-			<p>2. Prayers Written by Vailima</p>
+			<div id="opener25">
+				<img src="/images/emf/raffle/12-S-2.gif" align="center" width="225" />
+				<p>2. Prayers Written by Vailima</p>
+				<div class="dialog25" title="2. Prayers Written by Vailima">
+					<p>
+						Early 20th Centrury book of prayers by Robert Lewis Stevenson beatuifully illuminated by Alberto Sangorski. Donated by Jana and Kendric Marshall.
+					</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-S-3.gif" align="center" height="200" />
-			<p>3. Christmas by the Sea</p>
+			<div id="opener26">
+				<img src="/images/emf/raffle/12-S-3.gif" align="center" height="200" />
+				<p>3. Christmas by the Sea</p>
+				<div id="dialog26" class="dialog" title="3. Christmas by the Sea">
+					<p>
+						Unique Christmas tree made of shells from around the world. Created by Rosalee Prestigiacomo and donated by The Brazosport Museum of Natural Science.
+					</p>
+				</div>
+			</div>
 		</li>
 		<br/>
 		<br/>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-S-4.gif" align="center" height="200" />
-			<p>4. Gulf Coast Seaguls</p>
+			<div id="opener27">
+				<img src="/images/emf/raffle/12-S-4.gif" align="center" height="200" />
+				<p>4. Gulf Coast Seaguls</p>
+				<div id="dialog27" class="dialog" title="4. Gulf Coast Seaguls">
+					<p>
+						High resolution, 11 x 17 print of a Prismacolor drawing. Created and donated by Art League member Jared Paul Wilson of www.jaredpaulwilson.com
+					</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-S-5.gif" align="center" height="200" />
-			<p>5. Heaven in a Bath</p>
+			<div id="opener28">
+				<img src="/images/emf/raffle/12-S-5.gif" align="center" height="200" />
+				<p>5. Heaven in a Bath</p>
+				<div class="dialog" title="5. Heaven in a Bath">
+					<p>
+						Basket of Michel Design Works bath products and a bird figurine. Donated by Tammie McQueen of Tammie’s Touch.
+					</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-S-6.gif" align="center" width="225" />
-			<p>6. Warwick Castle</p>
+			<div id="opener">
+				<img src="/images/emf/raffle/12-S-6.gif" align="center" width="225" />
+				<p>6. Warwick Castle</p>
+				<div class="dialog" title="6. Warwick Castle">
+					<p>
+						Beautiful framed pen & ink drawing print of Warwick Castle. Donated by Beth Riley and Marcy Baker.
+					</p>
+				</div>
+			</div>
 		</li>
 		<br/>
 		<br/>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-S-7.gif" align="center" height="200" />
-			<p>7. Necessaire de Toilette</p>
+			<div id="opener">
+				<img src="/images/emf/raffle/12-S-7.gif" align="center" height="200" />
+				<p>7. Necessaire de Toilette</p>
+				<div class="dialog" title="7. Necessaire de Toilette">
+					<p>
+						Collection of handmade bath salts based on recipes of the Elizabethan era. Created and donated by Melina Whitacre.
+					</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
-			<img src="/images/emf/raffle/12-S-8.gif" align="center" height="200" />
-			<p>8. Scrapbooker & Card Maker's Delight</p>
+			<div id="opener">
+				<img src="/images/emf/raffle/12-S-8.gif" align="center" height="200" />
+				<p>8. Scrapbooker & Card Maker's Delight</p>
+				<div class="dialog" title="8. Scrapbooker & Card Maker's Delight">
+					<p>
+						Approximately $300 worth of products including: cardstock, stamps, ink pads, markers, an 8X8 album. Kits with instructions and supplies. Donated by Stampin’ Up www.StampinUp.com.
+					</p>
+				</div>
+			</div>
 		</li>
 		<li class="productlist">
+		<div id="opener">
 			<img src="/images/emf/raffle/12-S-9.gif" align="center" width="225" />
 			<p>9. Scottish Nectar</p>
 		</li>

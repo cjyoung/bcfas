@@ -315,3 +315,20 @@ font-face {
   font-weight: 700;
   src: local('Tangerine Bold'), local('Tangerine-Bold'), url(http://themes.googleusercontent.com/static/fonts/tangerine/v3/UkFsr-RwJB_d2l9fIWsx3nhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
+
+//*Raffle Item*// 
+ul.product { 
+	display: table; 
+	width: 100% 
+}
+li.productlist { 
+	//*display: table-cell; *//
+	text-align: center; 
+	border: 0;
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+}

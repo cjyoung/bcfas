@@ -2,7 +2,25 @@
 <head>
 <title>Elizabethan Madrigal Feast</title>
     <!--#include virtual="/includes/emf_head.shtml" -->
-	
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+    <script>
+    // increase the default animation speed to exaggerate the effect
+    $.fx.speeds._default = 1000;
+    $(function() {
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: "blind",
+            hide: "explode"
+        });
+ 
+        $( "#opener" ).click(function() {
+            $( "#dialog" ).dialog( "open" );
+            return false;
+        });
+    });
+    </script>
 </head>
 <body>
 <!--#include virtual="/includes/emf_top.shtml" -->
@@ -11,6 +29,7 @@
 	<a name="top"></a>
 	<h1>Elizabethan Madrigal Feast Raffle Items</h1>
 	<br/>
+	<p>
 			A king’s ransom worth of incredible treasures is available to lucky winners at the Madrigal Raffle. Visit the lobby of The Center to take a look. 
 		<br/><br/>
 			Items are separated into two categories: Gold and Silver. <br/>
@@ -21,6 +40,7 @@
 			We accept Cash, Check, Master Card, Visa, and Discover
 		<br/><br/>
 			Raffle items are listed below, images coming soon<br/><br/>
+	</p>
 </div>
 <div id="contentright" align="center">
 		<a href="#gold">Golden Game of Chance</a> | <a href="#silver">Silver Game of Chance</a>
@@ -36,6 +56,13 @@
 		<li class="productlist">
 			<img src="/images/emf/raffle/12-G-1.gif" align="center" height="200" />
 			<p>1. Father Christmas</p>
+			<div id="dialog" title="Gold1 dialog">
+					<p>
+						A large, standing, exquisitely detailed Father Christmas figure dressed in the luxurious fabrics of the Elizabethan Madrigal Feast. Created and donated by Michelle Treichler of Whimsies.
+					</p>
+				</a>
+			</div>
+			<button id="opener">Open Dialog</button>
 		</li>
 		<li class="productlist">
 			<img src="/images/emf/raffle/12-G-2.gif" align="center" width="225"/>

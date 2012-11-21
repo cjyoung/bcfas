@@ -18,11 +18,12 @@
  
 		for (var i = 1; i <= 48; i++)
 		{
-        $( "#opener" + i ).click(function() {
-            $( "#dialog" + i ).dialog( "open" );
-            return false;
-        });
+			$( "#opener" + i ).click({param_i : i}, function(event) {
+			$( "#dialog" + event.data.param_i ).dialog( "open" );
+			return false;
+			});
 		}
+
 		
 	
     });
@@ -356,10 +357,10 @@
 			</div>
 		</li>
 		<li class="productlist">
-			<div id="opener25">
+			<div id="opener26">
 				<img src="/images/emf/raffle/12-S-2.gif" align="center" width="225" />
 				<p>2. Prayers Written by Vailima</p>
-				<div class="dialog25" title="2. Prayers Written by Vailima">
+				<div id="dialog26" class="dialog" title="2. Prayers Written by Vailima">
 					<p>
 						Early 20th Centrury book of prayers by Robert Lewis Stevenson beatuifully illuminated by Alberto Sangorski. Donated by Jana and Kendric Marshall.
 					</p>
@@ -367,10 +368,10 @@
 			</div>
 		</li>
 		<li class="productlist">
-			<div id="opener26">
+			<div id="opener27">
 				<img src="/images/emf/raffle/12-S-3.gif" align="center" height="200" />
 				<p>3. Christmas by the Sea</p>
-				<div id="dialog26" class="dialog" title="3. Christmas by the Sea">
+				<div id="dialog27" class="dialog" title="3. Christmas by the Sea">
 					<p>
 						Unique Christmas tree made of shells from around the world. Created by Rosalee Prestigiacomo and donated by The Brazosport Museum of Natural Science.
 					</p>
@@ -380,10 +381,10 @@
 		<br/>
 		<br/>
 		<li class="productlist">
-			<div id="opener27">
+			<div id="opener28">
 				<img src="/images/emf/raffle/12-S-4.gif" align="center" height="200" />
 				<p>4. Gulf Coast Seaguls</p>
-				<div id="dialog27" class="dialog" title="4. Gulf Coast Seaguls">
+				<div id="dialog28" class="dialog" title="4. Gulf Coast Seaguls">
 					<p>
 						High resolution, 11 x 17 print of a Prismacolor drawing. Created and donated by Art League member Jared Paul Wilson of www.jaredpaulwilson.com
 					</p>
@@ -391,10 +392,10 @@
 			</div>
 		</li>
 		<li class="productlist">
-			<div id="opener28">
+			<div id="opener29">
 				<img src="/images/emf/raffle/12-S-5.gif" align="center" height="200" />
 				<p>5. Heaven in a Bath</p>
-				<div class="dialog" title="5. Heaven in a Bath">
+				<div id="dialog29" class="dialog" title="5. Heaven in a Bath">
 					<p>
 						Basket of Michel Design Works bath products and a bird figurine. Donated by Tammie McQueen of Tammie’s Touch.
 					</p>
@@ -402,10 +403,10 @@
 			</div>
 		</li>
 		<li class="productlist">
-			<div id="opener">
+			<div id="opener30">
 				<img src="/images/emf/raffle/12-S-6.gif" align="center" width="225" />
 				<p>6. Warwick Castle</p>
-				<div class="dialog" title="6. Warwick Castle">
+				<div id="dialog30" class="dialog" title="6. Warwick Castle">
 					<p>
 						Beautiful framed pen & ink drawing print of Warwick Castle. Donated by Beth Riley and Marcy Baker.
 					</p>
@@ -415,10 +416,10 @@
 		<br/>
 		<br/>
 		<li class="productlist">
-			<div id="opener">
+			<div id="opener31">
 				<img src="/images/emf/raffle/12-S-7.gif" align="center" height="200" />
 				<p>7. Necessaire de Toilette</p>
-				<div class="dialog" title="7. Necessaire de Toilette">
+				<div id="dialog31" class="dialog" title="7. Necessaire de Toilette">
 					<p>
 						Collection of handmade bath salts based on recipes of the Elizabethan era. Created and donated by Melina Whitacre.
 					</p>
@@ -426,10 +427,10 @@
 			</div>
 		</li>
 		<li class="productlist">
-			<div id="opener">
+			<div id="opener32">
 				<img src="/images/emf/raffle/12-S-8.gif" align="center" height="200" />
 				<p>8. Scrapbooker & Card Maker's Delight</p>
-				<div class="dialog" title="8. Scrapbooker & Card Maker's Delight">
+				<div id="dialog32" class="dialog" title="8. Scrapbooker & Card Maker's Delight">
 					<p>
 						Approximately $300 worth of products including: cardstock, stamps, ink pads, markers, an 8X8 album. Kits with instructions and supplies. Donated by Stampin’ Up www.StampinUp.com.
 					</p>
@@ -437,79 +438,190 @@
 			</div>
 		</li>
 		<li class="productlist">
-		<div id="opener">
+		<div id="opener33">
 			<img src="/images/emf/raffle/12-S-9.gif" align="center" width="225" />
 			<p>9. Scottish Nectar</p>
+			<div id="dialog33" class="dialog" title="9. Scottish Nectar">
+				<p>
+					Beautiful wooden-handled French basket with 18 year old Laphroaig single malt Scotch – Islay, smart rating 99 – and two Glencairn whiskey nosing glasses, the official Wiskeyfest glass. Enjoy with Celtic Thunder’s music to drink by. Created and donated by Marcie and Howard Allen.
+				</p>
+			</div>
+		</div>
 		</li>
 		<br/>
 		<br/>
 		<li class="productlist">
+		<div id="opener34">
 			<img src="/images/emf/raffle/12-S-10.gif" align="center" height="200" />
 			<p>10. Pet Lover's Gift Bag</p>
+			<div id="dialog32" class="dialog" title="10. Pet Lover's Gift Bag">
+				<p>
+					Doggy Delights with a gift certificate for one week of pet lodging for up to two pets. Donated by Jason and Stacey Suazo.
+				</p>
+			</div>
+		</div>
 		</li>
 		<li class="productlist">
+		<div id="opener35">
 			<img src="/images/emf/raffle/12-S-11.gif" align="center" height="200" />
-			<p>11. The Queen of Hears</p>
+			<p>11. The Queen of Hearts</p>
+			<div id="dialog35" class="dialog" title="11. The Queen of Hearts">
+				<p>
+					Exquisite silver wrapped–wire pendant with blue heart stone. Donated by Art League member, Shey Cotten of GypsyWind Studio.
+				</p>
+			</div>
+		</div>
 		</li>
 		<li class="productlist">
+		<div id="opener36">
 			<img src="/images/emf/raffle/12-S-12.gif" align="center" height="200" />
 			<p>12. Royal Doulton Collector's Plate</p>
+			<div id="dialog35" class="dialog" title="12. Royal Doulton Collector's Plate">
+				<p>
+					King Henry VIII plate. Donated by Mary Meyers and Thomas Henderson.
+				</p>
+			</div>
+		</div>
 		</li>
 		<br/>
 		<br/>
 		<li class="productlist">
+		<div id="opener37">
 			<img src="/images/emf/raffle/12-S-13.gif" align="center" height="200" />
 			<p>13. Discover the Stars</p>
+			<div id="dialog35" class="dialog" title="13. Discover the Stars">
+				<p>
+					Philip’s Complete Guide to Stargazing by Rabin Sacgell and a 2013 Deep Space Mysteries Calender. Donated by Brazosport Planetarium.
+				</p>
+			</div>
+		</div>
 		</li>
 		<li class="productlist">
+		<div id="opener38">
 			<img src="/images/emf/raffle/12-S-14.gif" align="center" width="225" />
 			<p>14. Sadler Tea Service</p>
+			<div id="dialog35" class="dialog" title="14. Sadler Tea Service">
+				<p>
+					Collectible china Sadler Elizabeth I teapot with Lefton china sugar and creamer on tray. Donated by Keith & Susan Plowman.
+				</p>
+			</div>
+		</div>
 		</li>
 		<li class="productlist">
+		<div id="opener39"
 			<img src="/images/emf/raffle/12-S-15.gif" align="center" height="200" />
 			<p>15. Annual Register 1792</p>
+			<div id="dialog35" class="dialog" title="15. Annual Register 1792">
+				<p>
+					Antiquarian book published by Edmund Burk including a history of Queen Elizabeth. Donated by Larry and Donna Jablecki.
+				</p>
+			</div>
+		</div>
 		</li>
 		<br/>
 		<br/>
 		<li class="productlist">
+		<div id="opener40">
 			<img src="/images/emf/raffle/12-S-16.gif" align="center" width="225" />
 			<p>16. Original Works of Art</p>
+			<div id="dialog35" class="dialog" title="16. Original Works of Art">
+				<p>
+					The Beet a prisma color drawing by Art League member Norma Robuck and Water Lilies an oil painting by Art League member Betty Klasal.
+				</p>
+			</div>
+		</div>
 		</li>
 		<li class="productlist">
+		<div id="opener41">
 			<img src="/images/emf/raffle/12-S-17.gif" align="center" height="200" />
 			<p>17. Sterling and Stone</p>
+			<div id="dialog35" class="dialog" title="17. Sterling and Stone">
+				<p>
+					Custom designed necklace and earring set of polished stone and sterling silver. Created and donated by Art League member, Sharon Graham.
+				</p>
+			</div>
+		</div>
 		</li>
 		<li class="productlist">
+		<div id="opener42">
 			<img src="/images/emf/raffle/12-S-18.gif" align="center" height="200" />
 			<p>18. Castle in the Sky</p>
+			<div id="dialog35" class="dialog" title="18. Castle in the Sky">
+				<p>
+					Handmade wooden castle birdhouse. Created and donated by Horace Driskill.
+				</p>
+			</div>
+		</div>
 		</li>
 		<br/>
 		<br/>
 		<li class="productlist">
+		<div id="opener43">
 			<img src="/images/emf/raffle/12-S-19.gif" align="center" height="200" />
 			<p>19. Victuals & Vintages</p>
+			<div id="dialog35" class="dialog" title="19. Victuals & Vintages">
+				<p>
+					Basket of gourmet appetizers and wine pairings. Created and donated by Anne and Pat Quirk.
+				</p>
+			</div>
+		</div>
 		</li>
 		<li class="productlist">
+		<div id="opener44">
 			<img src="/images/emf/raffle/12-S-20.gif" align="center" height="200" />
 			<p>20. Cake for a Queen</p>
+			<div id="dialog35" class="dialog" title="20. Cake for a Queen">
+				<p>
+					Custom 12X18 cake, design of your choosing. Created and donated by Annette Cook.
+				</p>
+			</div>
+		</div>
 		</li>
 		<li class="productlist">
+		<div id="opener45">
 			<img src="/images/emf/raffle/12-S-21.gif" align="center" width="225" />
 			<p>21. Lunch for Two</p>
+			<div id="dialog35" class="dialog" title="21. Lunch for Two">
+				<p>
+					Leisurely lunch at The Grape Taste. Donated by Debra Wassberg.
+				</p>
+			</div>
+		</div>
 		</li>
 		<br/>
 		<br/>
 		<li class="productlist">
+		<div id="opener46">
 			<img src="/images/emf/raffle/12-S-22.gif" align="center" width="225" />
 			<p>22. Sparkling Smile</p>
+			<div id="dialog35" class="dialog" title="22. Sparkling Smile">
+				<p>
+					Teeth whitening. Donated by Dr. Brian Bell, DDS.
+				</p>
+			</div>
+		</div>
 		</li>
 		<li class="productlist">
+		<div id="opener47">
 			<img src="/images/emf/raffle/12-S-23.gif" align="center" height="200" />
 			<p>23. Princess at Your Party</p>
+			<div id="dialog35" class="dialog" title="23. Princess at Your Party">
+				<p>
+					Appearance by Belle at children’s party. Donated by Jessica Dornan.
+				</p>
+			</div>
+		</div>
 		</li>
 		<li class="productlist">
+		<div id="opener48">
 			<img src="/images/emf/raffle/12-S-24.gif" align="center" width="225" />
 			<p>24. Local Flavor</p>
+			<div id="dialog35" class="dialog" title="24. Local Flavor">
+				<p>
+					Gift certificate for dinner for four at The Local. Donated by Richard and Gaye Linford.
+				</p>
+			</div>
+		</div>
 		</li>
 		<br/>
 <!--SilverDiscriptions

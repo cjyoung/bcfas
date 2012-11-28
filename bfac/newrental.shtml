@@ -1,0 +1,144 @@
+<html>
+<head>
+	<title>Brazosport Center for the Arts and Sciences</title>
+	<!--#include virtual="/includes/head.shtml" -->
+	<script src="/js/jquery-1.8.3.js"></script>
+    <script src="/js/jquery-ui-1.9.2.custom.js"></script>
+    <link rel="stylesheet" href="/styles/custom-theme/jquery-ui-1.9.2.custom.css" />
+	<script>
+    $(function() {
+        $( "#accordion" ).accordion({
+			heightStyle: "content"
+		});
+    });
+	</script>
+</head>
+<body>
+	<!--#include virtual="/includes/top.shtml" -->
+	<!--#include virtual="/includes/bfac_menu.shtml" -->
+<div id="content">
+<div id="accordion">
+		<h3><a href="#">Areas Available for Rent</a></h3>
+		<div>
+			<p>
+			Gallery, Muesum, Arena, Large Theater, Lobby, Green Room, Class Room, Conference Room
+			</p>
+		</div>
+		<h3><a href="#">Rental Rates</a></h3>
+		<div>
+			<p>
+			Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+			purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+			velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+			suscipit faucibus urna.
+			</p>
+		</div>
+		<h3><a href="#">Rental Policy</a></h3>
+		<div>
+			<p>
+			<b><i>The Center is a non-profit, tax-exempt organization. All facilities, funishings and equipment were paid for by community donations. Maintenance repairs to the facility, and replacement of furnishings and equipment are also funded by charitable donations. The following terms apply:</i></b>
+			<ol>
+				<li>All charges are on a per diem basis Charges begin at the time of set-up and end when the room is returned to its original state.</li>
+				<li>Lessee agrees to be responsible to The Center for the use and care of The Center facilities and will us The Center only for those purposes stated in the application. Areas will be left in a clean and orderly manner.</li>
+				<li>Lessee agrees to indemnify and hold harmless The Center and their agents and employees from, and against all clams, damages, losses and expenses including attorney's fees arising in connection with the use of these facilities caused by Lessee, its agents, employees, invitees or guests, including claims losses and expenses arising from negligence of The Center, its agents or employees.</li>
+				<li>Under no circumstances will The Center be responsible to lessee for any loss or damage to equipment or property of lessee, his agents, invitees or guests including loss or damage occasioned by negligence of The Center, its agents or employees.</li>
+				<li>Lessee will not sub-lease this area to any other person or parties.</li>
+				<li>Lessee accepts full liability for any damages to The Center building, equipment, or contents (including exhibits and artwork) by its members, invitees, or guests to the extent of repair or replacement, as determined by The Center. <b><i>Lesse will communicate policies contained in this agreement to personnel involved with this event such as caterers, decorators, program chairmen, etc.</i></b></li>
+				<li>The Center areas leased will not in any way be used for political or religious purposes.</li>
+				<li>Appropriate attire and behavior is expected by Lessee, its members, invitees or guests.</li>
+				<li>No modification to The Center building, materials or equipment is allowed without written permission from The Center Administrator.</li>
+				<li>Lessee will not <b><i>tape, pin or other wise attach anything to any surfaces in The Center without prior consent of The Center Administrator or his Assistant. Lessee accepts full liability for any damages to The Center resulting from such use to the extent of repair as determined by The Center.</i></b></li>
+				<li>Use of any member group's facilities, equipment or materials will require permission from the President of the appropriate member group. Request needs to be submitted to The Center office prior to use.</li>
+				<li>Food and drink are allowed in designated areas only with the permission of The Center Administrator or his Assistant and are strictly prohibited in theaters. Lessee will be responsible for any cleaning fees resulting from spilled food or drink carried into the carpeted exhibit areas. A minimum $50 cleaning fee will be charged.</li>
+				<li>Smoking is not allowed in Center areas. Lesee assumes responsibility for the enforcement of this rule during the course of the event.</li>
+				<li>A deposit of 100% of estimated charges along with a signed policy agreement is required to secure a rental. If additional charges are incurred, payment of additional fees is expected within 30 days after event.</li>
+				<li>Lessee must give a 30-day cancellation notice in order for deposit to be refunded.</li>
+				<li>There will be Center staff on duty for each function. Staff schedule is based on pre-arranged departure time given by lessee. If lessee exceeds this time, overtime charges of $30.00 per hour will be charged in addition to the regular rental rate.</li>
+				<li>Functions can <b>not</b> be scheduled past 12:00 midnight without prior approval of The Center Administrator or his Assistant.</li>
+				<li>Center tablecloths are available for rent at the price listed in on the Rental Rates sheet.</li>
+				<li>Permanently stained or damaged cloths will be replaced by lessee for a fee of $100 per cloth.</li>
+				<li>No candles will be used in any Center areas without prior approval of Administrator or his Assistant. Candles used on Center table cloths must have proper protection for the cloths (i.e. glass/mirror/cloth). Votive cups are perferred. A $25 additional fee per cloth will be charged for removal of candle wax from tablecloths.</li>
+				<li>Glitter, confetti, sand and hay is NOT permitted under any circumstances in any area of The Center. If you have unusual type materials you wish to use for decorating you MUST get approval two weeks prior to your rental.</li>
+				<li>No sparklers or fireworks are allowed on premises.</li>
+				<li>Lessee will be charged an additional cleaning fee of $50.00 if grounds are excessively littered. (i.e. decorating of a going away car after a wedding reception).</li>
+				<li>Keg beer must have a leak proof container for ice and a small rug under it to protect floor from sweating and causing a slipping hazard. Kegs can not be placed in carpeted areas of The Center.</li>
+				<li>Ice chest must have small rug under them to protect floor from sweatingg and causing a slipping hazard. Ice chest can not be placed on carpeted areas of The Center.</li>
+				<li>Per the law, alcohol may be served, but not sold.</li>
+				<li>Per the law, Fire Exits must remain clear of obstruction.</li>
+				<li>Wedding Receptions: Only natural, undyed, dried flower petals, blowing bubbles and releasing of butterflies are permited outside. Rice, confetti or birdseed is not allowed.</li>
+				<li>No long distance calls are allowed on Center Lines.</li>
+				<li> For information purposes, (i.e. invitations, press releases) list the facility as:<br/>
+					<blockquote>
+						The Center for the Arts & Sciences<br/>
+						400 College Blvd<br/>
+						Clute, TX 77531<br/>
+					</blockquote>
+				</li>
+			</ol>
+			<h3>Use of the Lobby:</h3>
+				<ol>
+					<li>Exclusive us of the loby area cannot be guaranteed.</li>
+					<li>Benches, plants, displays, permanent plaques and other lobby furnishings cannot be moved.</li>
+				</ol>
+			<h3>Use of the Gallery:</h3>
+				<ol>
+					<li>Use of the Gallery is strictly contingent upon space available as determined by the exhibit arrangement. No alteration to arrangement or placement of artwork is allowed. Artwork cannot be moved or removed.</li>
+					<li>Gallery is available for rentals during non-gallery hours only. Set-up and decorating may begin during gallery hours, but function can not begin during normal Gallery hours of 10:00 a.m. to 5:00 p.m. Tuesday through Saturday, 2:00 p.m. to 5:00 p.m. Sundays.</li>
+					<li><b>The Gallery exhibit schedule is subject to change due to factors beyond the control of The Center or the Brazosport Art League. Configuration of the Gallery is dependent on the work to be exhibited which is not known until the actual day of the exhibit change; therefore, we cannot confirm plans for any set-up until that time.</b></li>
+					<li>No food or drink placed on piano, sales counters, display tables or desk. No food or drink on carpeted area of the Gallery. Lessee will be responsible for any cleaning fees resulting from spilled food or dirnk carried intor the Gallery. A minimum $50 cleaning fee will be charged. Glitter and confetti are not permitted.</li>
+					<li>The Center may require a Gallery host to supervise the exhibit, fee to be determined at the time of application.</li>
+					<li>Nothing is to be nailed, taped, glued, pinned or attached in any way to any floor, wall or ceiling without consent of Center management.</li>
+				</ol>
+			<h3>Use of the Large Theater/Arena Theater:</h3>
+				<ol>
+					<li>Use of the Theaters are strictly contingent upon space available as determined by the current stage set-up (riser and chair set-up in the Arena Theater). No changes to the arrangement of the stage, set pieces or other furnishings are allowed.</li>
+					<li>Technical Booths in both the Large and Arena Theaters are restricted to Center Stages approved technical support.</li>
+					<li>Technician fee is listed in the Rental Rates sheet. Technician's time includes:
+						<ol>
+							<li>Consultation time with techinician(s)concerning event.</li>
+							<li>Any rehearsal times where lights and technician are used.</li>
+							<li>Hours of the actual event.</li>
+							<li>Time spent after event resetting lights to their original configuration.</li>
+						</ol>
+					<li>Lessee will consult with technician immediately after cnfirmation of rental date to discuss the capability of the existing lighting and sound systems before proceeding with event plans. Lessee will provide Technician with an agenda for the event and a cue sheet <b>at least on week prior to the event Failure to communicat tecnical plans may result in overtime charges of $30.00 per hour.</b></li>
+					<li>No smoking, food or drinks on stage or in house unless required by script and approved by Center Management prior to performance. Smoking is not permitted in any area of The Center.</li>
+					<li> At rehearsals, before, during and after the performances, lessee is responsible for supervising use of the dressing rooms, and agrees to enforce Center policies. The renter is reponsible for the property of its performers, crew or others during the period of rental use.</li>
+					<li>No major scenic building or painting will be allowed in either the Large or Arena theaters withour prior approval of Center management.</li>
+					<li>No stage equipment is to be moved or taken down, no electrival connections for lights or sound are to be changed, and no appliance installed without consent of Center management.</li>
+					<li>Nothing is to be mailed, taped, glued, pinned or attached in any way to any curtain, floor, wall or ceiling without consent of Center management.</li>
+					<li>Scenery and properties must be fire-proofed before they are brought into either the Large or Arena Theaters. Open flames will not be permitted unless properly shielded, and approved by Center Managment.</li>
+					<li>Unusual electric connections or any unusual taging efects, such as open flame, pyrotechnics, water effects, etc., can be permitted in connection with a performance only after prior approval and consent by Center Management.</li>
+					<li>Children under 12 must be under adult supervision at all times to eliminate distractions and for sfety reasons.</li>
+					<li>Lessee is expected to clear the stage of their own equipment immediately after the final performance. Exceptions must be requested and approved in advance by Center Management.</li>
+					<li>Lesee must provide theater management and stage supervisors during all rehearsals and performances, otherwise The Center will provide such personnell for an additional fee.</li>
+				</ol>
+			<h3>Use of the Kitchen/Green Room:</h3>
+				<ol>
+					<li>Exclusive use of the kitchen area cannot be guaranteed.</li>
+					<li>The Kitchen will remain open for access by Center personnel.</li>
+					<li>Prior arrangements must be made for use of appliances (refrigerator, stove, and microwave).</li>
+					<li>Use of Center utensils, dinnerware, towels, etc. is prohibited.</li>
+				</ol>
+			
+			</p>
+		</div>
+		<h3><a href="#">Rental Example for Wedding Reception</a></h3>
+		<div>
+			<p>
+			Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+			et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+			faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+			mauris vel est.
+			</p>
+			<p>
+			Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+			Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+			inceptos himenaeos.
+			</p>
+		</div>
+</div>
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>
+

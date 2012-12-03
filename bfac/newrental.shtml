@@ -11,6 +11,11 @@
 			heightStyle: "content"
 		});
     });
+	$(function() {
+        $( "#accordion" ).accordion({
+            collapsible: true
+        });
+    });
 	</script>
 </head>
 <body>
@@ -21,17 +26,207 @@
 		<h3><a href="#">Areas Available for Rent</a></h3>
 		<div>
 			<p>
-			Gallery, Muesum, Arena, Large Theater, Lobby, Green Room, Class Room, Conference Room
+			Gallery<br/>
+			2,800 sq. ft.<br/>
+			Capacity of approx. 100 for Sit-Down Dinner<br/>
+			Approx. 200 for stand-up Function<br/>
+			<br/>
+			Muesum<br/>
+			12,150 sq. ft.<br/>
+			Capacity of approx. __ for Sit-Down Dinner<br/>
+			Approx. ___ for stand-up Funtion<br/>
+			<br/>
+			Arena<br/>
+			4,700 sq. ft.<br/>
+			Capacity of approx. __ for Sit-Down Dinner<br/>
+			Approx. ___ for stand-up Funtion<br/>
+			<br/>
+			Large Theater<br/>
+			9,900 sq. ft.<br/>
+			Capacity of approx. __ for Sit-Down Dinner<br/>
+			Approx. ___ for stand-up Funtion<br/>
+			<br/>
+			Lobby<br/>
+			2,000 sq. ft.<br/>
+			Capacity of approx. __ for Sit-Down Dinner<br/>
+			Approx. ___ for stand-up Funtion<br/>
+			<br/>
+			Green Room/Kitchen<br/>
+			Equiped with the following:<br/>
+			Full Fridgerator<br/>
+			Dishwaser<br/>
+			2 Sinks<br/>
+			Oven Stove/Top Combination<br/>
+			<br/>
+			Class Room<br/>
+			515 sq. ft.<br/>
+			The conference table provided with this room seats ___.<br/>
+			<br/>
+			Conference Room<br/>
+			261 sq. ft.<br/>
+			The conference table provided with this room seats ___.<br/>
+			<br/>
 			</p>
 		</div>
 		<h3><a href="#">Rental Rates</a></h3>
 		<div>
-			<p>
-			Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-			purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-			velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-			suscipit faucibus urna.
-			</p>
+			<table cellpadding="4" cellspacing="6">
+				<tr>
+					<td><b>Facility</b></td>
+					<td><b>First 3 Hrs.</b></td>
+				</tr>
+				<tr>
+					<td>Arena Theater</td>
+					<td>$226</td>
+				</tr>
+				<tr>
+					<td>Large Theater</td>
+					<td>$260</td>
+				</tr>
+				<tr>
+					<td>Studio</td>
+					<td>$97</td>
+				</tr>
+				<tr>
+					<td>Gallery</td>
+					<td>$107</td>
+				</tr>
+				<tr>
+					<td>Lobby</td>
+					<td>$93</td>
+				</tr>
+				<tr>
+					<td>Classroom</td>
+					<td>$77</td>
+				</tr>
+				<tr>
+					<td>Conference Rm</td>
+					<td>$75</td>
+				</tr>
+				<tr>
+					<td>Planetarium</td>
+					<td>$122</td>
+				</tr>
+				<tr>
+					<td>Kitchen/Green Rm</td>
+					<td>$77</td>
+				</tr>
+			</table>
+			<br/><br/>
+			<table cellpadding="4" cellspacing="6">
+				<tr>
+					<td><b>Equipment</b></td>
+					<td><b>Rate per Item</b></td>
+				</tr>
+				<tr>
+					<td>30" x 72" Tables</td>
+					<td>$5.00</td>
+				</tr>
+				<tr>
+					<td>60" Roud Tables</td>
+					<td>$10.00</td>
+				</tr>
+				<tr>
+					<td>Chairs</td>
+					<td>$0.50</td>
+				</tr>
+				<tr>
+					<td>Floorlength Ecru Rectangular Tablecloths</td>
+					<td>$14.00</td>
+				</tr>
+				<tr>
+					<td>Toppers Only</td>
+					<td>$5.00</td>
+				</tr>
+				<tr>
+					<td>Colored Table Skirting (No Top)</td>
+					<td>$7.00</td>
+				</tr>
+				<tr>
+					<td>55 cup Coffee Urn Only</td>
+					<td>$5.00</td>
+				</tr>
+				<tr>
+					<td>Coffee w/ Supplies (per 55 cups)</td>
+					<td>$5.00</td>
+				</tr>
+				<tr>
+					<td>Flip Chart Stand</td>
+					<td>$1.00</td>
+				</tr>
+				<tr>
+					<td>Flip Chart Pad & Markers</td>
+					<td>$25.00</td>
+				</tr>
+				<tr>
+					<td>Projector Stand</td>
+					<td>$3.00</td>
+				</tr>
+				<tr>
+					<td>Portable Screen</td>
+					<td>$5.00</td>
+				</tr>
+				<tr>
+					<td>Tabletop Lecturn</td>
+					<td>$10.00</td>
+				</tr>
+				<tr>
+					<td>Small Portable P.A. System (2 corded mics)</td>
+					<td>$15.00</td>
+				</tr>
+				<tr>
+					<td>Large Theater P.A. System</td>
+					<td>$10.00</td>
+				</tr>
+				<tr>
+					<td>TV/VCR/DVD</td>
+					<td>$20.00</td>
+				</tr>
+				<tr>
+					<td>Overhead Projector/Cart</td>
+					<td>$15.00</td>
+				</tr>
+				<tr>
+					<td>Large Theater Screen</td>
+					<td>$20.00</td>
+				</tr>
+				<tr>
+					<td>Music Stands</td>
+					<td>$1.00</td>
+				</tr>
+				<tr>
+					<td>Schimmel Piano/Gallery</td>
+					<td>$20.00</td>
+				</tr>
+				<tr>
+					<td>Large Theater Yamaha Upright</td>
+					<td>$30.00</td>
+				</tr>
+				<tr>
+					<td>Clavinova/Large Theater or Gallery</td>
+					<td>$30.00</td>
+				</tr>
+				<tr>
+					<td>Piano Tuning (arranged by BFAC)</td>
+					<td>$100.00</td>
+				</tr>
+				<tr>
+					<td>Phone Line Access per Jack</td>
+					<td>$5.00</td>
+				</tr>
+				<tr>
+					<td>Hear Assistance Device</td>
+					<td>$5.00</td>
+				</tr>
+				<tr>
+					<td>Copies</td>
+					<td>$0.10</td>
+				</tr>
+			</table>
+			<br/><br/>
+			Billed hours start at set-up and run until event is truck. Rates are applied on a per diem basis & include Center Staff set-up of tables/chairs, general cleaning before and after function.
+			<br/> 
+			Equipment is available on a first come first served basis. Other charges may apply.
 		</div>
 		<h3><a href="#">Rental Policy</a></h3>
 		<div>
@@ -124,17 +319,145 @@
 		</div>
 		<h3><a href="#">Rental Example for Wedding Reception</a></h3>
 		<div>
-			<p>
-			Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-			et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-			faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-			mauris vel est.
-			</p>
-			<p>
-			Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-			Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-			inceptos himenaeos.
-			</p>
+			<table cellpadding="4" cellspacing="6">
+				<tr>Room Charges</tr>
+				<tr>
+					<td><b>Facility</b></td>
+					<td><b>Arrival Time</b></td>
+					<td><b>Event Starting Time</b></td>
+					<td><b>Departure<br/>Time</b></td>
+					<td><b>End of <br/>Strike Time</b></td>
+					<td><b>Total Hours</b></td>
+					<td><b>Rate First 3 Hrs</b></td>
+					<td><b># of Add'l Hrs</b></td>
+					<td><b>Add'l Hrs. Rate</b></td>
+					<td><b>TOTAL</b></td>
+				</tr>
+				<tr>
+					<td>Gallery</td>
+					<td>2:00 p.m.</td>
+					<td>7:00 p.m.</td>
+					<td>11:00 p.m.</td>
+					<td>12:00 a.m.</td>
+					<td>10</td>
+					<td>$107.00</td>
+					<td>7</td>
+					<td>$36.00</td>
+					<td>$359.00</td>
+				</tr>
+				<tr>
+					<td>Lobby</td>
+					<td>2:00 p.m.</td>
+					<td>7:00 p.m.</td>
+					<td>11:00 p.m.</td>
+					<td>12:00 a.m.</td>
+					<td>10</td>
+					<td>$93.00</td>
+					<td>7</td>
+					<td>$36.00</td>
+					<td>$310.00</td>
+				</tr>
+				<tr>
+					<td>Kitchen</td>
+					<td>4:00 p.m.</td>
+					<td>7:00 p.m.</td>
+					<td>11:00 p.m.</td>
+					<td>12:00 a.m.</td>
+					<td>8</td>
+					<td>$77.00</td>
+					<td>7</td>
+					<td>$26.00</td>
+					<td>$207.00</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><b>Grand Total</b></td>
+					<td><b>$876.00</b></td>
+				</tr>
+			</table>
+			<table cellpadding="4" cellspacing="6">
+				<tr>Equipment Charges</tr>
+				<tr>
+					<td><b>Item</b></td>
+					<td><b>Number<br/>Requested</b></td>
+					<td><b>Price Each</b></td>
+					<td><b>Total</b></td>
+				</tr>
+				<tr>
+					<td>30"x72" Tables</td>
+					<td>_____</td>
+					<td>$5.00</td>
+					<td>_____</td>
+				</tr>
+				<tr>
+					<td>60" Round Tables</td>
+					<td>_____</td>
+					<td>$10.00</td>
+					<td>_____</td>
+				</tr>
+				<tr>
+					<td>Chairs</td>
+					<td>_____</td>
+					<td>$0.50</td>
+					<td>_____</td>
+				</tr>
+				<tr>
+					<td>Floorlength Rect.<br/>Ecru Tablecloths</td>
+					<td>_____</td>
+					<td>$14.00</td>
+					<td>_____</td>
+				</tr>
+				<tr>
+					<td>Toppers Only</td>
+					<td>_____</td>
+					<td>$5.00</td>
+					<td>_____</td>
+				</tr>
+				<tr>
+					<td>Colored<br/>Skirting (No Top)</td>
+					<td>_____</td>
+					<td>$7.00</td>
+					<td>_____</td>
+				</tr>
+				<tr>
+					<td>55 Cup Coffee Urn Only</td>
+					<td>_____</td>
+					<td>$5.00</td>
+					<td>_____</td>
+				</tr>
+				<tr>
+					<td>Colffee w/ Supplies (per 55 cups)</td>
+					<td>_____</td>
+					<td>$20.00</td>
+					<td>_____</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td><b>Grand Total</b></td>
+					<td><b>$0.00</b></td>
+				</tr>
+			</table>
+			<br/><br/>
+			<b>Estimated Total Charges: $876.00</b>
+			<br/><br/>
+			<b>Deposit Due: 50%</b>
+			<br/><br/>
+			SPECIAL USAGE NOTES FOR WEDDING RECEPTIONS:
+			<br/>
+			<ul>
+				<li>Capacity of Gallery is approx. 100 for sit-down dinner</li>
+				<li>Approx. 200 for stand-up functions</li>
+				<li>Most caterers will require use of the Kitchen</li>
+				<li>Carefully review Rental Policy</li>
+			</ul>
 		</div>
 </div>
 </div>

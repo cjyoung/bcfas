@@ -46,7 +46,7 @@ body {
 	padding-bottom: 5px;
 	display: inline;
 	font-size: 15px;
-	background: #3f1a00;
+	background: #3f1a00; /*should match the color of main's background */
 	color: #F2CB63;
 	text-align: center;
 	font-family: Trebuchet MS, Arial, Helvetica, Swiss, SunSans-Regular;
@@ -56,7 +56,7 @@ body {
 	margin: 0px;
 	border-bottom: solid 1px #3f1a00; /*should match the color of main's background */
 	font-family: Trebuchet MS, Arial, Helvetica, Swiss, SunSans-Regular;
-	color: #F2CB63
+	color: #F2CB63;
 }
 #contentleft li {
 	display: inline-block;
@@ -68,17 +68,19 @@ body {
 	vertical-align: middle;
 	font-weight: bold;
 	font-family: Trebuchet MS, Arial, Helvetica, Swiss, SunSans-Regular;
-	color: #F2CB63
+	text-decoration: none;
+	color: #F2CB63;
 }
 #contentleft li :hover{
-	background: #555;
+	/*background: #555;*/
+	text-decoration: underline;
 }
 
 #nav_header {
 display: block;
 height: 51px;
 width: 960px;
-	background-image: url(http://www.bcfas.org/images/emf/emfnavbannerbackground.png);
+background-image: url(http://www.bcfas.org/images/emf/emfnavbannerbackground.png);
 }
 #emf-cap-left {
 display: inline-block;
@@ -119,11 +121,11 @@ width: 39px;
 }
 .menu_table_td li a:hover {
 	/*text-decoration: underline; */
-	color: #eee;
+	color: #F2CB63;
 }
 .menu_table_td li a {
 	text-decoration: none;
-	color: #eee;
+	color: #F2CB63;
 	display:table-cell;
 	vertical-align: middle;
 	width: 98px;
@@ -166,7 +168,7 @@ width: 39px;
 }
 #contentleft li a:hover {
 	/*text-decoration: underline; */
-	color: #eee;
+	color: #F2CB63;
 }
 #contentleft li a {
 	display:table-cell;
@@ -174,6 +176,7 @@ width: 39px;
 	width: 160px;
 	padding-left: 2px;
 	height: 40px;
+	color: #F2CB63;
 }
 #page {
 	width: 100%;

@@ -30,7 +30,7 @@ body {
 	margin-left: 0px;
 }
 .menu_bottom {
-	height:100%;
+	height:auto;
 }
 #contentleft {
 	width: 160px;
@@ -126,8 +126,6 @@ body {
 .bg_red   li { 
 	background: #FB0024; 
 }
-
-
 
 #contentleft a {
 	color: #eee;
@@ -230,6 +228,7 @@ h2 {
 h3 {
 	font-size: 1.2em;
 }
+
 .colorbox {
 	margin-top: 2px;
 	width: 160px;

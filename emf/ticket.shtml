@@ -8,7 +8,7 @@
 <!--#include virtual="/includes/emf_menu.shtml" -->
 <div id="content">
 		<h1>Tickets</h1>
-		<h1>Purchase your tickets online today!</h1>
+		<!--<h1>Purchase your tickets online today!</h1>
 		<br/>
 		<a href="https://app.ticketturtle.com/index.php?ticketing=bcfas" target="_blank">Online tickets are sold here</a>
 		<br/><br/>
@@ -19,8 +19,11 @@
 			No refunds or exchanges after 5 pm on November 9, 2012
 		<br/><br/>
 		<div align="center">
-				<img src="/images/emf/emf-red-dimonds.gif" />
+				<img src="/images/emf/emf-red-dimonds.gif" />-->
+		<!--<h2>Tickets are currently SOLD OUT</h2>-->
 		</div>
+		<br/>
+			<h4>Our next feast will open in November of 2014</h4>
 		<br/>
 			The biennial Elizabethan Madrigal Feast is the major fundraiser supporting the $560,000 annual operating costs of The Center for the Arts and Sciences. 
 		<br/><br/>
@@ -28,6 +31,7 @@
 		<br/><br/>
 			Underwriters and Sponsors of the Elizabethan Madrigal Feast are given the earliest opportunity to purchase tickets. Most performances usually sell out, so select your seating as early as possible.
 		<br/><br/>
+			
 		<!--<table>
 			<tr>
 				<td>NOW</td> 

@@ -7,25 +7,23 @@
     <link rel="stylesheet" href="/styles/custom-emf-theme/jquery-ui-1.9.1.custom.min.css" />
     <script>
     // increase the default animation speed to exaggerate the effect
-    $.fx.speeds._default = 1000;
+    $.fx.speeds._default = 500;
     $(function() {
         $( ".dialog" ).dialog({
+			position:['center',200],
             autoOpen: false,
             show: "blind",
             hide: "fade",
-			modal: true,
+			modal: true
         });
  
 		for (var i = 1; i <= 48; i++)
 		{
 			$( "#opener" + i ).click({param_i : i}, function(event) {
-			$( "#dialog" + event.data.param_i ).dialog( "open" );
-			return false;
+				$( "#dialog" + event.data.param_i ).dialog( "open" );
+				return false;
 			});
 		}
-
-		
-	
     });
     </script>
 </head>
@@ -64,10 +62,14 @@
 		<li class="productlist">
 			<div id="opener1">
 				<img src="/images/emf/raffle/12-G-1.gif" align="center" height="200" />
-				<p>1. Father Christmas</p>
+				<p>1. Father Christmas
+					<br/><br/>
+					Winner: Carolyn Robourn</p>
 				<div id="dialog1" class="dialog" title="1. Father Christmas">
 						<p>
 							A large, standing, exquisitely detailed Father Christmas figure dressed in the luxurious fabrics of the Elizabethan Madrigal Feast. Created and donated by Michelle Treichler of Whimsies.
+							<br/><br/>
+							Winner: Carolyn Robourn
 						</p>
 				</div>
 			</div>
@@ -75,10 +77,14 @@
 		<li class="productlist">
 			<div id="opener2">
 				<img src="/images/emf/raffle/12-G-2.gif" align="center" width="225" />
-				<p>2. Crazy Quilt Needlework</p>
+				<p>2. Crazy Quilt Needlework
+					<br/><br/>
+					Winner: Diane James</p>
 				<div id="dialog2" class="dialog" title="2. Crazy Quilt Needlework">
 						<p>
 							Crafted from Madrigal Feast fabrics. Created and donated by Cheryl Fowler of Complements of Cheryl.
+							<br/><br/>
+							Winner: Diane James
 						</p>
 				</div>
 			</div>
@@ -86,10 +92,15 @@
 		<li class="productlist">
 			<div id="opener3">
 				<img src="/images/emf/raffle/12-G-3.gif" align="center" height="200" />
-				<p>3. Elegant Centerpiece</p>
+				<p>3. Elegant Centerpiece
+				<br/><br/>
+					Winner: Eliane Oelfke
+				</p>
 				<div id="dialog3" class="dialog" title="3. Elegant Centerpiece">
 						<p>
 							Footed urn filled with hydrangea, red magnolias and a wealth of red berries. Lush ivy winds throughout the arrangement created for this Elizabethan Madrigal. Created and donated by Linda Bennett of Flowers Galore.
+							<br/><br/>
+							Winner: Eliane Oelfke
 						</p>
 				</div>
 			</div>
@@ -98,10 +109,14 @@
 		<li class="productlist">
 			<div id="opener4">
 				<img src="/images/emf/raffle/12-G-4.gif" align="center" height="200" width="190"/>
-				<p>4. Classical Music Basket</p>
+				<p>4. Classical Music Basket
+				<br/><br/>
+				Winner: Karla Christman</p>
 				<div id="dialog4" class="dialog" title="4. Classical Music Basket">
 						<p>
 							Celebrating the Brazosport Symphony Orchestra’s 30th Season – Includes 6 “Flex” Tickets to 2012 – 2013 Season Brazosport Symphony Orchestra concerts, 4 elegant champagne flutes for enjoying the two bottles of Moet Champagne. You’ll also find a collection of music-themed Christmas tree ornaments a classic collection of chocolate truffles, a trio of elegant photo frames and a beautiful Fresh-water pearl set. For your own personal celebration, we’ve included the appropriate music-themed paper goods and a gift certificate for a Beautifully Created Celebration Cake from “A Little Piece of Heaven,” in Clute, Texas. Donated by the Brazosport Symphony Orchestra.
+							<br/><br/>
+							Winner: Karla Christman
 						</p>
 				</div>
 			</div>
@@ -109,10 +124,14 @@
 		<li class="productlist">
 			<div id="opener5">
 				<img src="/images/emf/raffle/12-G-5.gif" align="center" width="225" />
-				<p>5. Traveling Accoutrements</p>
+				<p>5. Traveling Accoutrements
+				<br/><br/>
+				Winner: Jean Howell</p>
 				<div id="dialog5" class="dialog" title="5. Traveling Accoutrements">
 						<p>
 							Vera Bradley duffle bag and $75 gift card. Donated by Elaine’s Dress Shop.
+							<br/><br/>
+							Winner: Jean Howell
 						</p>
 				</div>
 			</div>
@@ -120,11 +139,14 @@
 		<li class="productlist">
 			<div id="opener6">
 				<img src="/images/emf/raffle/12-G-6.gif" align="center" height="200" />
-				<p>6. Juggling Jester <br/>Doll Sculpture</p>
+				<p>6. Juggling Jester <br/>Doll Sculpture
+				<br/><br/>
+				Winner: Marilyn Saccomanno</p>
 				<div id="dialog6" class="dialog" title="6. Juggling Jester Doll Sculpture">
 						<p>
 							Original, one-of-a-kind, 17” dressed in period costume. Created in 2011 and donated by Joyce Patterson of FabricImages by Joyce.
-						</p>
+							<br/><br/>
+							Winner: Marilyn Saccomanno
 				</div>
 			</div>
 		</li>
@@ -132,10 +154,14 @@
 		<li class="productlist">
 		<div id="opener7">
 			<img src="/images/emf/raffle/12-G-7.gif" align="center" height="200" />
-			<p>7. Fit for a Queen</p>
+			<p>7. Fit for a Queen
+			<br/><br/>
+			Winner: Diane Dry</p>
 			<div id="dialog7" class="dialog" title="7. Fit for a Queen">
 						<p>
 							Stunning gold–tone necklace with rhinestone and pearl charms and a rhinestone cross. Uniquely designed and donated by Becky Gore La Roche of BGL Designs.
+							<br/><br/>
+							Winner: Diane Dry
 						</p>
 				</div>
 			</div>
@@ -143,10 +169,14 @@
 		<li class="productlist">
 			<div id="opener8">
 				<img src="/images/emf/raffle/12-G-8.gif" align="center" width="225" />
-				<p>8. A Taste of The Center</p>
+				<p>8. A Taste of The Center
+				<br/><br/>
+				Winner: Gary & Denice Foose</p>
 				<div id="dialog8" class="dialog" title="8. A Taste of The Center">
 						<p>
 							A pre-theater wine and cheese reception for four at The Center. With a basket of four elegant EMF wine glasses & gift items from Center Member Groups. Hosted and donated by Sherry Tesch and Orren & Margaret Gaspard.
+							<br/><br/>
+							Winner: Gary & Denice Foose
 						</p>
 				</div>
 			</div>
@@ -154,10 +184,14 @@
 		<li class="productlist">
 			<div id="opener9">
 				<img src="/images/emf/raffle/12-G-9.gif" align="center" height="200" />
-				<p>9. Holiday Decor</p>
+				<p>9. Holiday Decor
+				<br/><br/>
+				Winner: Tina Gray</p>
 				<div id="dialog9" class="dialog" title="9. Holiday Decor">
 						<p>
 							Decorative swag created by Marsha Albert and donated by Mary Beth Blankenship.
+							<br/><br/>
+							Winner: Tina Gray
 						</p>
 				</div>
 			</div>
@@ -166,10 +200,14 @@
 		<li class="productlist">
 			<div id="opener10">
 				<img src="/images/emf/raffle/12-G-10.gif" align="center" width="225" />
-				<p>10. Your Royal Family</p>
+				<p>10. Your Royal Family
+				<br/><br/>
+				Winner: Beth Journeay</p>
 				<div id="dialog10" class="dialog" title="10. Your Royal Family">
 						<p>
 							One outdoor individual, family or business photography session and one digitized 16X20 Fine Art Gallery Wall Portrait by “Sir John.” Created and donated by Michael Bayer of MichaelBayer.com Photography.
+							<br/><br/>
+							Winner: Beth Journeay
 						</p>
 				</div>
 			</div>
@@ -177,10 +215,14 @@
 		<li class="productlist">
 			<div id="opener11">
 				<img src="/images/emf/raffle/12-G-11.gif" align="center" height="200" />
-				<p>11. Roses and the River Dinner</p>
+				<p>11. Roses and the River Dinner
+				<br/><br/>
+				Winner: Lauri Cherian</p>
 				<div id="dialog11" class="dialog" title="11. Roses and the River Dinner">
 						<p>
 							Overnight accomodations & breakfast for two at Roses and the River, located amid luxuriant rose gardens on the banks of the peaceful San Bernard River. Donated by Dr. & Mrs. Richard Hosack.
+							<br/><br/>
+							Winner: Lauri Cherian
 						</p>
 				</div>
 			</div>
@@ -188,10 +230,14 @@
 		<li class="productlist">
 			<div id="opener12">
 				<img src="/images/emf/raffle/12-G-12.gif" align="center" width="225" />
-				<p>12. A Week in Aruba</p>
+				<p>12. A Week in Aruba
+				<br/><br/>
+				Winner: Gretchen Welsh</p>
 				<div id="dialog12" class="dialog" title="12. A Week in Aruba">
 						<p>
 							Luxury accommodations at the La Quinta Resort Condominiums in Aruba for one week. Must be used by August 2013. Donated by Jocelyn Grigson.
+							<br/><br/>
+							Winner: Gretchen Welsh
 						</p>
 				</div>
 			</div>
@@ -200,10 +246,14 @@
 		<li class="productlist">
 			<div id="opener13">
 				<img src="/images/emf/raffle/12-G-13.gif" align="center" width="225" />
-				<p>13. Matagorda Bay Fishing Trip</p>
+				<p>13. Matagorda Bay Fishing Trip
+				<br/><br/>
+				Winner: Cindy Arisco</p>
 				<div id="dialog13" class="dialog" title="13. Matagorda Bay Fishing Trip">
 						<p>
 							Explore the Matagorda Bay System, fishing for speckled trout and red drum. Two fishermen. Boat, lunch and tackle provided. Donated by James and Sarah Heller.
+							<br/><br/>
+							Winner: Cindy Arisco
 						</p>
 				</div>
 			</div>
@@ -211,10 +261,14 @@
 		<li class="productlist">
 			<div id="opener14">
 				<img src="/images/emf/raffle/12-G-14.gif" align="center" width="225" />
-				<p>14. Seated Dinner for Eight or Ten</p>
+				<p>14. Seated Dinner for Eight or Ten
+				<br/><br/>
+				Winner: Shannon Phillips</p>
 				<div id="dialog14" class="dialog" title="14. Seated Dinner for Eight or Ten">
 						<p>
 							Dinner prepared & served with selected wines at Holly Farms in Wild Peach Village. Must be redeemed by March 2013. Donated by Mary Ruth Rhodenbaugh.
+							<br/><br/>
+							Winner: Shannon Phillips
 						</p>
 				</div>
 			</div>
@@ -222,10 +276,14 @@
 		<li class="productlist">
 			<div id="opener15">
 				<img src="/images/emf/raffle/12-G-15.gif" align="center" width="225" />
-				<p>15. Edquist, Notgrass and Ruthstrom Band Gift Certificate</p>
+				<p>15. Edquist, Notgrass and Ruthstrom Band Gift Certificate
+				<br/><br/>
+				Winner: Patrick Fuchs</p>
 				<div id="dialog15" class="dialog" title="15. Edquist, Notgrass and Ruthstrom Band Gift Certificate">
 					<p>
 						Unique, country/hippy band for your private party anywhere within Brazoria County. Band requires a little sustenance in the form of beer and food. Any tips will go to Brazosport Center for the Arts and Sciences donated by Matt Edquist and his Band.
+						<br/><br/>
+						Winner: Patrick Fuchs
 					</p>
 				</div>
 			</div>
@@ -234,10 +292,14 @@
 		<li class="productlist">
 			<div id="opener16">
 				<img src="/images/emf/raffle/12-G-16.gif" align="center" width="215" />
-				<p>16. French Basket Gourmet Class</p>
+				<p>16. French Basket Gourmet Class
+				<br/><br/>
+				Winner: Gary & Denice Foose</p>
 				<div id="dialog16" class="dialog" title="16. French Basket Gourmet Class">
 					<p>
 						Cooking class for 6 including preparation and consumption of a three–course meal with appropriate wine parings for each course. Taught and donated by Arlette Hardoin.
+						<br/><br/>
+						Winner: Gary & Denice Foose
 					</p>
 				</div>
 			</div>
@@ -245,10 +307,14 @@
 		<li class="productlist">
 			<div id="opener17">
 				<img src="/images/emf/raffle/12-G-17.gif" align="center" height="200" />
-				<p>17. Fiddler on the Roof</p>
+				<p>17. Fiddler on the Roof
+				<br/><br/>
+				Winner: De'Anne Hite</p>
 				<div id="dialog17" class="dialog" title="17. Fiddler on the Roof">
 					<p>
 						Six tickets for a selected performance of the 2013 BCS summer production. Includes a pre–theater party with food and a backstage tour. Hosted and donated by Brazosport Center Stages.
+						<br/><br/>
+						Winner: De'Anne Hite
 					</p>
 				</div>
 			</div>
@@ -256,10 +322,14 @@
 		<li class="productlist">
 			<div id="opener18">
 				<img src="/images/emf/raffle/12-G-18.gif" align="center" width="225" />
-				<p>18. Weekend Retreat</p>
+				<p>18. Weekend Retreat
+				<br/><br/>
+				Winner: Connie Haws</p>
 				<div id="dialog18" class="dialog" title="18. Weekend Retreat">
 					<p>
 						Weekend for two at Houston’s Omni Hotel with breakfast and massages. Donated by Lisa Baker of The Source Weekly.
+						<br/><br/>
+						Winner: Connie Haws
 					</p>
 				</div>
 			</div>
@@ -268,10 +338,18 @@
 		<li class="productlist">
 			<div id="opener19">
 				<img src="/images/emf/raffle/12-G-19.gif" align="center" height="200" />
-				<p>19. Boot Camp</p>
+				<p>19. Boot Camp
+				<br/><br/>
+				Winner: Dianna Thomas
+				<br/>
+				Winner: Helen Allen</p>
 				<div id="dialog19" class="dialog" title="19. Boot Camp">
 					<p>
 						Two ten–week Total Body Performance boot camp sessions. Donated by Kenny York & Tracy Page.
+						<br/><br/>
+						Winner: Dianna Thomas
+						<br/>
+						Winner: Helen Allen
 					</p>
 				</div>
 			</div>
@@ -279,10 +357,14 @@
 		<li class="productlist">
 			<div id="opener20">
 				<img src="/images/emf/raffle/12-G-20.gif" align="center" width="225" />
-				<p>20. The Excitement of MSR, Houston's Karting Track</p>
+				<p>20. The Excitement of MSR, Houston's Karting Track
+				<br/><br/>
+				Winner: Ron Bradford</p>
 				<div id="dialog20" class="dialog" title="20. The Excitement of MSR, Houston's Karting Track">
 					<p>
 						Two 15–minute karting sessions each for 6 people. Must be 9 years or older. Donated by MSR Houston.
+						<br/><br/>
+						Winner: Rob Bradford
 					</p>
 				</div>
 			</div>
@@ -290,10 +372,14 @@
 		<li class="productlist">
 			<div id="opener21">
 				<img src="/images/emf/raffle/12-G-21.gif" align="center" width="225" />
-				<p>21. Mountain House in Colorado</p>
+				<p>21. Mountain House in Colorado
+				<br/><br/>
+				Winner: David Bukstein</p>
 				<div id="dialog21" class="dialog" title="21. Mountain House in Colorado">
 					<p>
 						One week surrounded by mountains nestled in the Pinos Creek Valley, outside of Del Norte, CO. Donated by Susan and Mike Moss.
+						<br/><br/>
+						Winner: David Bukstein
 					</p>
 				</div>
 			</div>
@@ -302,10 +388,18 @@
 		<li class="productlist">
 			<div id="opener22">
 				<img src="/images/emf/raffle/12-G-22.gif" align="center" width="215" />
-				<p>22. Medical Spa Gift Certificate</p>
+				<p>22. Medical Spa Gift Certificate
+				<br/><br/>
+				Winner: Susan Keid
+				<br/>
+				Winner: Marcie Allen</p>
 				<div id="dialog22" class="dialog" title="22. Medical Spa Gift Certificate">
 					<p>
 						4 treatments of CoolSculping and Skin Care Treatment Package including Microdermabrasion and either Juvederm or Botox. Donated by Tracy Page, Esthetician and Dr. Scott Yarish, Gulf Coast Plastic Surgery in Lake Jackson.
+						<br/><br/>
+						Winner: Susan Keid
+						<br/>
+						Winner: Marcie Allen
 					</p>
 				</div>
 			</div>
@@ -313,10 +407,14 @@
 		<li class="productlist">
 			<div id="opener23">
 				<img src="/images/emf/raffle/12-G-23.gif" align="center" width="215" />
-				<p>23. Dividing the Estate</p>
+				<p>23. Dividing the Estate
+				<br/><br/>
+				Winner: Susan Zollers</p>
 				<div id="dialog23" class="dialog" title="23. Dividing the Estate">
 					<p>
 						Two wills and testaments. Donated by Mauro Law Office.
+						<br/><br/>
+						Winner: Susan Zollers
 					</p>
 				</div>
 			</div>
@@ -324,19 +422,23 @@
 		<li class="productlist">
 			<div id="opener24">
 				<img src="/images/emf/raffle/12-G-24.gif" align="center" width="200" />
-				<p>24. Dinner for Six</p>
+				<p>24. Dinner for Six
+				<br/><br/>
+				Winner: Gary & Denice Foose</p>
 				<div id="dialog24" class="dialog" title="24. Dinner for Six">
 					<p>
 						Gift certificate for dinner for six at Lake Jackson’s elegant, new restaurant, Table 24. Donated by Leonard & Janel Botello, by Royal Appointment, caterers of the 2012 Madrigal Feast.
+						<br/><br/>
+						Winner: Gary & Denice Foose
 					</p>
 				</div>
 			</div>
 		</li>
 	</ul>
 	<br/>
-</div>
 <a href="#top">Back to Top</a>
 <br/>
+</div>
 <div id="contentright" align="center">
 		<img src="/images/emf/emf-red-dimonds.gif" />
 		<br/><br/>
@@ -348,10 +450,14 @@
 		<li class="productlist">
 			<div id="opener25">
 				<img src="/images/emf/raffle/12-S-1.gif" align="center" height="200" />
-				<p>1. Grass Orchids</p>
+				<p>1. Grass Orchids
+				<br/><br/>
+				Winner: Sandra Bowden</p>
 				<div id="dialog25" class="dialog" title="1. Grass Orchids">
 					<p>
 						Gift certificate for dinner for six at Lake Jackson’s elegant, new restaurant, Table 24. Donated by Leonard & Janel Botello, by Royal Appointment, caterers of the 2012 Madrigal Feast.
+						<br/><br/>
+						Winner: Sandra Bowden
 					</p>
 				</div>
 			</div>
@@ -359,10 +465,14 @@
 		<li class="productlist">
 			<div id="opener26">
 				<img src="/images/emf/raffle/12-S-2.gif" align="center" width="225" />
-				<p>2. Prayers Written by Vailima</p>
+				<p>2. Prayers Written by Vailima
+				<br/><br/>
+				Winner: Chris Singhania</p>
 				<div id="dialog26" class="dialog" title="2. Prayers Written by Vailima">
 					<p>
 						Early 20th Centrury book of prayers by Robert Lewis Stevenson beatuifully illuminated by Alberto Sangorski. Donated by Jana and Kendric Marshall.
+						<br/><br/>
+						Winner: Chris Singhania
 					</p>
 				</div>
 			</div>
@@ -370,10 +480,14 @@
 		<li class="productlist">
 			<div id="opener27">
 				<img src="/images/emf/raffle/12-S-3.gif" align="center" height="200" />
-				<p>3. Christmas by the Sea</p>
+				<p>3. Christmas by the Sea
+				<br/><br/>
+				Winner: Michelle Treichler</p>
 				<div id="dialog27" class="dialog" title="3. Christmas by the Sea">
 					<p>
 						Unique Christmas tree made of shells from around the world. Created by Rosalee Prestigiacomo and donated by The Brazosport Museum of Natural Science.
+						<br/><br/>
+						Winner: Michelle Trichler
 					</p>
 				</div>
 			</div>
@@ -383,10 +497,14 @@
 		<li class="productlist">
 			<div id="opener28">
 				<img src="/images/emf/raffle/12-S-4.gif" align="center" height="200" />
-				<p>4. Gulf Coast Seaguls</p>
+				<p>4. Gulf Coast Seaguls
+				<br/><br/>
+				Winner: Mike Green</p>
 				<div id="dialog28" class="dialog" title="4. Gulf Coast Seaguls">
 					<p>
 						High resolution, 11 x 17 print of a Prismacolor drawing. Created and donated by Art League member Jared Paul Wilson of www.jaredpaulwilson.com
+						<br/><br/>
+						Winner: Mike Green
 					</p>
 				</div>
 			</div>
@@ -394,10 +512,15 @@
 		<li class="productlist">
 			<div id="opener29">
 				<img src="/images/emf/raffle/12-S-5.gif" align="center" height="200" />
-				<p>5. Heaven in a Bath</p>
+				<p>5. Heaven in a Bath
+				<br/><br/>
+				Winner: Lloyed Colegrove
+				</p>
 				<div id="dialog29" class="dialog" title="5. Heaven in a Bath">
 					<p>
 						Basket of Michel Design Works bath products and a bird figurine. Donated by Tammie McQueen of Tammie’s Touch.
+						<br/><br/>
+						Winner: Lloyed Colegrove
 					</p>
 				</div>
 			</div>
@@ -405,10 +528,14 @@
 		<li class="productlist">
 			<div id="opener30">
 				<img src="/images/emf/raffle/12-S-6.gif" align="center" width="225" />
-				<p>6. Warwick Castle</p>
+				<p>6. Warwick Castle
+				<br/><br/>
+				Winner: Lorin Furlow</p>
 				<div id="dialog30" class="dialog" title="6. Warwick Castle">
 					<p>
 						Beautiful framed pen & ink drawing print of Warwick Castle. Donated by Beth Riley and Marcy Baker.
+						<br/><br/>
+						Winner: Lorin Furlow
 					</p>
 				</div>
 			</div>
@@ -418,10 +545,13 @@
 		<li class="productlist">
 			<div id="opener31">
 				<img src="/images/emf/raffle/12-S-7.gif" align="center" height="200" />
-				<p>7. Necessaire de Toilette</p>
+				<p>7. Necessaire de Toilette
+				<br/><br/>
+				Winner: Haley Coffman</p>
 				<div id="dialog31" class="dialog" title="7. Necessaire de Toilette">
 					<p>
 						Collection of handmade bath salts based on recipes of the Elizabethan era. Created and donated by Melina Whitacre.
+						Winner: Haley Coffman
 					</p>
 				</div>
 			</div>
@@ -429,10 +559,14 @@
 		<li class="productlist">
 			<div id="opener32">
 				<img src="/images/emf/raffle/12-S-8.gif" align="center" height="200" />
-				<p>8. Scrapbooker & Card Maker's Delight</p>
+				<p>8. Scrapbooker & Card Maker's Delight
+				<br/><br/>
+				Winner: Kay Birdsong</p>
 				<div id="dialog32" class="dialog" title="8. Scrapbooker & Card Maker's Delight">
 					<p>
 						Approximately $300 worth of products including: cardstock, stamps, ink pads, markers, an 8X8 album. Kits with instructions and supplies. Donated by Stampin’ Up www.StampinUp.com.
+						<br/><br/>
+						Winner: Kay Birdsong
 					</p>
 				</div>
 			</div>
@@ -440,10 +574,14 @@
 		<li class="productlist">
 		<div id="opener33">
 			<img src="/images/emf/raffle/12-S-9.gif" align="center" width="225" />
-			<p>9. Scottish Nectar</p>
+			<p>9. Scottish Nectar
+			<br/><br/>
+			Winner: Ralph O'Henly</p>
 			<div id="dialog33" class="dialog" title="9. Scottish Nectar">
 				<p>
 					Beautiful wooden-handled French basket with 18 year old Laphroaig single malt Scotch – Islay, smart rating 99 – and two Glencairn whiskey nosing glasses, the official Wiskeyfest glass. Enjoy with Celtic Thunder’s music to drink by. Created and donated by Marcie and Howard Allen.
+					<br/><br/>
+					Winner: Ralph O'Henly
 				</p>
 			</div>
 		</div>
@@ -453,10 +591,14 @@
 		<li class="productlist">
 		<div id="opener34">
 			<img src="/images/emf/raffle/12-S-10.gif" align="center" height="200" />
-			<p>10. Pet Lover's Gift Bag</p>
-			<div id="dialog32" class="dialog" title="10. Pet Lover's Gift Bag">
+			<p>10. Pet Lover's Gift Bag
+			<br/><br/>
+			Winner: David Bukstein</p>
+			<div id="dialog34" class="dialog" title="10. Pet Lover's Gift Bag">
 				<p>
 					Doggy Delights with a gift certificate for one week of pet lodging for up to two pets. Donated by Jason and Stacey Suazo.
+					<br/><br/>
+					Winner: David Bukstein
 				</p>
 			</div>
 		</div>
@@ -464,10 +606,14 @@
 		<li class="productlist">
 		<div id="opener35">
 			<img src="/images/emf/raffle/12-S-11.gif" align="center" height="200" />
-			<p>11. The Queen of Hearts</p>
+			<p>11. The Queen of Hearts
+			<br/><br/>
+			Winner: Kathy Ford</p>
 			<div id="dialog35" class="dialog" title="11. The Queen of Hearts">
 				<p>
 					Exquisite silver wrapped–wire pendant with blue heart stone. Donated by Art League member, Shey Cotten of GypsyWind Studio.
+					<br/><br/>
+					Winner: Kathy Ford
 				</p>
 			</div>
 		</div>
@@ -475,10 +621,14 @@
 		<li class="productlist">
 		<div id="opener36">
 			<img src="/images/emf/raffle/12-S-12.gif" align="center" height="200" />
-			<p>12. Royal Doulton Collector's Plate</p>
-			<div id="dialog35" class="dialog" title="12. Royal Doulton Collector's Plate">
+			<p>12. Royal Doulton Collector's Plate
+			<br/><br/>
+			Winner: Jerry Wilson</p>
+			<div id="dialog36" class="dialog" title="12. Royal Doulton Collector's Plate">
 				<p>
 					King Henry VIII plate. Donated by Mary Meyers and Thomas Henderson.
+					<br/><br/>
+					Winner: Jerry Wilson
 				</p>
 			</div>
 		</div>
@@ -488,10 +638,14 @@
 		<li class="productlist">
 		<div id="opener37">
 			<img src="/images/emf/raffle/12-S-13.gif" align="center" height="200" />
-			<p>13. Discover the Stars</p>
-			<div id="dialog35" class="dialog" title="13. Discover the Stars">
+			<p>13. Discover the Stars
+			<br/><br/>
+			Winner: Essington</p>
+			<div id="dialog37" class="dialog" title="13. Discover the Stars">
 				<p>
 					Philip’s Complete Guide to Stargazing by Rabin Sacgell and a 2013 Deep Space Mysteries Calender. Donated by Brazosport Planetarium.
+					<br/><br/>
+					Winner: Essington
 				</p>
 			</div>
 		</div>
@@ -499,10 +653,14 @@
 		<li class="productlist">
 		<div id="opener38">
 			<img src="/images/emf/raffle/12-S-14.gif" align="center" width="225" />
-			<p>14. Sadler Tea Service</p>
-			<div id="dialog35" class="dialog" title="14. Sadler Tea Service">
+			<p>14. Sadler Tea Service
+			<br/><br/>
+			Winner: Corinne Cruver</p>
+			<div id="dialog38" class="dialog" title="14. Sadler Tea Service">
 				<p>
 					Collectible china Sadler Elizabeth I teapot with Lefton china sugar and creamer on tray. Donated by Keith & Susan Plowman.
+					<br/><br/>
+					Winner: Corinne Cruver
 				</p>
 			</div>
 		</div>
@@ -510,10 +668,15 @@
 		<li class="productlist">
 		<div id="opener39"
 			<img src="/images/emf/raffle/12-S-15.gif" align="center" height="200" />
-			<p>15. Annual Register 1792</p>
-			<div id="dialog35" class="dialog" title="15. Annual Register 1792">
+			<p>15. Annual Register 1792
+			<br/><br/>
+			Winner: Logan Yenne
+			</p>
+			<div id="dialog39" class="dialog" title="15. Annual Register 1792">
 				<p>
 					Antiquarian book published by Edmund Burk including a history of Queen Elizabeth. Donated by Larry and Donna Jablecki.
+					<br/><br/>
+					Winner: Logan Yenne
 				</p>
 			</div>
 		</div>
@@ -523,10 +686,14 @@
 		<li class="productlist">
 		<div id="opener40">
 			<img src="/images/emf/raffle/12-S-16.gif" align="center" width="225" />
-			<p>16. Original Works of Art</p>
-			<div id="dialog35" class="dialog" title="16. Original Works of Art">
+			<p>16. Original Works of Art
+			<br/><br/>
+			Winner: Becky Guevara</p>
+			<div id="dialog40" class="dialog" title="16. Original Works of Art">
 				<p>
 					The Beet a prisma color drawing by Art League member Norma Robuck and Water Lilies an oil painting by Art League member Betty Klasal.
+					<br/><br>
+					Winner: Becky Guevara
 				</p>
 			</div>
 		</div>
@@ -534,10 +701,14 @@
 		<li class="productlist">
 		<div id="opener41">
 			<img src="/images/emf/raffle/12-S-17.gif" align="center" height="200" />
-			<p>17. Sterling and Stone</p>
-			<div id="dialog35" class="dialog" title="17. Sterling and Stone">
+			<p>17. Sterling and Stone
+			<br/><br/>
+			Winner: Dora Pachnowski</p>
+			<div id="dialog41" class="dialog" title="17. Sterling and Stone">
 				<p>
 					Custom designed necklace and earring set of polished stone and sterling silver. Created and donated by Art League member, Sharon Graham.
+					<br/><br/>
+					Winner: Dora Pachnowski
 				</p>
 			</div>
 		</div>
@@ -545,10 +716,14 @@
 		<li class="productlist">
 		<div id="opener42">
 			<img src="/images/emf/raffle/12-S-18.gif" align="center" height="200" />
-			<p>18. Castle in the Sky</p>
-			<div id="dialog35" class="dialog" title="18. Castle in the Sky">
+			<p>18. Castle in the Sky
+			<br/><br/>
+			Winner: Sennewald Family</p>
+			<div id="dialog42" class="dialog" title="18. Castle in the Sky">
 				<p>
 					Handmade wooden castle birdhouse. Created and donated by Horace Driskill.
+					<br/><br/>
+					Winner: Sennewald Family
 				</p>
 			</div>
 		</div>
@@ -558,10 +733,14 @@
 		<li class="productlist">
 		<div id="opener43">
 			<img src="/images/emf/raffle/12-S-19.gif" align="center" height="200" />
-			<p>19. Victuals & Vintages</p>
-			<div id="dialog35" class="dialog" title="19. Victuals & Vintages">
+			<p>19. Victuals & Vintages
+			<br/><br/>
+			Winner: Pat Quirk</p>
+			<div id="dialog43" class="dialog" title="19. Victuals & Vintages">
 				<p>
 					Basket of gourmet appetizers and wine pairings. Created and donated by Anne and Pat Quirk.
+					<br/><br/>
+					Winner: Pat Quirk
 				</p>
 			</div>
 		</div>
@@ -569,10 +748,14 @@
 		<li class="productlist">
 		<div id="opener44">
 			<img src="/images/emf/raffle/12-S-20.gif" align="center" height="200" />
-			<p>20. Cake for a Queen</p>
-			<div id="dialog35" class="dialog" title="20. Cake for a Queen">
+			<p>20. Cake for a Queen
+			<br/><br/>
+			Winner: David Bukstein</p>
+			<div id="dialog44" class="dialog" title="20. Cake for a Queen">
 				<p>
 					Custom 12X18 cake, design of your choosing. Created and donated by Annette Cook.
+					<br/><br/>
+					Winner: David Bukstein
 				</p>
 			</div>
 		</div>
@@ -580,10 +763,14 @@
 		<li class="productlist">
 		<div id="opener45">
 			<img src="/images/emf/raffle/12-S-21.gif" align="center" width="225" />
-			<p>21. Lunch for Two</p>
-			<div id="dialog35" class="dialog" title="21. Lunch for Two">
+			<p>21. Lunch for Two
+			<br/><br/>
+			Winner: Bernetta Cook</p>
+			<div id="dialog45" class="dialog" title="21. Lunch for Two">
 				<p>
 					Leisurely lunch at The Grape Taste. Donated by Debra Wassberg.
+					<br/><br/>
+					Winner: Bernetta Cook
 				</p>
 			</div>
 		</div>
@@ -593,10 +780,14 @@
 		<li class="productlist">
 		<div id="opener46">
 			<img src="/images/emf/raffle/12-S-22.gif" align="center" width="225" />
-			<p>22. Sparkling Smile</p>
-			<div id="dialog35" class="dialog" title="22. Sparkling Smile">
+			<p>22. Sparkling Smile
+			<br/><br/>
+			Winner: Jill Journeay</p>
+			<div id="dialog46" class="dialog" title="22. Sparkling Smile">
 				<p>
 					Teeth whitening. Donated by Dr. Brian Bell, DDS.
+					<br/><br/>
+					Winner: Jill Journeay
 				</p>
 			</div>
 		</div>
@@ -604,10 +795,14 @@
 		<li class="productlist">
 		<div id="opener47">
 			<img src="/images/emf/raffle/12-S-23.gif" align="center" height="200" />
-			<p>23. Princess at Your Party</p>
-			<div id="dialog35" class="dialog" title="23. Princess at Your Party">
+			<p>23. Princess at Your Party
+			<br/><br/>
+			Winner: Haley Coffman</p>
+			<div id="dialog47" class="dialog" title="23. Princess at Your Party">
 				<p>
 					Appearance by Belle at children’s party. Donated by Jessica Dornan.
+					<br/><br/>
+					Winner: Haley Coffman
 				</p>
 			</div>
 		</div>
@@ -615,10 +810,14 @@
 		<li class="productlist">
 		<div id="opener48">
 			<img src="/images/emf/raffle/12-S-24.gif" align="center" width="225" />
-			<p>24. Local Flavor</p>
-			<div id="dialog35" class="dialog" title="24. Local Flavor">
+			<p>24. Local Flavor
+			<br/><br/>
+			Winner: Sonya Lindsey</p>
+			<div id="dialog48" class="dialog" title="24. Local Flavor">
 				<p>
 					Gift certificate for dinner for four at The Local. Donated by Richard and Gaye Linford.
+					<br/><br/>
+					Winner: Sonya Lindsey
 				</p>
 			</div>
 		</div>

@@ -7,20 +7,63 @@
 <!--#include virtual="/includes/top.shtml" -->
 <!--#include virtual="/includes/bal_menu.shtml" -->
 <div id="content">
+	<div align="center">
 	<img src="/images/balcircle.gif" style="float: left; pading:10;"></img>
 	<br/>
 	<a name="top"></a>
 	<h1>Brazosport Art League</h1>
 	<br/><br/>
-	<h2>Art League -- A Brazosport Tradition for 53 years ... Established 1959</h2><br />
-		<h4>Current Show -</h4> 
-		<blockquote><b>GIFT OF ART & SILENT AUCTION</b> • The Brazosport Woodworkers Guild & The Brazosport Art League</blockquote>
-		<h4>Reception:</h4>
-		<blockquote>Saturday November 3, 7 PM Meet the Artists</blockquote>
-		<h4>Sponsor:</h4>
-		<blockquote>The Source Weekly</blockquote>
+	<h2>
+		Art League -- A Brazosport Tradition for 53 years ... Established 1959
+	</h2>
+	<br/><br/>
+	<img src="/images/bal/GoA12.JPG" width="350" align="left" />
+	<br/><br/><br/>
+	<h2>
+		NOW IN THE GALLERY
+	</h2>
+	<br/>
+
+	<h1 class="currentcolor">
+		The Gift of Art
+	</h1>
+	<br/>
+		Original Artwork Sale by
+	<br/>
+		The Brazosport Art League
+	<br/>
+	<br/>
+	<h2>
+		Until December 31
+	</h2>
+	<br/>
+	<h1 class="currentcolor">
+		Silent Auction
+	</h1>
+	<br/>
+		to benefit Habitat for Humanity 
+		<br/>
+		of Southern Brazoria County
+	<br/>
+	<br/>
+	<h2> 
+		Until December 8
+	</h2>
+	<br/><br/><br/><br/><br/>
+		 Join the Brazosport Art League in The Gallery to browse the selection of small original works -- perfect gifts for yourself and others -- this holiday season!
+	<br/><br/>
+		The Silent Auction features original wood art, paintings and artwork by the Brazoria County Woodcarving Club, Brazosport Woodworkers Guild and Brazosport Art League. The auction will close after intermission of the Elizabethan Madrigal Feast.
+	<br/><br/>
+	<h2 class="currentcolor">Reception</h2>
+		Saturday November 3, 7 PM Meet the Artists
+	<br/><br/>
+	<h2 class="currentcolor">Sponsor</h2>
+		The Source Weekly
+	</div>
 	<br />
 	<hr />
+	<br/>
+		<h2 align="center">Art League Calendar of Events</h2>
 	<br/>
 		<h3 align="center">
 			<a href="#December">December</a> | <a href="#January">January</a> | <a href="Feburary">Feburary</a>

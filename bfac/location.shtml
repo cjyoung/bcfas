@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Brazosport Center for the Arts and Sciences</title>
+			<!--#include virtual="/includes/head.shtml" -->
+	</head>
+	<body>
+		<!--#include virtual="/includes/top.shtml" -->
+		<!--#include virtual="/includes/bfac_menu.shtml" -->
+		<div id="content">
+			<h1>How to Find Us</h1>
+			<br/>
+			<a id="top">
+			<b>Address:</b> 400 College Blvd, Clute, TX 77531
+			<br/>
+			<a href="#IAH">Directions from George Bush International Airport</a>
+			<br/>
+			<a href="#HOU"> Directions from Houston Hobby Airport</a>
+			<h2 align="center">Google Maps Location
+			<br/>
+			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=400+College+Blvd,+Clute,+TX+77531&amp;geocode=FdU0uwEdCjVQ-ikjgN6mEUJAhjGyufZo-KVKfA&amp;sll=29.046003,-95.40684&amp;sspn=0.01088,0.01929&amp;t=h&amp;gl=us&amp;hl=en&amp;mra=prev&amp;ie=UTF8&amp;ll=29.046003,-95.40684&amp;spn=0.01088,0.01929&amp;output=embed" target="_blank"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=&amp;daddr=400+College+Blvd,+Clute,+TX+77531&amp;geocode=FdU0uwEdCjVQ-ikjgN6mEUJAhjGyufZo-KVKfA&amp;sll=29.046003,-95.40684&amp;sspn=0.01088,0.01929&amp;t=h&amp;gl=us&amp;hl=en&amp;mra=prev&amp;ie=UTF8&amp;ll=29.046003,-95.40684&amp;spn=0.01088,0.01929" target="_blank" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+			</h2>
+			<br/>			
+	<!--IAH Directions-->
+			<a id="IAH"><h2>Directions from George Bush International Airport</a></h2>
+			<br/>
+			Take John F Kennedy Blvd to Jetero Blvd/Mecom Rd<br/>
+			Continue to follow <b>Jetero Blvd</b><br/>
+			<i>For 1.6 miles</i>
+			<br/><br/>
+			Turn <b>right</b> onto 4th St/Eastex Freeway Service Rd <b>towards US-59 South</b><br/>
+			<i>For 246 ft</i>
+			<br/><br/>
+			Take the ramp on the left onto I-69/US-59 S<br/>
+			<i>For 12.9 miles</i>
+			<br/><br/>
+			Continue onto <b>US-59 S</b><br/>
+			<i>For 5.4 miles</i>
+			<br/><br/>
+			Take the <b>Texas 288 S</b> exit toward Lake Jackson/Freeport<br/>
+			<i>For .5 miles</i>
+			<br/><br/>
+			Merge onto TX-288 S and continue on TX-288 S for 47.3 miles<br/>
+			<br/>
+			Take the <b>FM Rd 2004</b> exit toward Richwood<br/>
+			<br/>
+			Turn <b>left</b> at the exit light<br/>
+			<br/>
+			Continue onto FM 2004 N for 3 miles<br/>
+			<br/>
+			Turn <b>right</b> onto <b>TX 288 Business South/Brazosport Blvd N</b><br/>
+			<i>For 2 miles</i>
+			<br/><br/>
+			Turn <b>right</b> onto <b>College Dr</b> (signs for Brazosport Center for the Arts & Sciences)<br/>
+			<i>For .3 miles</i>
+			<br/><br/>
+			The Center for the Arts and Sciences will be on your <b>right</b>
+			<br/><br/>
+			<i>Courtesy of google maps</i><br/>
+		<a href="https://maps.google.com/maps?saddr=George+Bush+Intercontinental+Airport,+N+Terminal+Rd,+Houston,+TX&daddr=29.9812218,-95.3304841+to:400+College+Blvd,+Clute,+TX+77531&hl=en&ll=29.055194,-95.418234&spn=0.043517,0.077162&sll=29.956645,-95.289402&sspn=0.043131,0.077162&geocode=FWyPyQEdPh5R-iExwsDI_LTGnCnHVUPZI7RAhjExwsDI_LTGnA%3BFSV6yQEdTF9R-ilZxRvuP7RAhjEvBuftdBH6-Q%3BFdU0uwEdCjVQ-ikjgN6mEUJAhjGyufZo-KVKfA&oq=IAH&t=h&gl=us&mra=mrv&via=1&z=14" target="_blank">Click here for full directions and map</a>	
+			<br/><br/>
+			<a href="#top"> Back to Top</a>
+			<br/><br/>
+	<!--HOU Directios-->
+			<a id="HOU"><h2>Directions from William P Hobby</a> Airport-Houston:</h2>
+			<br/>
+			Head east on Hobby Airport Loop<br/>
+			<i>For .3 miles</i>
+			<br/><br/>
+			Continue onto <b>Broadway St</b><br/>
+			<i>For 279 feet</i>
+			Turn <b>Left</b> onto <b>Airport Blvd</b><br/>
+			<i>For 7 miles</i>
+			<br/><br/>
+			Turn <b>left</b> onto the <b>Texas 288 S</b> ramp<br/>
+			<br/>
+			Take <b>Texas 288 S</b> for 40.6 miles<br/>
+			<br/>
+			Take the <b>Farm to Mkt Rd 2004 N</b> to Richwood <b>exit</b><br/>
+			<br/>
+			Turn <b>left</b> at the exit light<br/>
+			<br/>
+			Turn <b>right</b> onto <b>TX 288 Business S/Brazosport Blvd N</b><br/>
+			<i>For 3 miles</i>
+			<br/>
+			Turn <b>right</b> onto <b>College Dr</b> (signs for Brazosport Center for the Arts & Sciences)<br/>
+			<br/>
+			The Center for the Arts and Sciences will be on your <b>right</b> after .3 miles
+			<br/><br/>
+			<i>Courtesy of google maps</i><br/>
+		<a href="https://maps.google.com/maps?saddr=Hobby+Airport,+Houston&daddr=400+College+Blvd,+Clute,+TX+77531&hl=en&sll=29.055194,-95.418234&sspn=0.043517,0.077162&geocode=FVp8xAEdnjFS-iGacgnsXmsHFilrA47gUJZAhjGacgnsXmsHFg%3BFdU0uwEdCjVQ-ikjgN6mEUJAhjGyufZo-KVKfA&oq=Hobby&t=h&gl=us&mra=ls&z=10" target="_blank">Click here for full directions and map</a>
+		<br/><Br/>
+		<a href="#top"> Back to Top</a>
+		<br/>
+		</div>
+		<!--#include virtual="/includes/bottom.shtml" -->
+	</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Workshop Jobs</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" -->
+<!--#include virtual="/includes/bcs_menu.shtml" -->
+
+<!-- Main body content -->
+<div id="content">
+<!--#include virtual="/content-pages/bcs/jobs-workshop-content.shtml" -->
+</div>
+<!-- End Main Body Content -->
+
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

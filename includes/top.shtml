@@ -83,7 +83,7 @@ $(function() {
 
 			<div class="menu_table_td">
 				<div class="menu_table_td_inner bg_purple">
-					<a href="http://www.brazosportcenterstages.org/" class="toplinks" 
+					<a href="/bcs/bcs-index.shtml" class="toplinks" 
 					target="_blank">Center Stages</a>
 				</div>
 			</div>

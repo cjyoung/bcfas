@@ -11,58 +11,55 @@
 	<br/>
 	<h1>Gallery Schedule</h1>
 	<br/><br/>
-		<h4>BAL MEMBER SHOW: Peter Janecke & Jared Paul Wilson</h4>
-		Jan 3rd -Feb. 3rd<br/>
-		Reception Jan, 12th<br/>
-		Sponsor: Mangan, Inc<br/>
+	<div id="leftcloumn">
+		<h4 class="red">THE PEOPLE’S CHOICE</h4>
+		<b>March 12th- April 14th</b><br/>
+		<h4 class="green">Take-In Mar 9th</h4>
+		<h4 class="blue">Reception April 13th</h4>
+		<h4 class="red">Sponsor: Dow Chemical, Texas Operations</h4>
 	<br/>
-		<h4>AMANDA DANNING</h4>
-		Feb 5th-Mar 10th<br/>
-		Reception Feb 9th<br/>
-		Sponsor: to be announced<br/>
+		<h4 class="red">HIGH SCHOOL AWARDS</h4>
+		<b>April 16th – April 28th</b><br/>
+		<h4 class="blue">Reception Sun - April 21st 2-4 p.m.</h4>
+		<h4 class="red">Sponsor: Roy Yates Freeport Welding</h4>
 	<br/>
-		<h4>THE PEOPLE’S CHOICE</h4>
-		March 12th- April 14th<br/>
-		Take-In Mar 9th<br/>
-		Reception April 13th<br/>
-		Sponsor: Dow Chemical, Texas Operations<br/>
+		<h4 class="red">ESSENTIAL</h4>
+		<b>Works of Art By <br/>
+		Gayle Pendergrass and Thomas Chaffee<br/>
+		April 30th – June 2nd</b>
+		<h4 class="blue">Reception May 4th</h4>
+		<h4 class="red">Sponsor: Phillips 66</h4>
 	<br/>
-		<h4>HIGH SCHOOL AWARDS</h4>
-		April 16th – April 28th<br/>
-		Reception Sun - April 21st<br/>
-		Sponsor: to be announced<br/>
+		<h4 class="red">PAINT-IN SHOW</h4>
+		<b>June 4th – July 7th</b><br/>
+		<h4 class="blue">Reception June 8th</h4>
+		<h4 class="red">Sponsor: John & Linda Matheson</h4>
+	</div>
+	<div id="rightcloumn">
+		<h4 class="red">TRAVELS, CAMERAS, CANVASES</h4>
+		<b>Recent Artwork by Retired Professor Peter Bowman</b>
+		<b>July 9th – Aug. 18th</b><br/>
+		<h4 class="blue">Reception July 13th</h4>
+		<h4 class="red">Sponsor: Jim Hodgins Shintech, Inc.</h4>
 	<br/>
-		<h4>ESSENTIAL WORKS OF ART: By Gayle Pendergrass and Thomas Chaffee</h4>
-		April 30th – June 2nd<br/>
-		Reception May 4th<br/>
-		Sponsor: Phillips 66<br/>
+		<h4 class="red">OPEN JURIED SHOW</h4>
+		<b>Aug 20th – Sept 15th</b><br/>
+		<h4 class="blue">Reception Aug 24th</h4>
+		<h4 class="red">Sponsor: Law Office of Michelle A. Stover</h4>
 	<br/>
-		<h4>PAINT-IN SHOW</h4>
-		June 4th – July 7th<br/>
-		Reception June 8th<br/>
-		Sponsor: BASF<br/>
+		<h4 class="red">NATIONAL SOCIETY OF ARTISTS JURIED SHOW</h4>
+		<b>Sept 17th – Oct 13th</b><br/>
+		<h4 class="green">Take-In September 14th</h4>
+		<h4 class="blue">Reception Sept 21st 3 - 5 p.m.</h4>
+		<h4 class="red">Sponsor: Ms. Jeanne Manry</h4>
 	<br/>
-		<h4>SUGAR LAND AREA ARTISTS</h4>
-		July 9th – Aug. 18th<br/>
-		Reception July 13th<br/>
-		Sponsor: Shintech, Inc.<br/>
-	<br/>
-		<h4>OPEN JURIED SHOW</h4>
-		Aug 20th – Sept 15th<br/>
-		Reception Aug 24th<br/>
-		Sponsor: Law Office of Michelle A. Stover<br/>
-	<br/>
-		<h4>NATIONAL SOCIETY OF ARTISTS JURIED SHOW</h4>
-		Sept 17th – Oct 13th<br/>
-		Take-In Aug 10th<br/>
-		Reception Sept 21st<br/>
-		Sponsor: Ms. Jeanne Manry<br/>
-	<br/>
-		<h4>GIFT OF ART / SILENT AUCTION</h4>
-		Oct 15th – Dec 29th<br/>
-		Take –In Oct 10th<br/>
-		Reception November 9th<br/>
-		Co/Sponsor: Texas Gulf Bank & Mary Ruth Rhodenbaugh<br/>
+		<h4 class="red">GIFT OF ART / SILENT AUCTION</h4>
+		<b>Oct 15th – Dec 29th</b><br/>
+		<h4 class="green">Take–In Oct 10th</h4>
+		<h4 class="blue">Reception November 9th
+		<br/>Mini Membership show to go up after the Silent Auction is over.</h4>
+		<h4 class="red">Co/Sponsor: Texas Gulf Bank & Mary Ruth Rhodenbaugh</h4>
+	</div>
 	<br/>
 	<br/>
 </div>

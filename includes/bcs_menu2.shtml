@@ -1,0 +1,35 @@
+<div id="contentleft">
+<ul>
+				<!--<li>
+					<a href="/bcs/bcs-index.shtml">Center Stages Home</a>
+				</li>-->
+				<li>
+					<a href="/bcs/season.shtml">Current Season</a>
+				</li>
+				<li>
+					<a href="https://app.ticketturtle.com/index.php?ticketing=bcfas" target="_blank">Buy Tickets</a>
+				</li>
+				<li>
+					<a href="/bcs/bcs_volunteers.shtml">Get Involved</a>
+				</li>
+				<li>
+					<a href="/bcs/audition.shtml">Audition Information</a>
+				</li>
+				<li>
+					<a href="/bcs/crew.shtml">Crew Sign Ups</a>
+				</li>
+				<li>
+					<a href="http://www.bcfasstore.org/category/CenterStages.html" target="_blank">Support BCS</a>
+				</li>
+				<li>
+					<a href="/bcs/bcs_education.shtml">Education</a>
+				</li>
+				<li>
+					<a href="/bcs/about_bcs.shtml">About BCS</a> 
+				</li>
+				<li>
+					<a href="/bcs/contact_bcs.shtml">Contact BCS</a>
+				</li>
+				</ul>
+<!--#include virtual="/includes/menu_bottom.shtml" -->
+</div>

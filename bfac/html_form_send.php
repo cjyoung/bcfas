@@ -64,6 +64,7 @@ if(isset($_POST['email'])) {
 	$schimmel = $POST_['schimmel']; // not required
 	$yamaha = $POST_['yamaha']; // not required
 	$clavinova = $POST_['clavinova']; // not required
+	$notes = $POST_['notes']; //not required
 	
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -99,10 +100,9 @@ if(isset($_POST['email'])) {
 	$email_message .= "Tables: ".clean_string($tables)."\n";
     $email_message .= "Table Cloths: ".clean_string($tablecloths)."\n";
 	$email_message .= "Chairs: ".clean_string($chairs)."\n";
-	$email_message .= "Other: ".clean_string($others)."\n"
-	.clean_string($coffeeurn)."\n"
-	.clean_string($coffee)."\n"
-	.clean_string($flipstand)."/n";
+	$email_message .= "Other: ".clean_string($others)."\n" .clean_string($coffeeurn)."\n" .clean_string($coffee)."\n" .clean_string($flipstand)."/n";
+	$email_message .= "Additional Notes: " .clean_string($notes)."/n";
+	
     
 // create email headers
 $headers = 'From: '.$email_from."\r\n".

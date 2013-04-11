@@ -1,0 +1,221 @@
+<div align="center">
+		<img src="/images/bal/full-gallery-tables-small.jpg" alt="Full Gallery with Paint-In Tables" />
+	<br/>
+	</div>
+	<br/>
+	<br/>
+	<h4>Current Show -</h4> 
+		<blockquote><b>The People's Choice</b></blockquote>
+	<h4>Reception:</h4>
+		<blockquote>Saturday April 13, 7 PM Meet the Artists</blockquote>
+	<h4>Sponsor:</h4>
+		<blockquote>Dow Chemical, Texas Operations</blockquote>
+	<br/>
+	<br/>
+			To look at our current show please hover your mouse over the right side of the images below to begin the slide show. To go back to a previous image please hover your mouse on the left side of the images.
+		<br/><br/>
+		<h2>The People's Choice</h2> <!--<i>The Art (& Science) of Amanda Danning</i>-->
+		Works by Art League member.
+		<br/>
+		Visitors to the Gallery have the opportunity to vote for their favorite works of art.
+		<br/><br/>
+		Please contact the Brazosport Art League Gallery for more information<br/>
+		<br/>
+		<div id="makeMeScrollable">
+		<a href="" title="Art by Featured Artist Jerry McKeand">
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_01.JPG" alt="Gallery Image" width="400" />
+		</a>
+		<a href="" title="Art by Featured Artist Jerry McKeand">
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_02.JPG" alt="Gallery Image" width="400" />
+		</a>
+		<a href="" title="Art by Featured Artist Jerry McKeand">
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_03.JPG" alt="Gallery Image" width="400" />
+		</a>
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_04.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_05.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_06.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_07.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_08.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_09.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_10.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_11.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_12.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_13.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_14.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_15.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_16.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_17.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_18.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_19.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_20.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_21.JPG" alt="Gallery Image" width="400" />
+			<img src="/images/bal/gallery-images/Ppls-Choice/Gallery_22.JPG" alt="Gallery Image" width="400" />
+		</div>
+		<br/><br/>
+	
+	<!-- LOAD JAVASCRIPT LATE - JUST BEFORE THE BODY TAG 
+	     That way the browser will have loaded the images
+		 and will know the width of the images. No need to
+		 specify the width in the CSS or inline. -->
+
+	<!-- jQuery library - Please load it from Google API's -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+	<!-- jQuery UI Widget and Effects Core (custom download)
+	     You can make your own at: http://jqueryui.com/download -->
+	<script src="/js/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+	
+	<!-- Latest version of jQuery Mouse Wheel by Brandon Aaron
+	     You will find it here: http://brandonaaron.net/code/mousewheel/demos -->
+	<script src="/js/jquery.mousewheel.min.js" type="text/javascript"></script>
+
+	<!-- Smooth Div Scroll 1.2 minified-->
+	<script src="/js/jquery.smoothdivscroll-1.2-min.js" type="text/javascript"></script>
+
+	<!-- If you want to look at the uncompressed version you find it at
+	     /js/jquery.smoothDivScroll-1.2.js -->
+
+
+	<!-- Plugin initialization -->
+	<script type="text/javascript">
+		// Initialize the plugin with no custom options
+		$(document).ready(function () {
+			// None of the options are set
+			$("div#makeMeScrollable").smoothDivScroll({});
+		});
+	</script>
+	<br/>
+	<a href="#top">Back to Top</a>
+	<hr/>
+	<br/>
+		<a name="satellite" /><h2>Brazosport Art League Satellite Gallery Schedule 2012</h2></a>
+		<br/>
+		<table border="1" cellpadding="5" align="center">
+				<tr>
+					<td style="text-align: center;">
+						<b>Month</b>
+					</td>
+					<td style="text-align: center;">
+						<b>A.P. Beutel Bldg</b>
+					</td>
+					<td style="text-align: center;">
+						<b>Lake Jackson Civic Center</b>
+					</td>
+					<td style="text-align: center;">
+						<b>Clute City Hall</b>
+					</td>
+					<td style="text-align: center;">
+						<b>L.J. Library</b>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Sept - Oct
+					</td>
+					<td style="text-align: center;">
+						Sherry Hall Shelton
+					</td>
+					<td style="text-align: center;">
+						Betty Cuba Havens
+					</td>
+					<td style="text-align: center;">
+						TBD
+					</td>
+					<td style="text-align: center;">
+						Sherry Hall Shelton
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Nov - Dec
+					</td>
+					<td style="text-align: center;">
+						Barbara Feiner
+					</td>
+					<td style="text-align: center;">
+						Sherry Hall Shelton
+					</td>
+					<td style="text-align: center;">
+						Betty Cuba Havens
+					</td>
+					<td style="text-align: center;">
+						Sherry Hall Shelton
+					</td>
+				</tr>
+		</table>
+			<br/><br/>
+			<h2> 2013 Satellite Gallery Schedule</h2>
+			<br/>
+		<table border="1" cellpadding="5" align="center">
+				<tr>
+					<td style="text-align: center;">
+						<b>Month</b>
+					</td>
+					<td style="text-align: center;">
+						<b>A.P. Beutel Bldg</b>
+					</td>
+					<td style="text-align: center;">
+						<b>Lake Jackson Civic Center</b>
+					</td>
+					<td style="text-align: center;">
+						<b>Clute City Hall</b>
+					</td>
+					<td style="text-align: center;">
+						<b>L.J. Library</b>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Jan - Feb
+					</td>
+					<td style="text-align: center;">
+						Mark Koenning
+					</td>
+					<td style="text-align: center;">
+						Doris Munson
+					</td>
+					<td style="text-align: center;">
+						Sherry Hall Shelton
+					</td>
+					<td style="text-align: center;">
+						Betty Cuba Havens
+					</td>
+				</tr>
+				<tr>
+					<td>
+						March - April
+					</td>
+					<td style="text-align: center;">
+						Jared Paul Wilson
+					</td>
+					<td style="text-align: center;">
+						Mark Koenning
+					</td>
+					<td style="text-align: center;">
+						Doris Munson
+					</td>
+					<td style="text-align: center;">
+						Sherry Hall Shelton
+					</td>
+				</tr>
+				<tr>
+					<td>
+						May - June
+					</td>
+					<td style="text-align: center;">
+						Eszter Weress
+					</td>
+					<td style="text-align: center;">
+						Jared Paul Wilson
+					</td>
+					<td style="text-align: center;">
+						Mark Koenning 
+					</td>
+					<td style="text-align: center;">
+						Doris Munson
+					</td>
+				</tr>
+		</table>
+		<br/>
+		<a href="#top">Back to Top</a>
+		<br/>

@@ -11,76 +11,7 @@
 			<br/>
 			<h1>Brazosport Astronomy Club</h1>
 			<br/>
-			<p>
-					We are a group of amateur astronomers dedicated to the study and enjoyment of the night sky! Anyone interested is welcome to attend meetings on the 3rd Tuesday of each month following the Planetarium show. No dues. No telescope needed. Astronomy Club member outreach includes school star gazes and other events to encourage education and enjoyment of astronomy!
-			</p>
-			<br/>
-				<h3 align="center">Our meeting dates are<br/>
-				January 15, February 15, March 19, April 21, <br/>May 21, June 18, July 16 & August 20</h3>
-			<p align="center">
-				Social time – 7:45 pm<br/>
-				Meeting  8:00 pm<br/>
-			</p>
-			<br/>
-			<h2 align="center">Objects of the Month</h2>
-			<div align="center">
-				- prepared by Rob Wood<br/>
-				<a href="/assets/BP/June-2012.pdf" target="_blank">June 2012</a> | <a href="/assets/BP/July-2012.pdf" target="_blank">July 2012</a> | <a href="/assets/BP/Sept-2012.pdf" target="_blank">September 2012</a> | <a href="/assets/BP/Oct-2012.pdf" target="_blank">October 2012</a> | <a href="/assets/BP/Nov-2012.pdf" target="_blank">November 2012</a> | <a href="/assets/BP/Dec-2012.pdf" target="_blank">December 2012</a>
-			</div>
-			<br/>
-			<br/>
-			<!--<table>
-				<tr>
-					<td><b>Binocular object</b></td>
-					<td>M13 –The Keystone cluster</td>
-				</tr>
-				<tr>
-					<td><b>Telescope Object</b></td>
-					<td>NGC  6210 – The Turtle Nebula – see what happens when you use averted vision on this one!<br/></td>
-				</tr>
-				<tr>
-					<td><b>Binary Star</b></td>
-					<td>Rho  Her (AB-4” separation, 4.17, 5.4 mag.)<br/></td>
-				</tr>
-				<tr>
-					<td><b>Challenge Object</b></td>
-					<td>NGC 6207 – Spiral Galaxy mag. 11.9 – same field of view as M13 ~ ½ degree away<br/></td>
-				</tr>
-			</table>
-			<br/>
-					Observe  any or all of these objects over the next month. Record what you see.  Bring your visual impressions of the objects to next month’s meeting where we will discuss and compare observations.
-			<br/>
-					A new object list will be issued next month!
-			<br/>
-			<br/>-->
-			<div align="center">
-			<table>
-				<tr>
-					<td><h2>Today's Sun Image</h2></td>
-					<td><h2>Current Moon Phase</h2></td>
-				</tr>
-				<tr>
-					<td><img alt="Today's Sun Image" src="http://soho.nascom.nasa.gov/data/realtime/mdi_igr/1024/latest.jpg" style="width: 200px; float: left; height: 200px; margin-left: 10px; margin-right: 10px" /></td>
-					<td><img alt="Current Moon Phase" src="http://tycho.usno.navy.mil/cgi-bin/phase.gif" style="width: 200px; float: left; height: 200px; margin-left: 10px; margin-right: 10px" /></td>
-				</tr>
-				<tr>
-					<td>Provided by <a href="http://soho.nascom.nasa.gov/" target="_blank">NASA's SOHO</a></td>
-					<td>Provided by <a href="http://tycho.usno.navy.mil/vphase.html" target="_blank">U.S. Naval Observatory</a></td>
-				</tr>
-			</table>
-			</div>
-			<br/>
-			<br/>
-					<h2>Brazosport Planetarium Clear Sky Chart</h2>
-				<br/>
-					For current clearsky chart, please visit <a href="http://cleardarksky.com/c/BrzPrNCTXkey.html" target="_blank">this link</a>.
-				</p>
-			<br/>
-			<br/>
-	<p>
-	For more infromation, please call The Center's main office at 979-265-7661 (toll-free 877-265-7661)
-	<br/>We are located at 400 College Blvd., Clute, TX 77531
-	</p>
+			<!--#include virtual="/content-pages/bp/astronomy-content.shtml" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

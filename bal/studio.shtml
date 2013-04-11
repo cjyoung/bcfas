@@ -13,26 +13,7 @@
 	<br/><br/><br/>
 		The Studio is home to Membership Meetings, Saturday Art Specials, classes, workshops, demonstrations, etc., and “The Paint - In.”
 	<br/><br/>
-	<h2>The Paint-In</h2>
-	<br/>
-		The Brazosport Art League’s Paint-In provides the opportunity for Art League members to work and learn with other artists in the area.  At the Paint-In the artists can get help, give help, or provide support to each other as it is needed to keep producing art. The atmosphere is very casual and friendly.  Artists bring their own lunch and come and go at their leisure.  Everyone is welcome, and the sessions are especially helpful for beginners.  Watercolor paper is available for purchase.  A Mat Cutter is also available.
-	<br/><br/>
-		<b>Mondays & Wednesdays all year • 9 a.m.–5 p.m.</b> • An opportunity for members to learn from each other while working on their own projects in varied media. These fun & casual sessions are very helpful for beginners, and everyone is welcome. Come three times as a guest; membership required thereafter. Information: Linda Roberts.
-	<br/><br/>
-	<hr/>
-	<br/>
-	<h3>Live Models</h3>
-	<br/>
-		On the first and third Wednesdays from 2 to 4 PM, we have a live model to practice our sketching.  We charge $4 for the session and pay the model $20.  We usually have four 20 minute sessions.
-	<br/><br/>
-		<b>1st and 3rd Wednesdays </b>• 2–4 p.m. during Paint–In • $4 model fee. Information: Harry Sargent, 979–297–4766.
-	<br/><br/>
-	<div align="center">
-		<img src="/images/bal/balModels 1.JPG" alt="Model sketching 1" width="350"/>
-		<img src="/images/bal/balModels 2.JPG" alt="Model sketching 2" width="350"/>
-	<br/>
-		These are sketches from previous Life Drawing sessions.
-	</div>
+	<!--#includes virtual="/content-pages/bal/studio-content.shtml" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

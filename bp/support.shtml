@@ -9,47 +9,7 @@
 <div id="content">
 	<img src="/images/bp-circle-no-black.gif" style="float: left;"></img>
 	<br/>
-	<h2>Support the operation of Brazosport Planetarium</h2>
-	<br/>
-		Through our annual fundraiser, The Scholastic Bowl, by sponsoring a team.
-	<br/><br/>
-		<img src="/images/RP-PW-1.JPG" alt="First State Bank Scholastic Bowl Sponsor" width="300" style="float: right;" />
-
-	Or, through a mumbership to the Planetarium.
-	<br/>
-	<table cellpadding="10">
-		<tr>
-			<td>Individual</td>
-			<td>$30</td>
-			<td>Single admission to all shows</td>
-		<tr>
-			<td>Family</td>
-			<td>$40</td>
-			<td>Family admission to all shows</td>
-		</tr>
-		<tr>
-			<td>Patron</td>
-			<td>$50</td>
-			<td>Admission to all shows, plus:recognition in the Planetarium lobby, $10 off Spectacular Science Summer Classes</td>
-		</tr>
-		<tr>
-			<td>Sponsor</td>
-			<td>$100</td>
-			<td>Patron benefits plus:free admission for guests</td>
-		</tr>
-		<tr>
-			<td>Show Sponsor</td>
-			<td>$350</td>
-			<td>Sponsor benefits plus: recognized in Planetarium shows</td>
-		</tr>
-		<tr>
-			<td>Life</td>
-			<td>$1000</td>
-			<td>Show Sponsor benefits plus: lifetime admission to all shows, recognition on the Benefactor board in the Planetarium lobby</td>
-		</tr>
-	</table>
-	<br/>
-	<a href="http://www.bcfasstore.org/category/Planetarium.html"><b>Become a member online today!</b></a>
+	<!--#include virtual="/content-pages/bp/support-center.shtml" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

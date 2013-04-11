@@ -8,38 +8,7 @@
 <!--#include virtual="/includes/bfac_menu.shtml" -->
 <div id="content">
 	<h1>Volunteer Opportunities</h1>
-		<br/>
-			The Center for Arts & Sciences and it's Member Groups rely on the effort of  community volunteers.  Here are a  few examples of volunteer opportunities.
-			<br/><br/>
-	<h2>Brazosport Art League</h2>
-		<blockquote>
-			Gallery Sitters:  Volunteer for a morning or evening shift, once a month. Volunteers greet guests and occassionaly make sales from the Art Shop or main Gallery exhibits. Training is provided. Enjoy periodic luncheons held to thank Gallery volunteers. No art expertise is needed. 
-		<br/>
-			Call the Gallery at 979-265-7971 for more information. The person who answers the phone is one of our awesome volunteers!
-		</blockquote>
-		<br/>
-	<h2>Brazosport Museum of Natural Science</h3>
-		<blockquote>
-			Museum Sitters:  Volunteer for a morning or evening shift, once a month. Volunteers greet guests and occassionaly make sales from the Museum Store. Training is provided. No science expertise is needed.
-		<br/>
-			Please call the Museum at 979-265-7831 for more information. The person who answers the phone is also one of our awesome volunteers.
-		</blockquote>
-		<br/>
-	<h2>Brazosport Center Stages</h2>
-		<blockquote>
-			Check Center Stages' productions are staffed entirely by volunteers who direct, produce, design and build sets, design and install lighting, design and construct costumes, serve as ushers, serve intermission refreshments. Volunteers sign-up during auditions for each production of the season. Check out the Brazosport Center Stages  website for more information on upcoming plays, auditions, and other volunteer opportunities.
-		</blockquote>
-		<br/>
-	<h2>Brazosport Planetarium</h2>
-		<blockquote>
-			Planetarium volunteers assist Planetarium Director Judi James by staffing planetarium shows, working on educational displays, and helping with special planetarium functions and events such as public star gazing. Call Director James:  979-265-3376.
-		</blockquote>
-	<br/><br/>
-	<hr/>
-	<br/><br/>
-	For more infromation, please call The Center's main office at 979-265-7661 (toll-free 877-265-7661)
-	<br/>We are located at 400 College Blvd., Clute, TX 77531
-	
+		<!--#include virtual="/content-pages/BFAC/volunteer-content.shtml" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

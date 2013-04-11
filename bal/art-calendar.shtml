@@ -7,61 +7,7 @@
 <!--#include virtual="/includes/top.shtml" -->
 <!--#include virtual="/includes/bal_menu.shtml" -->
 <div id="content">
-	<img src="/images/balcircle.gif" style="float: left; Hspace:10;"></img>
-	<br/>
-	<h1>Gallery Schedule</h1>
-	<br/><br/>
-	<div id="leftcloumn">
-		<h4 class="red">THE PEOPLE’S CHOICE</h4>
-		<b>March 12th- April 14th</b><br/>
-		<h4 class="green">Take-In Mar 9th</h4>
-		<h4 class="blue">Reception April 13th</h4>
-		<h4 class="red">Sponsor: Dow Chemical, Texas Operations</h4>
-	<br/>
-		<h4 class="red">HIGH SCHOOL AWARDS</h4>
-		<b>April 16th – April 28th</b><br/>
-		<h4 class="blue">Reception Sun - April 21st 2-4 p.m.</h4>
-		<h4 class="red">Sponsor: Roy Yates Freeport Welding</h4>
-	<br/>
-		<h4 class="red">ESSENTIAL</h4>
-		<b>Works of Art By <br/>
-		Gayle Pendergrass and Thomas Chaffee<br/>
-		April 30th – June 2nd</b>
-		<h4 class="blue">Reception May 4th</h4>
-		<h4 class="red">Sponsor: Phillips 66</h4>
-	<br/>
-		<h4 class="red">PAINT-IN SHOW</h4>
-		<b>June 4th – July 7th</b><br/>
-		<h4 class="blue">Reception June 8th</h4>
-		<h4 class="red">Sponsor: John & Linda Matheson</h4>
-	</div>
-	<div id="rightcloumn">
-		<h4 class="red">TRAVELS, CAMERAS, CANVASES</h4>
-		<b>Recent Artwork by Retired Professor Peter Bowman</b>
-		<b>July 9th – Aug. 18th</b><br/>
-		<h4 class="blue">Reception July 13th</h4>
-		<h4 class="red">Sponsor: Jim Hodgins Shintech, Inc.</h4>
-	<br/>
-		<h4 class="red">OPEN JURIED SHOW</h4>
-		<b>Aug 20th – Sept 15th</b><br/>
-		<h4 class="blue">Reception Aug 24th</h4>
-		<h4 class="red">Sponsor: Law Office of Michelle A. Stover</h4>
-	<br/>
-		<h4 class="red">NATIONAL SOCIETY OF ARTISTS JURIED SHOW</h4>
-		<b>Sept 17th – Oct 13th</b><br/>
-		<h4 class="green">Take-In September 14th</h4>
-		<h4 class="blue">Reception Sept 21st 3 - 5 p.m.</h4>
-		<h4 class="red">Sponsor: Ms. Jeanne Manry</h4>
-	<br/>
-		<h4 class="red">GIFT OF ART / SILENT AUCTION</h4>
-		<b>Oct 15th – Dec 29th</b><br/>
-		<h4 class="green">Take–In Oct 10th</h4>
-		<h4 class="blue">Reception November 9th
-		<br/>Mini Membership show to go up after the Silent Auction is over.</h4>
-		<h4 class="red">Co/Sponsor: Texas Gulf Bank & Mary Ruth Rhodenbaugh</h4>
-	</div>
-	<br/>
-	<br/>
+	<!--#include virtual="/content-pages/bal/calendar-content.shtml" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

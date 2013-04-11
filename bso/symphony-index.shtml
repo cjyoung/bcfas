@@ -11,30 +11,7 @@
 	<br/>
 	<h1>Brazosport Symphony Orchestra</h1>
 	<br/>
-	<div align="center">
-	<img src="/images/BSO_portrait.jpg" alt="Orchastra Portrait" class="center" />
-	</div>
-	<br/><br/>
-		The Brazosport Symphony Orchestra is comprised of volunteers from our local community and neighboring cities. Many other volunteers support the Orchestra through the BSO Council and Symphony League. The Orchestra produces six major concerts each year:  the Family concert, Pops concert, Holiday concert, and three subscription concerts.
-		The Brazosport Symphony Orchestra has a new home at
-		The Clarion at Brazosport College.
-	<br/>
-	<br/>
-	<hr />
-	<br />
-	<h3>BSO 2012 – 2013 Season</h3>
-	<br/>
-		February 23: Subscription II- Winner of the Young Artist Competition “Young at Heart”<br/><br/>
-		March 23 & 24: Celebration Gala – Collaboration with Center Stages-“Broadway Review”<br/><br/>
-		May 4: Subscription III- Winner of the Composition Contest “Scheherazade”<br/>
-		<i>Brazosport Choral Union directed by Rodney Mason, Brazoswood High Choirs directed by William Few & David Brent Miller</i><br/>
-	<br/>
-	<!--<hr />
-	<br />
-	<h3>Musician Auditions</h3>
-		August 26, 2012<br />
-		1:30 - 3:00 p.m.<br />
-		at The Clarion, Brazosport College<br />-->
+	<!--#include virtual="/content-pages/bso/index-content.shtml" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

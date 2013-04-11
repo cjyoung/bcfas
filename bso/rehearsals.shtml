@@ -9,34 +9,8 @@
 <div id="content">
 	<img src="/images/bsocircle.gif" style="float: left; padding: 10;"></img>
 	<br/>
-		<h1>2012-2013 Rehearsal Schedule</h1>
-	<br/>
-	<br/>
-	<img src="/images/BSO_portrait.jpg" alt="Orchastra Portrait" align="middle"/>
+		<!--#include virtual="/content-pages/bso/rehearsal-content.shtml" -->
 	<br/><br/>
-		<h3>Pops Concert- “Jeri Sager”</h3>
-		Rehearsals: September 6, 13, 20, 27 & October 4, 5, 6<br/>	 
-		Concert: October 6<br/>
-	<br/>
-		<h3>Subscription I- “Water”</h3>
-		Rehearsals: October 11, 18, 25 & November 1, 2, 3<br/>
-		Concert: November 3<br/>
-	<br/>
-		<h3>Holiday Concert- “Celebrating the Holidays”</h3>
-		Rehearsals: November 8, 15, 29 & December 6, 7, 9</br>
-		Concert: December 9<br/>
-	<br/>
-		<h3>Subscription II- Winner of the Young Artist Competition “Young at Heart”</h3>
-		Rehearsals: January 10, 17, 24, 31 & February 7, 21, 22, 23<br/>
-		Concert: February 23<br/>
-	<br/>
-		<h3>Celebration Gala – Collaboration with Center Stages-“Broadway Review”</h3>
-		Rehearsals: February 28	& March 7, 21, 22, 23<br/>
-		Concerts: March 23, 24<br/>
-	<br/>
-		<h3>Subscription III- Winner of the Composition Contest “Scheherazade”</h3>
-		Rehearsals: April 4, 11, 18, 25	& May 2, 3, 4<br/>
-		Concert: May 4
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

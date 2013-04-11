@@ -12,39 +12,7 @@
 	<h1>High School Class</h1>
 	<br/>
 	<br/>
-	<div align="center">
-	<img src="/images/bp/best2_planetarium panorama inside.jpg" width="700" />
-	</div>
-	<br/>
-	<p>
-		Brazosport Independent School District full credit Astronomy Course for 11th and 12 grade.  Classes meet in the planetarium daily.  Bus transportation is provided, and there are regular and advanced classes available.
-	<br/><br/>
-		In Astronomy, students conduct laboratory and field investigations, use scientific methods, and make informed decisions using critical thinking and scientific problem solving.  Students study the following topics:
-	<br/>
-	<ul>
-		<li>astronomy in civilization</li>
-		<li>patterns and objects in the sky</li>
-		<li>our place in space</li>
-		<li>the moon</li>
-		<li>reasons for the seasons</li>
-		<li>planets</li>
-		<li>the sun</li>
-		<li>stars</li>
-		<li>galaxies</li>
-		<li>cosmology</li>
-		<li>space exploration</li>
-	</ul>
-	<br/>
-		Students who successfully complete Astronomy will acquire knowledge within a conceptual framework, conduct observations of the sky, work collaboratively, and develop critical-thinking skills.
-	</p>
-	<br/>
-	<p align="center">
-		Missed a class? 
-	<br/>
-		Visit <a href="www.astronomynotes.com">Astronomynotes.com</a> to catch up on your studies.
-	<br/><br/>
-		Email Judi James to ask what section you missed <a href="mailto:ncap@bcfas.org?Subject=Miss a class">here</a>.
-	</p>
+	<!--#include virtual="/content-pages/bp/class-content.shtml" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

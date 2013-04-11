@@ -11,50 +11,7 @@
 	<br/>
 	<h1>Elementary Resources</h1>
 	<br/><br/>
-	<h3>Materials for use by Elementary and Middle School teachers.</h3>
-	<br/>
-	<img src="/images/bp/icons/pdficon2.jpg" alt="PDF" /><a href="/assets/BP/school/tchr_tchart_planettypes.pdf">Teacher's Solar System</a> (pdf file - 90 KB)<br/>
-	Comparison of rocky and gas planets
-	<br/><br/>
-    <img src="/images/bp/icons/pdficon2.jpg" alt="PDF" /><a href="/assets/BP/school/studnt_tchart_planettypes.pdf">Student Solar System</a> (pdf file - 84 KB)<br/>
-    Blank Graphic Organizer Rocky and Gas planets comparison
-	<br/><br/>
-    <img src="/images/bp/icons/PPTImg.gif" alt="PPT" /><a href="/assets/BP/school/the%20solar%20system%20planets.ppt">Power point - Our Solar System</a> (ppt file - 4.67 MB)<br/>
-    Our Solar System Power Point
-	<br/><br/>
-    <img src="/images/bp/icons/word2img.gif" alt="DOC" /><a href="/assets/BP/school/outer%20planet%20and%20dwarf%20models.doc"> Scale models of planets - p 2</a> (doc file - 24 KB)<br/>
-    Saturn, Uranus, Neptune, Pluto, Eris to scale
-	<br/><br/>
-    <img src="/images/bp/icons/wordicon.jpg" alt="DOCX" /><a href="/assets/BP/school/inner%20planets%20and%20jupiter%20scale%20models.docx"> Scale model of Planets - p 1</a> (docx file - 11 KB)<br/>
-    Mercury, Venus, Earth, Mars, Jupiter to scale
-	<br/><br/>
-    <img src="/images/bp/icons/wordicon.jpg" alt="DOCX" /><a href="/assets/BP/school/making your own planet pictures.docx">Teacher information for scale model of planets project</a> (docx file - 11 KB)
-	<br/><br/>
-    <img src="/images/bp/icons/ODT.jpg" alt="ODT" /><a href="/assets/BP/school/moon%20phases%20picture.odt"> File moon phases picture.odt</a> (odt file - 294 KB)
-	<br/><br/>
-    <img src="/images/bp/icons/word2img.gif" alt="DOC" /><a href="/assets/BP/school/5th%20grade%20compare%20earth%20and%20moon.doc"> 5th grade compare Earth and Moon</a> (doc file - 33 KB)<br/>
-    Teks 5.8D (D) identify and compare the physical characteristics of Earth, and Moon.
-	<br/><br/>
-    <img src="/images/bp/icons/word2img.gif" alt="DOC" /> <a href="/assets/BP/school/5th%20grade%20compare%20earth%20and%20moon%20answer%20key.doc">Teacher key Comparing Moon and Earth</a> (doc file - 33 KB)<br/>
-    5th grade Tek support
-	<br/><br/>
-    <img src="/images/bp/icons/word2img.gif" alt="DOC" /> <a href="/assets/BP/school/classifying%20planets.doc">Classifying planets</a> (doc file - 22 KB)<br/>
-    Students classify planets and dwarf planets in different ways
-	<br/><br/>
-    <img src="/images/bp/icons/word2img.gif" alt="DOC" /> <a href="/assets/BP/school/classifying%20planets%20answers.doc">Classifying planets answers</a> (doc file - 21 KB)<br/>
-    answers for teacher use
-	<br/><br/>
-    <img src="/images/bp/icons/pdficon2.jpg" alt="PDF" />pdf file: You need Adobe Acrobat Reader (version 7 or higher) to view this file. Download the free Adobe Acrobat Reader for <a target="_blank" href="http://www.adobe.com/products/acrobat/readstep2.html">PC or Macintosh.</a>
-    <br/><br/>
-	<img src="/images/bp/icons/PPTImg.gif" alt="PPT" />PPT file: You need Microsoft PowerPoint to view this file. Download a free PowerPoint viewer for <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=048dc840-14e1-467d-8dca-19d2a8fd7485&amp;DisplayLang=en">PC</a> or <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=e25cb1e5-209c-4a58-b283-23e84b616477&amp;DisplayLang=en">Macintosh</a>.
-	<br/><br/>
-    <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=941b3470-3ae9-4aee-8f43-c6bb74cd1466&amp;displaylang=en">Microsoft Office Compatibility Pack for PowerPoint 2007 File Formats</a>
-	<Br/><br/>
-	<img src="/images/bp/icons/word2img.gif" alt="DOC" />doc file: You need the Microsoft Word program, a free Microsoft Word viewer, or a program that can import Word files in order to view this file. To learn more about the free Microsoft Word Viewer, visit the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=95E24C87-8732-48D5-8689-AB826E7B8FDF&amp;displaylang=en" target="new">Microsoft Word website.</a>
-	<br/><br/>
-    <img src="/images/bp/icons/ODT.jpg" alt="ODT" /> This file format is part of the Open Document Format for Office Applications (OpenDocument) 1.0 specification. OpenOffice.org is a multiplatform and multilingual office suite and an open-source project. Compatible with all other major office suites. The product is free to download, use, and distribute. Please visit <a href="http://www.openoffice.org/">http://www.openoffice.org</a> for a free download.
-	<br/><br/>
-    <img src="/images/bp/icons/wordicon.jpg" alt="DOCX" />docx file: You need the Microsoft Word program, a free Microsoft Word viewer, or a program that can import Word files in order to view this file. To learn more about the free Microsoft Word Viewer, visit the the <a href="http://www.microsoft.com/downloads/en/details.aspx?familyid=941B3470-3AE9-4AEE-8F43-C6BB74CD1466&amp;displaylang=en">the Microsoft Office Compatibility Pack</a>.
+	<!--#include virtual="/content-pages/bp/teacher-content.shtml" -->
 	<br/><br/><br/><br/>
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->

@@ -1,0 +1,134 @@
+<html>
+<head>
+	<title>Brazosport Center for the Arts and Sciences</title>
+	<!--#include virtual="/includes/head.shtml" -->
+	<script src="/js/jquery-1.8.3.js"></script>
+    <script src="/js/jquery-ui-1.9.2.custom.js"></script>
+    <link rel="stylesheet" href="/styles/custom-theme/jquery-ui-1.9.2.custom.css" />
+	<script>
+    $(function() {
+        $( "#accordion" ).accordion({
+			heightStyle: "content"
+		});
+    });
+	$(function() {
+        $( "#accordion" ).accordion({
+            collapsible: true
+        });
+    });
+	</script>
+</head>
+<body>
+	<!--#include virtual="/includes/top.shtml" -->
+	<!--#include virtual="/includes/bfac_menu.shtml" -->
+<div id="content">
+<table>
+	<tr>
+		<td>
+			Room
+		</td>
+		<td>
+			Start Time
+		</td>
+		<td>
+		</td>
+		<td>
+			End Time
+		</td>
+		<td>
+		</td>
+		<td>
+			Total Hrs
+		</td>
+		<td>
+			Room Rate First 3 Hrs
+		</td>
+		<td>
+			Room Rate Each Add. Hr
+		</td>
+		<td>
+			Total Cost
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<select name="room">
+				<option value="gallery"><a name="gallery" />Gallery</option>
+				<option value="lobby"><a name="lobby" />Lobby</option>
+				<option value="museum"><a name="museum" />Museum</option>
+				<option value="greenrm"><a name="greenrm" />Green Room/Kitchen</option>
+				<option value="classrm"><a name="classrm" />Class Room</option>
+				<option value="conferencerm"><a name="conferencerm" />Conference Room</option>
+				<option value="largetheater"><a name="largetheater" />Large Theater</option>
+				<option value="arena"><a name="arenatheater" />Arena Theater</option>
+			</select>
+		</td>
+		<td>
+			<select name="timestart">
+				<option value="time1">1:00</option>
+				<option value="time2">2:00</option>
+				<option value="time3">3:00</option>
+				<option value="time4">4:00</option>
+				<option value="time5">5:00</option>
+				<option value="time6">6:00</option>
+				<option value="time7">7:00</option>
+				<option value="time8">8:00</option>
+				<option value="time9">9:00</option>
+				<option value="time10">10:00</option>
+				<option value="time11">11:00</option>
+				<option value="time12">12:00</option>
+			</select>
+		</td>
+		<td>
+			<select>
+				<option value="timeam">AM</option>
+				<option value="timepm">PM</option>
+			</select>
+		</td>
+		<td>
+			<select name="timeend">
+				<option value="time1">1:00</option>
+				<option value="time2">2:00</option>
+				<option value="time3">3:00</option>
+				<option value="time4">4:00</option>
+				<option value="time5">5:00</option>
+				<option value="time6">6:00</option>
+				<option value="time7">7:00</option>
+				<option value="time8">8:00</option>
+				<option value="time9">9:00</option>
+				<option value="time10">10:00</option>
+				<option value="time11">11:00</option>
+				<option value="time12">12:00</option>
+			</select>
+		</td>
+		<td>
+			<select>
+				<option value="timeam">AM</option>
+				<option value="timepm">PM</option>
+			</select>
+		</td>
+		<td>
+			
+		</td>
+		<td>
+			
+		</td>
+	</tr>
+</table>
+<br/><br/>
+<form>
+First name: <input type="text" name="firstname">
+Last name: <input type="text" name="lastname"><br/>
+Phone number: <input type="text" name="phonenumber">
+Email Address: <input type="text" name="email"><br/>
+Rental Date Request: <input type="text" name="requestdate"><br/>
+Approx Rental Start Time: <input type="text" name="requeststarttime">
+Approx Rental End Time: <input type="text" name="requestendtime"><br/>
+<input type="submit" value="Submit">
+
+</form>
+</div>
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

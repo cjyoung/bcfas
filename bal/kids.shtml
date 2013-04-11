@@ -17,26 +17,7 @@
 	<br/><br/>
 	<hr/>
 	<br/>
-	<h2>Art Workshops for Children</h2><br/>
-	<h3>Figure Drawing Class</h3> – Students will begin to learn how to draw the human form. We will use all sorts of materials for this class and will do at least one watercolor project.<br/>
-	<b>Dates</b>: Tuesdays 4/30, 5/7, 5/14, 5/21, 5/28, 6/04<br/>
-	<b>Time</b>: 5:00-6:00 PM<br/>
-	<b>Where</b>: Art Studio at The Brazosport Center for the Arts and Sciences<br/>
-	<b>Cost</b>: $115.00 (all materials are included)<br/>
-	<br/>
-	Registration will be the first day of class at 4:45pm<br/><br/>
-	Be sure to wear old clothes or bring an apron.<br/><br/>
-	If you have questions please call Christa Moore at 979-215-9465 or by email at christamooreartworkshops@gmail.com
-	<br/><br/>
-	<hr/>
-	<h2>Summer Art Odyssey</h2>
-	<br/>
-		Learn techniques and crafts from a variety of experienced teachers.  Cost includes supplies and a Sumer at the Center gift.  Class limited to 20 children per class.
-	<br/><br/>
-		Fees: $50 Non–BAL Members • $45 BAL Members 
-	<br/><br/>
-		<b>Session I:</b> June 17 - June 21<br/>
-		<b>Session II:</b> July 8 - July 12
+	<!--#include virtual="/content-pages/bal/kid-content.shtml" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

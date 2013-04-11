@@ -1,0 +1,11 @@
+[14-Dec-2012 21:15:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/bcfas/public_html/bfac/html_form_send.php on line 28
+[14-Dec-2012 21:16:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/bcfas/public_html/bfac/html_form_send.php on line 39
+[14-Dec-2012 21:55:24 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/bcfas/public_html/bfac/html_form_send.php on line 82
+[14-Dec-2012 22:12:56 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/bcfas/public_html/bfac/html_form_send.php on line 82
+[14-Dec-2012 22:13:16 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/bcfas/public_html/bfac/html_form_send.php on line 83
+[14-Dec-2012 22:15:59 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/bcfas/public_html/bfac/html_form_send.php on line 82
+[14-Dec-2012 22:16:30 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/bcfas/public_html/bfac/html_form_send.php on line 82
+[17-Dec-2012 22:03:38 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/bcfas/public_html/bfac/html_form_send.php on line 103
+[17-Dec-2012 22:04:24 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/bcfas/public_html/bfac/html_form_send.php on line 103
+[19-Dec-2012 16:53:19 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ']' in /home/bcfas/public_html/bfac/email.php on line 7
+[20-Dec-2012 17:39:54 UTC] PHP Parse error:  syntax error, unexpected T_NS_SEPARATOR in /home/bcfas/public_html/bfac/email.php on line 36

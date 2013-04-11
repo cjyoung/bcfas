@@ -10,61 +10,8 @@
 	<img src="/images/bsocircle.gif" style="float: left; padding: 10;"></img>
 	<br/>	
 	<h1>Brazosport Symphony Orchestra Membership and Ticket Information</h1>
-	<br/>
-		Tickets are $17 for adults and $12 for children 12 and under. Please call the Clarion box office at 979.230.3156 and place your ticket request.
-	<br/>
-	<br/>
-		<h3>Become a Member</h3>
-	<br/>
-		Reserve your seats prior to the concert season by becoming a member.  You will be assured a seat for our most popular concerts.
-	<br/>
-	<br/>
-	<h3>Member categories</h3>
-	<table cellpadding="5">
-		<tr>
-			<td>Member</td>
-			<td>$75</td>
-			<td>1 season ticket	& Program recognition</td>
-		</tr>
-		<tr>
-			<td>Subscriber</td>
-			<td>$125</td>
-			<td>2 season tickets & Program recognition</td>
-		</tr>
-		<tr>
-			<td>Patron</td>
-			<td>$200</td>
-			<td>2 season tickets, program recognition & invitation to Season opening Gala</td>
-		</tr>
-		<tr>
-			<td>Benefactor</td>
-			<td>$500</td>
-			<td>4 season tickets, program recognition & invitation to Season opening Gala</td>
-		</tr>
-		<tr>
-			<td>Maestro</td>
-			<td>$1,000</td>
-			<td>6 season tickets, program recognition & invitation to Season opening Gala</td>
-		</tr>
-		<tr>
-			<td>Concert Underwriter</td>
-			<td>$2,500</td>
-			<td>8 season tickets, program recognition & invitation to Season opening Gala</td>
-		</tr>
-		<tr>
-			<td>Flex Tickets</td>
-			<td>$75</td>
-			<td>6 tickets: Tickets may be used in any configuration for any concert.</td>
-		</tr>
-	</table>
-	<br/>
-		Seats assigned on a best available basis.
-	<br/><br/>	
-		<h4>Join online <a href="http://www.bcfasstore.org/category/Symphony.html" target="_blank">now</a></h4> or call The Center's main office at 979-265-7661 (Monday - Friday 9 a.m. - 5 p.m.) and become a symphony member.
-	</br>
-	<br/>
-		Memberships are half price after January 1 for the remainder of the season.
-	</br>
+	<!--#include virtual="/content-pages/bso/membership-content.shtml" -->
+	</br><br/>
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

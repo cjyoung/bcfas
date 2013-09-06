@@ -35,7 +35,7 @@
 <div id="content">
 <h1>Rental Information</h1>
 <br/>
-	<!--include virtual="/content-pages/BFAC/rentalpage-content.shtml" -->
+	<!--#include virtual="/content-pages/BFAC/rentalpage-content.shtml" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

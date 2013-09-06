@@ -8,6 +8,7 @@
 <!--#include virtual="/includes/bfac_menu.shtml" -->
 <div id="content" align="center">
 	<!--#include virtual="/content-pages/BFAC/summer-content.shtml" -->
+	<br/><br/>
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

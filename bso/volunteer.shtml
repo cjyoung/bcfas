@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Brazosport Symphony Orchestra</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" -->
+<!--#include virtual="/includes/bso_menu.shtml" -->
+<div id="content">
+	<img src="/images/bsocircle.gif" style="float: left; padding: 10;"></img>
+	<br/>
+		<!--#include virtual="/content-pages/bso/volunteer-content.shtml" -->
+	<br/><br/><br/><Br/>
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

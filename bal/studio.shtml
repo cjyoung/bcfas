@@ -13,7 +13,7 @@
 	<br/><br/><br/>
 		The Studio is home to Membership Meetings, Saturday Art Specials, classes, workshops, demonstrations, etc., and “The Paint - In.”
 	<br/><br/>
-	<!--#includes virtual="/content-pages/bal/studio-content.shtml" -->
+	<!--#include virtual="/content-pages/bal/studio-content.shtml" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

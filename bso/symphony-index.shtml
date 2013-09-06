@@ -12,6 +12,7 @@
 	<h1>Brazosport Symphony Orchestra</h1>
 	<br/>
 	<!--#include virtual="/content-pages/bso/index-content.shtml" -->
+	<br/><br/>
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

@@ -7,47 +7,7 @@
 <!--#include virtual="/includes/top2.shtml" -->
 <!--#include virtual="/includes/bfac_menu.shtml" -->
 <div id="content">
-	<p>Camelot tickets are available on the Brazosport Center Stages website at <a href="http://www.brazosportcenterstages.org/">brazosportcenterstages.org</a><br/>
-	Members of Center Stages can begin purchasing tickets online June 27 and over the phone July 1.<br/>
-	Tickets will be available to the general public starting July 2 both online and at the box office.</p>
-	<br/>
-	<h3>Our member groups include:</h3>
-	<ul>
-		<li>Brazosport Center Stages</li>
-		<li>Brazosport Planetarium</li>
-		<li>Brazosport Museum of Natural Science</li>
-		<li>Brazosport Symphony Orchestra</li>
-		<li>Brazosport Art League</li>
-	</ul>
-	<br/>
-	<h3>Our hours of operation are:</h3>
-	<ul>
-		<li><b>Museum of Natural Science</b>
-			<ul>
-				<li>Tuesday - Saturday: 10:00 a.m. - 4:00 p.m.</li>
-				<li>Sunday: 2:00 p.m. - 5:00 p.m.</li>
-			</ul>
-		</li>
-		<li><b>Art League Gallery</b>
-			<ul>
-				<li>Tuesday - Saturday: 10:00 a.m. - 5:00 p.m.</li>
-				<li>Sunday: 2:00 p.m. - 5:00 p.m.</li>
-			</ul>
-		</li>
-		<li><b>Planetarium</b>
-			<ul>
-				<li>Shows are Tuesday and Friday evenings at 7:00 p.m.</li>
-				<li>Tickets are available 20 minutes before the show in the Planetarium lobby.</li>
-			</ul>
-		</li>
-	</ul>
-	<br/>
-	<p><i>Our online store is available at <a href="http://bcfasstore.org">http://bcfasstore.org</a></i></p>
-	<br/>
-	<p>
-	For more infromation, please call The Center's main office at 979-265-7661 (toll-free 877-265-7661)
-	<br/>We are located at 400 College Blvd., Clute, TX 77531
-	</p>
+	<!--#include virtual="/content-pages/home-page-content415" -->
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Brazosport Center for the Arts and Sciences</title>
+<!--#include virtual="/includes/head.shtml" -->
+</head>
+<body>
+<!--#include virtual="/includes/top.shtml" -->
+<!--#include virtual="/includes/bfac_menu.shtml" -->
+<div id="content">
+<h1>
+	Special Events
+</h1>
+<br />
+<br />
+<!--#include virtual="/content-pages/BFAC/events-content.shtml" -->
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

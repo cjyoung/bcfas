@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<title>Brazosport Art League</title>
+		<!--#include virtual="/includes/head.shtml" -->
+
+		<link rel="Stylesheet" type="text/css" href="/styles/divscroll.css" />
+		<style type="text/css">
+	
+			#makeMeScrollable
+			{
+				width:100%;
+				height: 330px;
+				position: relative;
+			}
+		
+			#makeMeScrollable div.scrollableArea *
+			{
+				position: relative;
+				display: block;
+				float: left;
+				padding: 0;
+				margin: 0;
+			}
+		</style>
+		<script language="javascript" type="text/javascript">
+			&lt;script type="text/javascript"&gt;
+					$(document).ready(function() {
+						$("#makeMeScrollable").smoothDivScroll({ 
+							mousewheelScrolling: true,
+							manualContinuousScrolling: true,
+							visibleHotSpotBackgrounds: "always",
+							autoScrollingMode: "onstart"
+						});
+					});
+				&lt;/script&gt;
+		</script>
+
+	</head>
+	<body>
+		<!--#include virtual="/includes/top.shtml" -->
+		<!--#include virtual="/includes/bal_menu.shtml" -->
+	<div id="content">
+		<img src="/images/balcircle.gif" style="float: left; padding:10;"></img>
+	<br/><br/>
+	<div align="center">
+		<h1>Sherry Shelton's Portfolio</h1>
+	</div>
+	<br/><br/>
+		"I enjoy painting all subjects and in all mediums.  The majority of my  commissions are in oils and pastel, respectively.  I am constantly asked which medium is my favorite.  My answer is always the same, 'The medium I am currently working in'.  If I had to choose only one subject, one medium, it would have to be portraits in oil.  Each one is the human subject, but each one has a different personality, different 'feel'.  I start all of my paintings with an abstract design and develop to the impressionistic stage and eventually to realism.  I work on all elements of the composition simultaneously and the painting could be called finished at any stage.  It is my goal to make all paintings as strong in design and art theory as possible and I work to make every portrait/painting a good painting as well as a good likeness of the sitter/subject matter.  I try to make each and every painting speak to the viewer and make the strongest statement possible with the chosen subject and medium".
+	<br/><br/>
+	<div align="center">
+	
+	<div id="makeMeScrollable">
+			
+		<A HREF="" TITLE="Beauty and the Beast">
+			<img src="/images/bal/shellton/Beauty-and-the-Beast.jpg" alt="Beauty and the Beast" width="450" />
+		</a>
+		<A HREF="" TITLE="Mountain Man and Shorty">
+			<img src="/images/bal/shellton/Mountain-Man-and-Shorty.jpg" alt="Mountain Man and Shorty" height="330"/>
+		</a>
+		<A HREF="" TITLE="Mountain Man">
+			<img src="/images/bal/shellton/Mountain-Man.jpg" alt="Mountain Man" height="330"/>
+		</a>
+		<A HREF="" TITLE="Painting of Mine Number 5">
+			<img src="/images/bal/shellton/paintings-of-mine-005.jpg" alt="Painting of Mine Number 5" height="330"/>
+		</a>
+		<A HREF="" TITLE="Symbols of the Sea">
+			<img src="/images/bal/shellton/Symbols-of-the-Sea-(2).jpg" alt="Symbols of the Sea" width="450"/>
+		</a>
+		<A HREF="" TITLE="Wisdom">
+			<img src="/images/bal/shellton/Wisdom-8-x-10-in-oil.jpg" alt="Wisdom" height="330"/>
+		</a>
+	</div>
+	
+	<!-- LOAD JAVASCRIPT LATE - JUST BEFORE THE BODY TAG 
+	     That way the browser will have loaded the images
+		 and will know the width of the images. No need to
+		 specify the width in the CSS or inline. -->
+
+	<!-- jQuery library - Please load it from Google API's -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+	<!-- jQuery UI Widget and Effects Core (custom download)
+	     You can make your own at: http://jqueryui.com/download -->
+	<script src="/js/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+	
+	<!-- Latest version of jQuery Mouse Wheel by Brandon Aaron
+	     You will find it here: http://brandonaaron.net/code/mousewheel/demos -->
+	<script src="/js/jquery.mousewheel.min.js" type="text/javascript"></script>
+
+	<!-- Smooth Div Scroll 1.2 minified-->
+	<script src="/js/jquery.smoothdivscroll-1.2-min.js" type="text/javascript"></script>
+
+	<!-- If you want to look at the uncompressed version you find it at
+	     /js/jquery.smoothDivScroll-1.2.js -->
+
+
+	<!-- Plugin initialization -->
+	<script type="text/javascript">
+		// Initialize the plugin with no custom options
+		$(document).ready(function () {
+			// None of the options are set
+			$("div#makeMeScrollable").smoothDivScroll({});
+		});
+	</script>
+	<br/>
+	</div>
+</div>
+<!--#include virtual="/includes/bottom.shtml" -->
+</body>
+</html>

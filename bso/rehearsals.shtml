@@ -10,7 +10,7 @@
 	<img src="/images/bsocircle.gif" style="float: left; padding: 10;"></img>
 	<br/>
 		<!--#include virtual="/content-pages/bso/rehearsal-content.shtml" -->
-	<br/><br/>
+	<br/><br/><br/><Br/>
 </div>
 <!--#include virtual="/includes/bottom.shtml" -->
 </body>

@@ -3,6 +3,14 @@
 	border: 0;
 	font-family: arial,sans-serif;
 }
+img {
+	padding: 5px;
+}
+.headerimg {
+	padding: 0px;
+	width: 960;
+	height: 125;
+}
 hr {
 	height: 1px;
 	margin-top:2px;
@@ -26,6 +34,20 @@ body {
 	vertical-align:top;
 	width: 760px;
 }
+#leftcloumn {
+	padding: 10 px;
+	float: left;
+	display: inline;
+	vertical-align: top;
+	width: 370px;
+}
+#rightcloumn {
+	padding: 10 px;
+	float: right;
+	display: inline;
+	vertical-align: top;
+	width: 370px;
+}	
 #fbframe {
 	margin-left: 0px;
 }
@@ -268,6 +290,9 @@ margin: 4px;
 }
 
 /*Text Colors*/
+.bsl{
+	color: #229343
+}
 .purple { 
 	color: #6A096E; 
 }

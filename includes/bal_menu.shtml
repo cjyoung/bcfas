@@ -30,6 +30,9 @@
 				<li>
 					<a href="/bal/scrapbook.shtml">Scrapbook</a>
 				</li>
+				<li>
+					<a href="/bal/history.shtml">History</a>
+				</li>
 			</ul>
 <!--#include virtual="/includes/menu_bottom.shtml" -->
 </div>

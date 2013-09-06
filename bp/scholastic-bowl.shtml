@@ -2,13 +2,13 @@
 <head>
 <title>Brazosport Planearium</title>
 <!--#include virtual="/includes/head.shtml" -->
-<link rel="Stylesheet" type="text/css" href="/styles/divscroll.css" />
+		<link rel="Stylesheet" type="text/css" href="/styles/divscroll.css" />
 		<style type="text/css">
 	
 			#makeMeScrollable
 			{
 				width:100%;
-				height: 266px;
+				height: 330px;
 				position: relative;
 			}
 		
